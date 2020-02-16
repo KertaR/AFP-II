@@ -1,12 +1,15 @@
 0. Vezetői összefoglaló
  A projekt célja egy olyan játék megvalósítása, amelyben a felhasználók egymás ellen tudnak harcolni, ezáltal tapasztalatpontokat és goldot gyűjtve fejlődnek. A játék a manapság széles körben elterjedt telefonos illetve gépes játékok vegyítékéből épül fel. Mivel a fiatal célközönséget veszi alapul, ezért próbál megfelelni azon játékosok elvárásainak és valami egészen újat mutatni, amivel órákon át képesek versengeni.
  Mivel a játékban több karaktert, skint is rendelkezésre áll a játékosoknak megszerezni, ezért nem lehet rövid időn belül megunni, feljődni meg folyamatosan lehet.
+ --------------------------------------------------------------------------------------------------------------------------------------
 1. A rendszer céljai és nem céljai
  A rendszer célja egy olyan játék megvalósítása, amelyben a játékosok saját felhasználói fiókjukon keresztül tudnak belépni a játékba. A profiljukat saját maguk irányíthatják, változtathatják a profilképüket, önállóan, meccseket játszva jutnak tapasztalatpontokhoz és goldhoz, amivel növelhetik szintjüket a játékban. 50 különböző karakter közül választhatják ki a nekik legszimpatikusabbakat, legkézenfekvőbbeket, amelyek oldalán indulnak majd a harcokba. Kitapasztalhatják a stratágia és küzdelem örömeit, ahogy a vereség árnyoldalait is.
  Ezen versenysorozaton keresztül tapasztalatot szereznek és fejlődik a koncentrációs, illetve szellemi képességeik. A meccsek végeztével, ugyanis a vesztes is szerez jutalmat, így meg kell tanulni a keveset is értékelni.
  A játék önmagában nem csak a szellemi képességek növelését veszi alapul, hanem a kapcsolatépítésre is törekedik, hiszen a játékosok egymás ellen is rendezhetnek meccseket, amivel egymás képességeit felmérhetik és időt töltenek a másik megismerésével.
+ --------------------------------------------------------------------------------------------------------------------------------------
 2. Jelenlegi helyzet leírása
- Jelenleg zajlik a funkcionális specifikáció kidolgozása, illetve a dizájn tervezése is folyamatban van. A profilképek első vázlatai elkészültek és a karakterek kidolgozásai is munkafolyamatban vannak. 
+ Jelenleg zajlik a funkcionális specifikáció kidolgozása, illetve a dizájn tervezése is folyamatban van. A profilképek első vázlatai elkészültek és a karakterek kidolgozásai is munkafolyamatban vannak.
+ --------------------------------------------------------------------------------------------------------------------------------------
 3. Vágyálomrendszer leírása
  Egy olyan program megvalósítása androidon és webes felületen, amelyben a felhasználó karaktert választhat magának, hogy egymás ellen harcoljanak.
 A felhasználó felhasználónév és jelszó segítségével jelentkezhet be a játékba, ahol minden játékos rendelkezik szinttel és golddal.
@@ -18,6 +21,7 @@ A harcok során körönként dönthetsz skillek/item vétel/kimarad mellett.
 -Az item vétel esetén kimaradsz a körből, de kapsz itemet. Két fajta item lesz passzív/aktív. A passzív növeli a statot, az atkív pedig egy újabb skillt ad.
 -Ha nem akarsz semmit sem használni, akkor lehet választani a "Kimaradsz a körből" lehetőséget.
 A harcok addig tartanak, amíg az egyik karakter meg nem hal, vagy fel nem adja az egyik játékos a meccset. A győztes játékos goldot és xp-t kap, míg a vesztes csak xp-t szerez.
+ --------------------------------------------------------------------------------------------------------------------------------------
 4.  A rendszerre vonatkozó külső megszorítások
 4.1. Szerzői jogszabályok:
 A törvény szerint az eredeti számítógépes program az azt létrehozó személy vagy vállalat szellemi tulajdona. A számítógépes programokat szerzői jogi törvény védi, amely kimondja, hogy az ilyen művek engedély nélküli másolása törvénybe ütköző cselekedet. (Magyarországon a szerzői jogokat az 1999. évi LXXVI. törvény szabályozza)
@@ -27,11 +31,13 @@ AZ EURÓPAI PARLAMENT ÉS A TANÁCS (EU) 2016/679 RENDELETE (2016. április 27.)
 évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról ( Infotv.)
 4.3 Felhasználálási feltételek:
 A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, mikrofon) való hozzáférést biztosítani kell. Ezeket bizalmasan kezeljük, harmadik félhez nem juttatjuk el, semmilyen formában, másnak hozzáférést nem biztosítunk.
+ --------------------------------------------------------------------------------------------------------------------------------------
 5. Jelenlegi üzleti folyamatok modellje
  Egy olyan játék megalkotása, amelyet az emberek a mindennapokban tudnak használni, kikapcsolódás, unaloműzés céljából.
 	a) A játékosok a játékon belül szinteket tudnak lépni.
 	b) Karakterek és skineket tudnak vásárolni.
 	c) Saját felhasználói profillal rendelkeznek.
+ --------------------------------------------------------------------------------------------------------------------------------------
 6. Igényelt üzleti folyamatok modellje
  Célunk egy olyan játék megalkotása, amelyet az emberek a mindennapokban tudnak használni, kikapcsolódás, unaloműzés vagy akár személyes kapcsolatok kialakításának céljából.
 	a) Célunk egy olyan játék megalkotása, amely pozitívan hat a gyerekek szellemi fejlődésére.
@@ -46,24 +52,31 @@ A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, 
 	j) Fejlődik a felhasználók logikai és tagtikai érzékük.
 	k) A gyerekek kombinációs készségének fejlődése is előtérbe kerül.
 	l) Konfliktus kezelés céljából is hasznos.
+ --------------------------------------------------------------------------------------------------------------------------------------
 7. Követelménylista
  Egy olyan rendszer megalkotása, amelyben a játékosok képesek létrehozni saját felhasználói fiókokat, amellyel be tudnak jelentkezni a játékba anélkül, hogy más játékosok is használni tudják a fiókjukat.
  A felhasználói fiókok rendelkezzenek egy profillal, amelyen látható a felhasználói fiók neve, adott szintje, tapasztalat pontja, goldja és profilképe.
  Minden felhasználó tud vásárolni hősöket, amelyeket később egyedi skinekkel tovább fejleszthet, amelyek a harcok során előnyhöz juttatják. 
  A csaták alkalmával a játékosok képesek más játékosok és botok egy ellen is megküzdeni. Tudják használni az adott karakterek képességeit, tárgyakkal fejleszteni tudják őket és a harcok végeztével tapasztalat pontra, illetve győzelem esetén még goldra is szert tehetnek.
+  --------------------------------------------------------------------------------------------------------------------------------------
 8. Használati esetek
  Az emberek a mindennapokban számos helyzetben tudják használni, kikapcsolódás, unaloműzés vagy akár személyes kapcsolatok kialakításának céljából a játékot.
  A gyerekek számára előnyt nyújt, hogy a nap minden percében (lehetőleg felnőtt felügyelete mellett, maximum 1 óra szünetmentes játék javalt) képesek elővenni és fejleszteni a logikai, illetve kombinációs készségeiket.
  A tanulók, illetve a dolgozó korosztály számára remek lehetőséget ad a felgyülemlő stressz levezetésére és még egy remek kikapcsolódási lehetőséget is nyújt egy esti társasjátéknak megfelelő családi programra.
+ --------------------------------------------------------------------------------------------------------------------------------------
 9. Megfeleltetés
+ --------------------------------------------------------------------------------------------------------------------------------------
 10. Képernyőtervek
  A játék megnyitásakor lesz egy bejelentkezési felület, amelybe belépve a felhasználó láthatja majd a profilját és a megszerzett hőseit. Ezen képernyőn keresztül tud további hősöket és skineket vásárolni, illetve innen tud csatákba lépni. A csaták indítása előtt lesz egy külön felület ahol a felhasználó kiválaszthatja, hogy melyik karakterrel szeretne játszani és innen kerül tovább az csata felületre, ahol nyomon tudja követni az összecsapás eseményeit.
+ --------------------------------------------------------------------------------------------------------------------------------------
 11. Forgatókönyvek
  A felhasználó első bejelentkezés alkalmával regisztrál az oldalra, majd egy általa megadott felhasználónév és jelszó segítségével belép a játék főoldalára.
  A fő oldalon meg tudja nézni a felhasználói profilját, ahol láthatja a felhasználónevét, a megszerzett karaktereit, profilképét (amit meg is tud változtatni), a szintjét, a jelenlegi tapasztalati pontját, illetve a goldját.  A felhasználó képes megváltoztatni a profilképét: 4 előre elkészített kép közül választhat.
  A fő oldalon továbbá a felhasználó képes vásárolni újabb karaktereket vásárolni, vagy a már meglévőknek skineket venni. A skinek alkalmazása megváltoztatja a karakterek alap statját, amely előnyhz juttatja őket a harcok során.
  A fő oldalon lehetséges csatákat indítani. A felhasználó küzdhet botok, illetve más játékosok ellen. Botok esetén a felhasználó ellen egy könnyű/közepes/nehéz szintű, random karaktert dob be a játék, amely ellen ugyanúgy harcolhat mint más játékosok ellen. Ha más felhasználók ellen szeretnénk játszani, akkor adott a lehetőség a rendszer által dobott random ellenfél, vagy barát kihívására is. Ezen ütközetek esetén felmérhetik a játékosok a tudásukat más játékosokkal szemben. A harcok végén pedig a végkimenetelnek megfelelően tapasztalati pontot, illetve goldot szerezhetnek.
+ --------------------------------------------------------------------------------------------------------------------------------------
 12. Funkció-követelmény megfeleltetés
+ --------------------------------------------------------------------------------------------------------------------------------------
 13. Fogalomszótár
 	- gold: A játékban használt pénznem. A játékosok elleni győztes kimenetelű meccsekért lehet szerezni.
 	- heal: Életerőt tölt vissza a karakternek.
