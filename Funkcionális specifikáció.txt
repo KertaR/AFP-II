@@ -65,13 +65,14 @@ A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, 
  A fő oldalon lehetséges csatákat indítani. A felhasználó küzdhet botok, illetve más játékosok ellen. Botok esetén a felhasználó ellen egy könnyű/közepes/nehéz szintű, random karaktert dob be a játék, amely ellen ugyanúgy harcolhat mint más játékosok ellen. Ha más felhasználók ellen szeretnénk játszani, akkor adott a lehetőség a rendszer által dobott random ellenfél, vagy barát kihívására is. Ezen ütközetek esetén felmérhetik a játékosok a tudásukat más játékosokkal szemben. A harcok végén pedig a végkimenetelnek megfelelően tapasztalati pontot, illetve goldot szerezhetnek.
 12. Funkció-követelmény megfeleltetés
 13. Fogalomszótár
-	- gold:
-	- itemek:
-	- karakter:
-	- képességek:
-	- profil:
-	- profilkép:
-	- skin:
-	- stat:
-	- szint:
-	- tapasztalati pont:
+	- gold: A játékban használt pénznem. A játékosok elleni győztes kimenetelű meccsekért lehet szerezni.
+	- heal: Életerőt tölt vissza a karakternek.
+	- itemek: A harcok folyamán megvásárolható tárgyak, amelyek növelik a karakterek statját vagy egy plusz varázslatot adnak.
+	- karakter: A karakterek olyan személyek, állatok, fantázia lények, amelyekkel az ütközetek során harcolhat a felhasználó.
+	- képességek: A karakterek rendelkeznek varázslatokkal, amelyek sebzést osztanak ki, healelik őket vagy pajzsot vonnak maguk köré. Minden karakter más varázslatokkal rendelkezik. Egy karakternek 4 varázslata van.
+	- profil: A felhasználó adatlapja, ahol megtekintheti, milyen szinten van, mennyi goldja van, milyen karakterekkel rendelkezik.
+	- profilkép: A felhasználó profilján megtekinthető egy kép, amelyet a felhasználó kedve szerint állíthat be. 4 alapkép közül lehet választani, ezzel meg lehet mutatni akár azt is, hogy az adott illető milyen nemű.
+	- skin: A karaktereknek készítünk különféle kinézeteket. Van egy alap, amit a karakter megvásárlásával kapunk, de lehet venni még különbözőeket is, amelyek nem csak szebbek, de különféle módon javíthatják a karakter alap statját is.
+	- stat: A stat a karakterek alapadatait: életereje, manája, fizikai/mágikus ereje, pajzs szintje.
+	- szint: A szint a felhasználó előremenetelét mutatja a játékban. Minden szinten el kell érni egy bizonyos szintű tapasztalati pontot, amely megszerzésével a következő szintre lép, így láthatja többi felhasználó, hogy a másik mennyi játékon van már túl.
+	- tapasztalati pont: A tapasztali pontok segítségével lép szintet a játékos. Minden meccs végeztével kap egy bizonyos számű tapasztalati pontot, attól függően, hogy botok vagy játékos ellen játszott, illetve, hogy megnyerte az adott harcot vagy sem.
