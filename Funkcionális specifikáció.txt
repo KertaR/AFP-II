@@ -53,5 +53,9 @@ A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, 
 10. Képernyőtervek
  A játék megnyitásakor lesz egy bejelentkezési felület, amelybe belépve a felhasználó láthatja majd a profilját és a megszerzett hőseit. Ezen képernyőn keresztül tud további hősöket és skineket vásárolni, illetve innen tud csatákba lépni. A csaták indítása előtt lesz egy külön felület ahol a felhasználó kiválaszthatja, hogy melyik karakterrel szeretne játszani és innen kerül tovább az csata felületre, ahol nyomon tudja követni az összecsapás eseményeit.
 11. Forgatókönyvek
+ A felhasználó első bejelentkezés alkalmával regisztrál az oldalra, majd egy általa megadott felhasználónév és jelszó segítségével belép a játék főoldalára.
+ A fő oldalon meg tudja nézni a felhasználói profilját, ahol láthatja a felhasználónevét, a megszerzett karaktereit, profilképét (amit meg is tud változtatni), a szintjét, a jelenlegi tapasztalati pontját, illetve a goldját.  A felhasználó képes megváltoztatni a profilképét: 4 előre elkészített kép közül választhat.
+ A fő oldalon továbbá a felhasználó képes vásárolni újabb karaktereket vásárolni, vagy a már meglévőknek skineket venni. A skinek alkalmazása megváltoztatja a karakterek alap statját, amely előnyhz juttatja őket a harcok során.
+ A fő oldalon lehetséges csatákat indítani. A felhasználó küzdhet botok, illetve más játékosok ellen. Botok esetén a felhasználó ellen egy könnyű/közepes/nehéz szintű, random karaktert dob be a játék, amely ellen ugyanúgy harcolhat mint más játékosok ellen. Ha más felhasználók ellen szeretnénk játszani, akkor adott a lehetőség a rendszer által dobott random ellenfél, vagy barát kihívására is. Ezen ütközetek esetén felmérhetik a játékosok a tudásukat más játékosokkal szemben. A harcok végén pedig a végkimenetelnek megfelelően tapasztalati pontot, illetve goldot szerezhetnek.
 12. Funkció-követelmény megfeleltetés
 13. Fogalomszótár
