@@ -20,6 +20,10 @@ A harcok során körönként dönthetsz skillek/item vétel/kimarad mellett.
 A harcok addig tartanak, amíg az egyik karakter meg nem hal, vagy fel nem adja az egyik játékos a meccset. A győztes játékos goldot és xp-t kap, míg a vesztes csak xp-t szerez.
 4.  A rendszerre vonatkozó külső megszorítások
 5. Jelenlegi üzleti folyamatok modellje
+ Egy olyan játék megalkotása, amelyet az emberek a mindennapokban tudnak használni, kikapcsolódás, unaloműzés céljából.
+	a) A játékosok a játékon belül szinteket tudnak lépni.
+	b) Karakterek és skineket tudnak vásárolni.
+	c) Saját felhasználói profillal rendelkeznek.
 6. Igényelt üzleti folyamatok modellje
  Célunk egy olyan játék megalkotása, amelyet az emberek a mindennapokban tudnak használni, kikapcsolódás, unaloműzés vagy akár személyes kapcsolatok kialakításának céljából.
 	a) Célunk egy olyan játék megalkotása, amely pozitívan hat a gyerekek szellemi fejlődésére.
