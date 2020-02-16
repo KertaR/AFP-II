@@ -21,6 +21,16 @@ A harcok addig tartanak, amíg az egyik karakter meg nem hal, vagy fel nem adja 
 4.  A rendszerre vonatkozó külső megszorítások
 5. Jelenlegi üzleti folyamatok modellje
 6. Igényelt üzleti folyamatok modellje
+ Célunk egy olyan játék megalkotása, amelyet az emberek a mindennapokban tudnak használni, kikapcsolódás, unaloműzés vagy akár személyes kapcsolatok kialakításának céljából.
+	a) Célunk egy olyan játék megalkotása, amely pozitívan hat a gyerekek szellemi fejlődésére.
+	b) A fiatal korosztály számára ambiciót adnak a megmérettetések.
+	c) A dolgozó korosztály számára kikapcsolódást nyújt.
+	d) Láthatóan nyomon lehet követni a játékosok profilján a fejlődést.
+	e) A felhasználók kedvük szerint alakíthatják ki a felhasználói profiljukat.
+	f) Különböző emberekkel lehet megismerkedni.
+	g) A játék élménye összehozza a családokat.
+	h) Mindenki megtalálhatja benne azt, ami örömet okoz neki. 
+	i) Nincs megkülönböztetés. Mindenki önmagát adhatja.
 7. Követelménylista
 8. Használati esetek
 9. Megfeleltetés
