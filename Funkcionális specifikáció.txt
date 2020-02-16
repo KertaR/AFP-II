@@ -19,6 +19,14 @@ A harcok során körönként dönthetsz skillek/item vétel/kimarad mellett.
 -Ha nem akarsz semmit sem használni, akkor lehet választani a "Kimaradsz a körből" lehetőséget.
 A harcok addig tartanak, amíg az egyik karakter meg nem hal, vagy fel nem adja az egyik játékos a meccset. A győztes játékos goldot és xp-t kap, míg a vesztes csak xp-t szerez.
 4.  A rendszerre vonatkozó külső megszorítások
+4.1. Szerzői jogszabályok:
+A törvény szerint az eredeti számítógépes program az azt létrehozó személy vagy vállalat szellemi tulajdona. A számítógépes programokat szerzői jogi törvény védi, amely kimondja, hogy az ilyen művek engedély nélküli másolása törvénybe ütköző cselekedet. (Magyarországon a szerzői jogokat az 1999. évi LXXVI. törvény szabályozza)
+Licenszerződés(amennyiben van)
+4.2. Adatvédelmi jogszabályok:
+AZ EURÓPAI PARLAMENT ÉS A TANÁCS (EU) 2016/679 RENDELETE (2016. április 27.) a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK rendelet hatályon kívül helyezéséről (általános adatvédelmi rendelet)
+évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról ( Infotv.)
+4.3 Felhasználálási feltételek:
+A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, mikrofon) való hozzáférést biztosítani kell. Ezeket bizalmasan kezeljük, harmadik félhez nem juttatjuk el, semmilyen formában, másnak hozzáférést nem biztosítunk.
 5. Jelenlegi üzleti folyamatok modellje
  Egy olyan játék megalkotása, amelyet az emberek a mindennapokban tudnak használni, kikapcsolódás, unaloműzés céljából.
 	a) A játékosok a játékon belül szinteket tudnak lépni.
