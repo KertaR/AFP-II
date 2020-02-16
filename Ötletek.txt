@@ -1,1 +1,10 @@
-
+Ötletek:
+1. A felhasználó a jelszavát/felhasználónevét a profilján tudja változtatni.
+2. A profilon meg lehessen adni az adott illető nemét.
+3. Ha beléptél a játékba, akkor a főoldalon van lehetőség kilépni is.
+4. A karakterek skinje azt mondtuk, hogy megváltoztatja a karakterek statját, na most, mi lenne, ha néhány rontana is staton?
+6. Mi lenne, ha goldot csak játékos elleni győztes meccsben lehetne szerezni?
+7. Lehet játszani botok, más játékosok ellen. De lehet barát ellen is játszani?
+8. A harcok elején, mielőtt belépne a csata felületre, legyen egy hősválasztó felület? (mint a lolban)
+9. Később több játékosmód is legyen, ha marad rá idő?
+10. Lehetnek különleges lények is a karakterek
