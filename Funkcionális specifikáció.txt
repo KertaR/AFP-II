@@ -8,6 +8,16 @@
 2. Jelenlegi helyzet leírása
  Jelenleg zajlik a funkcionális specifikáció kidolgozása, illetve a dizájn tervezése is folyamatban van. A profilképek első vázlatai elkészültek és a karakterek kidolgozásai is munkafolyamatban vannak. 
 3. Vágyálomrendszer leírása
+ Egy olyan program megvalósítása androidon és webes felületen, amelyben a felhasználó karaktert választhat magának, hogy egymás ellen harcoljanak.
+A felhasználó felhasználónév és jelszó segítségével jelentkezhet be a játékba, ahol minden játékos rendelkezik szinttel és golddal.
+Első bejelentkezés alkalmával random 5 karakter közül kettőt lehet választani. Ezt a két karaktert lehet használni, de később a harcok folyamán szerzett goldból lehet többet vásárolni.
+A karaktereknek van életereje és manája, illetve rendelkeznek 4 alap képességgel. Ezenkívül még skineket is lehet vásárolni, amelyek megváltoztatják a karakterek alap statját.
+A harc során körönként kapsz goldot. Az első lépésben skilleket kell használni.
+A harcok során körönként dönthetsz skillek/item vétel/kimarad mellett.
+-Skillek esetén választhatsz a skillek közül. A skilleknek van cooldown-ja, az elsőt minden körben lehet használni, a másodikat minden 2.körben és igy tovább. Az itemekből származó skilleket minden 3. körben lehet újra felhasználni.
+-Az item vétel esetén kimaradsz a körből, de kapsz itemet. Két fajta item lesz passzív/aktív. A passzív növeli a statot, az atkív pedig egy újabb skillt ad.
+-Ha nem akarsz semmit sem használni, akkor lehet választani a "Kimaradsz a körből" lehetőséget.
+A harcok addig tartanak, amíg az egyik karakter meg nem hal, vagy fel nem adja az egyik játékos a meccset. A győztes játékos goldot és xp-t kap, míg a vesztes csak xp-t szerez.
 4.  A rendszerre vonatkozó külső megszorítások
 5. Jelenlegi üzleti folyamatok modellje
 6. Igényelt üzleti folyamatok modellje
