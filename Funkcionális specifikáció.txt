@@ -45,6 +45,7 @@ A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, 
 	i) Nincs megkülönböztetés. Mindenki önmagát adhatja.
 	j) Fejlődik a felhasználók logikai és tagtikai érzékük.
 	k) A gyerekek kombinációs készségének fejlődése is előtérbe kerül.
+	l) Konfliktus kezelés céljából is hasznos.
 7. Követelménylista
  Egy olyan rendszer megalkotása, amelyben a játékosok képesek létrehozni saját felhasználói fiókokat, amellyel be tudnak jelentkezni a játékba anélkül, hogy más játékosok is használni tudják a fiókjukat.
  A felhasználói fiókok rendelkezzenek egy profillal, amelyen látható a felhasználói fiók neve, adott szintje, tapasztalat pontja, goldja és profilképe.
