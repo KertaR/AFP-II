@@ -1,14 +1,16 @@
-0. Vezet�i �sszefoglal�
-1. A rendszer c�ljai �s nem c�ljai
-2. Jelenlegi helyzet le�r�sa
-3. V�gy�lomrendszer le�r�sa
-4.  A rendszerre vonatkoz� k�ls� megszor�t�sok
-5. Jelenlegi �zleti folyamatok modellje
-6. Ig�nyelt �zleti folyamatok modellje
-7. K�vetelm�nylista
-8. Haszn�lati esetek
-9. Megfeleltet�s
-10. K�perny�tervek
-11. Forgat�k�nyvek
-12. Funkci�-k�vetelm�ny megfeleltet�s
-13. Fogalomsz�t�r
+0. Vezetői összefoglaló
+ A projekt célja egy olyan játék megvalósítása, amelyben a felhasználók egymás ellen tudnak harcolni, ezáltal tapasztalatpontokat és goldot gyűjtve fejlődnek. A játék a manapság széles körben elterjedt telefonos illetve gépes játékok vegyítékéből épül fel. Mivel a fiatal célközönséget veszi alapul, ezért próbál megfelelni azon játékosok elvárásainak és valami egészen újat mutatni, amivel órákon át képesek versengeni.
+ Mivel a játékban több karaktert, skint is rendelkezésre áll a játékosoknak megszerezni, ezért nem lehet rövid időn belül megunni, feljődni meg folyamatosan lehet.
+1. A rendszer céljai és nem céljai
+2. Jelenlegi helyzet leírása
+3. Vágyálomrendszer leírása
+4.  A rendszerre vonatkozó külső megszorítások
+5. Jelenlegi üzleti folyamatok modellje
+6. Igényelt üzleti folyamatok modellje
+7. Követelménylista
+8. Használati esetek
+9. Megfeleltetés
+10. Képernyőtervek
+11. Forgatókönyvek
+12. Funkció-követelmény megfeleltetés
+13. Fogalomszótár
