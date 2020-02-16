@@ -2,6 +2,9 @@
  A projekt célja egy olyan játék megvalósítása, amelyben a felhasználók egymás ellen tudnak harcolni, ezáltal tapasztalatpontokat és goldot gyűjtve fejlődnek. A játék a manapság széles körben elterjedt telefonos illetve gépes játékok vegyítékéből épül fel. Mivel a fiatal célközönséget veszi alapul, ezért próbál megfelelni azon játékosok elvárásainak és valami egészen újat mutatni, amivel órákon át képesek versengeni.
  Mivel a játékban több karaktert, skint is rendelkezésre áll a játékosoknak megszerezni, ezért nem lehet rövid időn belül megunni, feljődni meg folyamatosan lehet.
 1. A rendszer céljai és nem céljai
+ A rendszer célja egy olyan játék megvalósítása, amelyben a játékosok saját felhasználói fiókjukon keresztül tudnak belépni a játékba. A profiljukat saját maguk irányíthatják, változtathatják a profilképüket, önállóan, meccseket játszva jutnak tapasztalatpontokhoz és goldhoz, amivel növelhetik szintjüket a játékban. 50 különböző karakter közül választhatják ki a nekik legszimpatikusabbakat, legkézenfekvőbbeket, amelyek oldalán indulnak majd a harcokba. Kitapasztalhatják a stratágia és küzdelem örömeit, ahogy a vereség árnyoldalait is.
+ Ezen versenysorozaton keresztül tapasztalatot szereznek és fejlődik a koncentrációs, illetve szellemi képességeik. A meccsek végeztével, ugyanis a vesztes is szerez jutalmat, így meg kell tanulni a keveset is értékelni.
+ A játék önmagában nem csak a szellemi képességek növelését veszi alapul, hanem a kapcsolatépítésre is törekedik, hiszen a játékosok egymás ellen is rendezhetnek meccseket, amivel egymás képességeit felmérhetik és időt töltenek a másik megismerésével.
 2. Jelenlegi helyzet leírása
 3. Vágyálomrendszer leírása
 4.  A rendszerre vonatkozó külső megszorítások
