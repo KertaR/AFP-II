@@ -65,3 +65,13 @@ A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, 
  A fő oldalon lehetséges csatákat indítani. A felhasználó küzdhet botok, illetve más játékosok ellen. Botok esetén a felhasználó ellen egy könnyű/közepes/nehéz szintű, random karaktert dob be a játék, amely ellen ugyanúgy harcolhat mint más játékosok ellen. Ha más felhasználók ellen szeretnénk játszani, akkor adott a lehetőség a rendszer által dobott random ellenfél, vagy barát kihívására is. Ezen ütközetek esetén felmérhetik a játékosok a tudásukat más játékosokkal szemben. A harcok végén pedig a végkimenetelnek megfelelően tapasztalati pontot, illetve goldot szerezhetnek.
 12. Funkció-követelmény megfeleltetés
 13. Fogalomszótár
+	- profil:
+	- szint:
+	- tapasztalati pont:
+	- gold:
+	- profilkép:
+	- karakter:
+	- skin:
+	- stat:
+	- képességek:
+	- itemek:
