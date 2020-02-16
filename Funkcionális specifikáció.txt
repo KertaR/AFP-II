@@ -44,6 +44,10 @@ A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, 
 	h) Mindenki megtalálhatja benne azt, ami örömet okoz neki. 
 	i) Nincs megkülönböztetés. Mindenki önmagát adhatja.
 7. Követelménylista
+ Egy olyan rendszer megalkotása, amelyben a játékosok képesek létrehozni saját felhasználói fiókokat, amellyel be tudnak jelentkezni a játékba anélkül, hogy más játékosok is használni tudják a fiókjukat.
+ A felhasználói fiókok rendelkezzenek egy profillal, amelyen látható a felhasználói fiók neve, adott szintje, tapasztalat pontja, goldja és profilképe.
+ Minden felhasználó tud vásárolni hősöket, amelyeket később egyedi skinekkel tovább fejleszthet, amelyek a harcok során előnyhöz juttatják. 
+ A csaták alkalmával a játékosok képesek más játékosok és botok egy ellen is megküzdeni. Tudják használni az adott karakterek képességeit, tárgyakkal fejleszteni tudják őket és a harcok végeztével tapasztalat pontra, illetve győzelem esetén még goldra is szert tehetnek.
 8. Használati esetek
 9. Megfeleltetés
 10. Képernyőtervek
