@@ -52,14 +52,16 @@ Modul      |ID         |Név        |Verziószám |Kifejtés
            |           |           |           |
  --------------------------------------------------------------------------------------------------------------------------------------
 7. Irányított és szabad szöveges riportok szövege
-"A szabad szöveges riport egy-két óránál ne legyen hosszabb, különben sok tévedés lesz a szövegben.
-Óránként tartsunk szünetet. Az elkészült szöveget a végén érdemes felolvasni. A véglegesített
-szöveget el kell küldeni a megrendelőnek jegyzőkönyv formájában. A jegyzőkönyvet tanácsos
-eltárolni a projekt verziókövető rendszerébe. A mellékletben megtalálható egy jegyzőkönyv sablon."
+->Irányított szöveges riport:
  "Az irányított riport feladata a követelmények számszerűsítése (Pontosan hány alkalmazott van a
 cégnél?), a nemfunkcionális igények felderítése (Milyen gyors legyen a rendszer?), illetve a
 megrendelő figyelmének felhívása a szokásos megoldásokra (Legyen jelentés készítő alrendszer?). A
 mellékletben megtalálható néhány példa kérdőív."
+->Szabad szöveges riport:
+"A szabad szöveges riport egy-két óránál ne legyen hosszabb, különben sok tévedés lesz a szövegben.
+Óránként tartsunk szünetet. Az elkészült szöveget a végén érdemes felolvasni. A véglegesített
+szöveget el kell küldeni a megrendelőnek jegyzőkönyv formájában. A jegyzőkönyvet tanácsos
+eltárolni a projekt verziókövető rendszerébe. A mellékletben megtalálható egy jegyzőkönyv sablon."
  --------------------------------------------------------------------------------------------------------------------------------------
 8. Fogalomszótár
  "Szerintem ez is értelemszerű."
