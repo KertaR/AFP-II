@@ -48,6 +48,8 @@ felülbírálhatók a prioritás segítségével.
 - Kifejtés: Kötelező. A követelmény 2-3 mondatos, esetleg ennél is hosszabb kifejtése.
 Önállóan is értelmes. Megjegyzéseket tartalmazhat a programozóknak, tesztelőknek, vagy
 más szerepkörű olvasóknak."
+Modul      |ID         |Név        |Verziószám |Kifejtés
+           |           |           |           |
  --------------------------------------------------------------------------------------------------------------------------------------
 7. Irányított és szabad szöveges riportok szövege
 "A szabad szöveges riport egy-két óránál ne legyen hosszabb, különben sok tévedés lesz a szövegben.
