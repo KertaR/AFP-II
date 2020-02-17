@@ -34,22 +34,7 @@ fogalomszótárt szoktunk építeni. A modellezés során a következő tevéken
 - üzleti folyamatok modellezése."
  --------------------------------------------------------------------------------------------------------------------------------------
 6. Követelménylista
-"A követelmény listában általában ezek az oszlopok szerepelnek:
-- Modul: Nem kötelező. Itt adhatjuk meg, hogy a követelmény melyik nagy modulhoz /
-komponenshez tartozik. Ennek segítségével már a tervezés legelején komponensekre
-bonthatjuk a rendszert.
-- ID: Kötelező. Ezzel a rövid azonosítóval hivatkozhatunk a követelményre minden
-dokumentációban, megjegyzésben. Általában egy sorszám, pl.: K1, K2, … .
-- Név: Kötelező. A követelmény 2-3 szavas megfogalmazása. Önmagában nem feltétlenül
-értelmes, de beszédes.
-- V.: Nem kötelező. Annak a verziónak a száma, ahol szeretnénk, ha már ez a követelmény ki
-lenne fejtve. A 0.1. verzió a legkisebb. Ezt az architekturális követelményeknek tartjuk fenn.
-Az 1.0. verzió, illetve ez alattiak a reális elvárások, az e felettiek vágyálom, vagy reálisan csak
-későbbi verzióban elérhető követelmények. Az itt megadott verziók az ütemtervben még
-felülbírálhatók a prioritás segítségével.
-- Kifejtés: Kötelező. A követelmény 2-3 mondatos, esetleg ennél is hosszabb kifejtése.
-Önállóan is értelmes. Megjegyzéseket tartalmazhat a programozóknak, tesztelőknek, vagy
-más szerepkörű olvasóknak."
+"A követelmény listában általában ezek az oszlopok szerepelnek:"
 Modul      |ID         |Név        |Verziószám |Kifejtés
            |           |           |           |
  --------------------------------------------------------------------------------------------------------------------------------------
@@ -66,4 +51,15 @@ szöveget el kell küldeni a megrendelőnek jegyzőkönyv formájában. A jegyz�
 eltárolni a projekt verziókövető rendszerébe. A mellékletben megtalálható egy jegyzőkönyv sablon."
  --------------------------------------------------------------------------------------------------------------------------------------
 8. Fogalomszótár
- "Szerintem ez is értelemszerű."
+- Android: Az Android Linux kernelt használó mobil operációs rendszer, elsősorban érintőképernyős mobil eszközökre (okostelefon, táblagép) tervezve.
+- ID: Kötelező. Ezzel a rövid azonosítóval hivatkozhatunk a követelményre minden dokumentációban, megjegyzésben. Általában egy sorszám, pl.: K1, K2, … .
+- Item: A harcok során a karaktereknek vehető tárgyak.
+- Kifejtés: Kötelező. A követelmény 2-3 mondatos, esetleg ennél is hosszabb kifejtése. Önállóan is értelmes. Megjegyzéseket tartalmazhat a programozóknak, tesztelőknek, vagy más szerepkörű olvasóknak.
+- Modul: Nem kötelező, itt adhatjuk meg, hogy a követelmény melyik nagy modulhoz /komponenshez tartozik. Ennek segítségével már a tervezés legelején komponensekre bonthatjuk a rendszert.
+- Név: Kötelező. A követelmény 2-3 szavas megfogalmazása. Önmagában nem feltétlenülértelmes, de beszédes.
+- Skin: Karakterek különféle kinézetei, amelyek javítják vagy épp rontják a statját.
+- Stat: Karakterek alap adatai.
+- User: Felhasználó.
+- V.: Nem kötelező. Annak a verziónak a száma, ahol szeretnénk, ha már ez a követelmény ki lenne fejtve. A 0.1. verzió a legkisebb. Ezt az architekturális követelményeknek tartjuk fenn. Az 1.0. verzió, illetve ez alattiak a reális elvárások, az e felettiek vágyálom, vagy reálisan csak későbbi verzióban elérhető követelmények. Az itt megadott verziók az ütemtervben még felülbírálhatók a prioritás segítségével.
+- Web: A világháló (angol eredetiben World Wide Web, WWW vagy röviden Web) az interneten működő, egymással úgynevezett hiperhivatkozásokkal összekötött dokumentumok rendszere.
+- XP (Experience Point): Tapasztalati pont szintlépéshez.
