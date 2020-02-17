@@ -1,6 +1,8 @@
 Követelmény specifikáció: A program elkészítéséhez szükséges technikák ismertetése.
 0.Vezetői specifikáció
-"Ez egy összefoglaló. Az egész dokumentumot írja le röviden."
+ Célunk egy olyan program megalkotása, amely webes, illetve androidos felületen is hibátlanul fut.
+ Végeredményképpen létrehozunk egy stratégiai játékot, ahol a játékosok egymás ellen vehetik fel a versenyt. A játékba user név és jelszó segítségével lehet bejelentkezni, illetve regisztrálni. Belépés után pedig a főoldalon lehet kisebb beállításokat végrehajtani, illetve karaktereket szerezni. Az alap felhasználók 2 karakterrel rendelkeznek. Ezen karaktereknek van saját statja, amelyek meghatározzák erősségüket a meccsek folyamán. Ezen statok kiegyenlítettek és minden karakternél egyediek.
+ A meccsek végeztével előre meghatározott szám generálással lehet kapni tapasztalati pontot, illetve goldot, amellyel fejlődni lehet a későbbiek folyamán.
  --------------------------------------------------------------------------------------------------------------------------------------
 1. Jelenlegi helyzet leírása
  Jelenleg még a program kidolgozása folyik.
