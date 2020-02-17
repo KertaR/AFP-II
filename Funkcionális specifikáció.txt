@@ -80,6 +80,10 @@ A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, 
  A fő oldalon lehetséges csatákat indítani. A felhasználó küzdhet botok, illetve más játékosok ellen. Botok esetén a felhasználó ellen egy könnyű/közepes/nehéz szintű, random karaktert dob be a játék, amely ellen ugyanúgy harcolhat mint más játékosok ellen. Ha más felhasználók ellen szeretnénk játszani, akkor adott a lehetőség a rendszer által dobott random ellenfél, vagy barát kihívására is. Ezen ütközetek esetén felmérhetik a játékosok a tudásukat más játékosokkal szemben. A harcok végén pedig a végkimenetelnek megfelelően tapasztalati pontot, illetve goldot szerezhetnek.
  --------------------------------------------------------------------------------------------------------------------------------------
 12. Funkció-követelmény megfeleltetés
+ A felhasználó számára minden szükséges dolog adott a játék megismerésére és használatára. 
+ A követelményrendszerben megfogalmazottak szerint a játékba a felhasználó, jelszó és felhasználónév által tud csatlakozni és részt venni eme csodás ütközetekben. Minden lehetőség adott rá, hogy úgy alakítsák ki a profiljukat, ahogy az nekik a legmegfelelőbb.
+ A karakterkészlet többféle lehetőséget nyújt, hogy mindenki megtalálja a neki legmegfelelőbb hősöket, akik mindamellett, hogy feletébb különböző tulajdonságokkal bírnak, a harcokban kiegyenlítettek a képességeik. A karakterek statjait is próbáljuk egyenértékűre készíteni, így elkerülve, hogy egy-egy karakter erősebb legyen, mint a társai.
+ A megszerzett tapasztalati pont és gold aránya a meccsek kimenetelétől és hosszától függően változik és ezekkel tudnak a játékosok fejlődni a továbbiakban.
  --------------------------------------------------------------------------------------------------------------------------------------
 13. Fogalomszótár
 	- gold: A játékban használt pénznem. A játékosok elleni győztes kimenetelű meccsekért lehet szerezni.
