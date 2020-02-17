@@ -1,9 +1,48 @@
-0.Vezet�i specifik�ci�
-1. Jelenlegi helyzet le�r�sa
-2. V�gy�lomrendszer le�r�sa
-3. A rendszerre vonatkoz� p�ly�zatok, t�rv�nyek, rendeletek, szabv�nyok �s aj�nl�sok felsorol�sa
-4. Jelenlegi �zleti folyamatok modellje
-5. Ig�nyelt �zleti folyamatok modellje
-6. K�vetelm�nylista
-7. Ir�ny�tott �s szabad sz�veges riportok sz�vege
-8. Fogalomsz�t�r
+Követelmény specifikáció: A program elkészítéséhez szükséges technikák ismertetése.
+0.Vezetői specifikáció
+"Ez egy összefoglaló. Az egész dokumentumot írja le röviden."
+1. Jelenlegi helyzet leírása
+ "Jelenlegi helyzetet kéne ide leírni."
+2. Vágyálomrendszer leírása
+ "Milyen rendszert akarunk alkotni röviden. Ez abban tér el a funkcionális specifikációtól, hogy nem a felhasználó szemszögéből kell leírni."
+3. A rendszerre vonatkozó pályázatok, törvények, rendeletek, szabványok és ajánlások felsorolása
+ "A programra vonatkozó törvények. Ezt akár másolhatjuk a funkspecből is."
+4. Jelenlegi üzleti folyamatok modellje
+ "Egy helyen és egy időben végrehajtott folyamat, amely valamely üzleti szereplő vagy üzleti munkatárs számára értéket termel. (Lehet UML ábra is)"
+5. Igényelt üzleti folyamatok modellje
+ "Az üzleti folyamatok modellezésének célja, hogy megismerjük a megrendelő szervezetét, az üzleti
+folyamatait, illetve meghatározzuk azokat a folyamatokat, amelyeket a megrendelt informatikai
+rendszer támogatni fog. Ehhez meg kell ismernünk a megrendelő szakkifejezéseit is, amiből
+fogalomszótárt szoktunk építeni. A modellezés során a következő tevékenységeket szoktuk elvégezni:
+- üzleti szereplő és munkatárs elemzés,
+- üzleti folyamat elemzés,
+- üzleti entitás elemzés,
+- üzleti folyamatok modellezése."
+6. Követelménylista
+"A követelmény listában általában ezek az oszlopok szerepelnek:
+- Modul: Nem kötelező. Itt adhatjuk meg, hogy a követelmény melyik nagy modulhoz /
+komponenshez tartozik. Ennek segítségével már a tervezés legelején komponensekre
+bonthatjuk a rendszert.
+- ID: Kötelező. Ezzel a rövid azonosítóval hivatkozhatunk a követelményre minden
+dokumentációban, megjegyzésben. Általában egy sorszám, pl.: K1, K2, … .
+- Név: Kötelező. A követelmény 2-3 szavas megfogalmazása. Önmagában nem feltétlenül
+értelmes, de beszédes.
+- V.: Nem kötelező. Annak a verziónak a száma, ahol szeretnénk, ha már ez a követelmény ki
+lenne fejtve. A 0.1. verzió a legkisebb. Ezt az architekturális követelményeknek tartjuk fenn.
+Az 1.0. verzió, illetve ez alattiak a reális elvárások, az e felettiek vágyálom, vagy reálisan csak
+későbbi verzióban elérhető követelmények. Az itt megadott verziók az ütemtervben még
+felülbírálhatók a prioritás segítségével.
+- Kifejtés: Kötelező. A követelmény 2-3 mondatos, esetleg ennél is hosszabb kifejtése.
+Önállóan is értelmes. Megjegyzéseket tartalmazhat a programozóknak, tesztelőknek, vagy
+más szerepkörű olvasóknak."
+7. Irányított és szabad szöveges riportok szövege
+"A szabad szöveges riport egy-két óránál ne legyen hosszabb, különben sok tévedés lesz a szövegben.
+Óránként tartsunk szünetet. Az elkészült szöveget a végén érdemes felolvasni. A véglegesített
+szöveget el kell küldeni a megrendelőnek jegyzőkönyv formájában. A jegyzőkönyvet tanácsos
+eltárolni a projekt verziókövető rendszerébe. A mellékletben megtalálható egy jegyzőkönyv sablon."
+ "Az irányított riport feladata a követelmények számszerűsítése (Pontosan hány alkalmazott van a
+cégnél?), a nemfunkcionális igények felderítése (Milyen gyors legyen a rendszer?), illetve a
+megrendelő figyelmének felhívása a szokásos megoldásokra (Legyen jelentés készítő alrendszer?). A
+mellékletben megtalálható néhány példa kérdőív."
+8. Fogalomszótár
+ "Szerintem ez is értelemszerű."
