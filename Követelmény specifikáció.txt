@@ -6,7 +6,14 @@ Követelmény specifikáció: A program elkészítéséhez szükséges techniká
 2. Vágyálomrendszer leírása
  "Milyen rendszert akarunk alkotni röviden. Ez abban tér el a funkcionális specifikációtól, hogy nem a felhasználó szemszögéből kell leírni."
 3. A rendszerre vonatkozó pályázatok, törvények, rendeletek, szabványok és ajánlások felsorolása
- "A programra vonatkozó törvények. Ezt akár másolhatjuk a funkspecből is."
+4.1. Szerzői jogszabályok:
+A törvény szerint az eredeti számítógépes program az azt létrehozó személy vagy vállalat szellemi tulajdona. A számítógépes programokat szerzői jogi törvény védi, amely kimondja, hogy az ilyen művek engedély nélküli másolása törvénybe ütköző cselekedet. (Magyarországon a szerzői jogokat az 1999. évi LXXVI. törvény szabályozza)
+Licenszerződés(amennyiben van)
+4.2. Adatvédelmi jogszabályok:
+AZ EURÓPAI PARLAMENT ÉS A TANÁCS (EU) 2016/679 RENDELETE (2016. április 27.) a természetes személyeknek a személyes adatok kezelése tekintetében történő védelméről és az ilyen adatok szabad áramlásáról, valamint a 95/46/EK rendelet hatályon kívül helyezéséről (általános adatvédelmi rendelet)
+évi CXII. törvény az információs önrendelkezési jogról és az információszabadságról ( Infotv.)
+4.3 Felhasználálási feltételek:
+A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, mikrofon) való hozzáférést biztosítani kell. Ezeket bizalmasan kezeljük, harmadik félhez nem juttatjuk el, semmilyen formában, másnak hozzáférést nem biztosítunk.
 4. Jelenlegi üzleti folyamatok modellje
  "Egy helyen és egy időben végrehajtott folyamat, amely valamely üzleti szereplő vagy üzleti munkatárs számára értéket termel. (Lehet UML ábra is)"
 5. Igényelt üzleti folyamatok modellje
