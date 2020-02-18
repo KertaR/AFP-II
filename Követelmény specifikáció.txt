@@ -52,6 +52,7 @@ eltárolni a projekt verziókövető rendszerébe. A mellékletben megtalálhat�
 8. Fogalomszótár
 - Android: Az Android Linux kernelt használó mobil operációs rendszer, elsősorban érintőképernyős mobil eszközökre (okostelefon, táblagép) tervezve.
 - Cooldown: Az az idő, aminek el kell telnie hogy egy képességet újra használhassunk.
+- Design: A formatervezés, ipari formatervezés vagy dizájn az iparművészeten belül mindazon tevékenység, amely az iparilag előállított tárgyi világ formai-esztétikai kialakításával foglalkozik. Maga a kifejezés a második világháború utáni időszakban alakult ki. A formatervezés ötvözi az esztétikát, a formát, a funkcionalitást, és innovatív módon kiemeli a tárgya egyedi tulajdonságait. 
 - ID: Kötelező. Ezzel a rövid azonosítóval hivatkozhatunk a követelményre minden dokumentációban, megjegyzésben. Általában egy sorszám, pl.: K1, K2, … .
 - Item: A harcok során a karaktereknek vehető tárgyak.
 - Kifejtés: Kötelező. A követelmény 2-3 mondatos, esetleg ennél is hosszabb kifejtése. Önállóan is értelmes. Megjegyzéseket tartalmazhat a programozóknak, tesztelőknek, vagy más szerepkörű olvasóknak.
