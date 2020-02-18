@@ -39,11 +39,10 @@ Modul      |ID         |Név        |Verziószám |Kifejtés
            |           |           |           |
  --------------------------------------------------------------------------------------------------------------------------------------
 7. Irányított és szabad szöveges riportok szövege
-->Irányított szöveges riport:
- "Az irányított riport feladata a követelmények számszerűsítése (Pontosan hány alkalmazott van a
-cégnél?), a nemfunkcionális igények felderítése (Milyen gyors legyen a rendszer?), illetve a
-megrendelő figyelmének felhívása a szokásos megoldásokra (Legyen jelentés készítő alrendszer?). A
-mellékletben megtalálható néhány példa kérdőív."
+->Írányított szöveges riport:
+ A program a megadott határidőn belül, azaz körülbelül 3 hónapon belül elkészül. A játék készítésére 4 fejlesztő áll rendelkésünkre, illetve segítők az esetleges problémák megoldása véget.
+ A fejlesztőket 2 csoportra osztjuk, ketten a webes, és ketten az androidos verzióval fognak komolyabban foglalkozni. A párosokat szintén szétosztjuk egy frontendes és egy backendes részre. A csoport hetente egyszer leül és közösen átbeszéli a már meglévő folyamatokat, illetve azok tesztelését és az esetleges hibákat. Ha nem merülnek fel újabb kérdések, akkor a további feladatok és fejlesztések kerülnek előtérbe.
+ Ezenkívül plusz feladatnak minősül a specifikációk megírása, azaz a program készítésének dokumentálása, illetve a játékhoz szükséges design tervek, karakterek, profilképek, képességek, itemek kidolgozása. 
 ->Szabad szöveges riport:
 "A szabad szöveges riport egy-két óránál ne legyen hosszabb, különben sok tévedés lesz a szövegben.
 Óránként tartsunk szünetet. Az elkészült szöveget a végén érdemes felolvasni. A véglegesített
