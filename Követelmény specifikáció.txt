@@ -27,9 +27,16 @@ A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, 
   Egy androidos és egy webes játékot fogunk készíteni, ahogy az a megrendelő elvárásai alapján kitaláltuk. Minden informatika háttér megfelel a követelményeknek és az elvárásoknak.
  --------------------------------------------------------------------------------------------------------------------------------------
 6. Követelménylista
-"A követelmény listában általában ezek az oszlopok szerepelnek:"
-Modul      |ID         |Név        |Verziószám |Kifejtés
-           |           |           |           |
+Modul|ID|Név|Verziószám |Kifejtés
+|K1|Belépés||A játékos a felhasználó neve és a jelszava alapján léphet be a játékba.
+|K2|Karakter szerzés||Első bejelentkezéskor a felhasználónak 5 véletlenszerűen megjelenő karakter közül kell választania kettőt. Eleinte a játékos ezzel a kettő karakterrel játszhat, majd később vehet többet, amiért golddal fizethet.
+|K3||Karakter tulajdonságok|A karaktereknek legyenek életerejük és manájuk, valamint 4 alap képességel is rendelkezzenek.
+|K4|Gold szerzés||Goldot a harcok során körönként lehessen szerezni.
+|K5|Vásárlási lehetőségek||Karakterek mellett a játékosok skineket is vásárolhatnak, amik megváltoztatják a karakterük alap statját.
+|K6|Harcok folyamata||A harcok során a játékos körönként tudjon goldot kapni, emelett pedig eldöntheti, hogy skilleket vagy itemet vagy esetleg ezek közül egyiket sem választja.
+|K7|Cooldown||A skilleknek legyen cooldownja, az elsőt minden körben lehessen használni, a másodikat minden második körben és ez így növekedjen körönként. AZ itemekből származó skilleket minden 3. körben újra fel lehessen használni.
+|K8|Item||Item vásárlásánál a játékos maradjon ki egy körből. Két fajta item legyen passzív és aktív. A passzív item növelje a statot, az aktív pedig adjon újabb skillt. Ha a játékos egyiket sem szeretné használni, akkor legyen egy olyan lehetőség, hogy kimarad egy körből.
+|K9|Harcok||A harcok addig tartsanak, míg az egyik karakter meg nem hal vagy míg az egyik játékos fel nem adja. A győztes kapjon goldot és xp-t, míg a vesztes csak xp-t kapjon.
  --------------------------------------------------------------------------------------------------------------------------------------
 7. Irányított és szabad szöveges riportok szövege
 ->Írányított szöveges riport:
