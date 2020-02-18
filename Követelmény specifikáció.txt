@@ -24,14 +24,7 @@ A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, 
  "Egy helyen és egy időben végrehajtott folyamat, amely valamely üzleti szereplő vagy üzleti munkatárs számára értéket termel. (Lehet UML ábra is)"
  --------------------------------------------------------------------------------------------------------------------------------------
 5. Igényelt üzleti folyamatok modellje
- "Az üzleti folyamatok modellezésének célja, hogy megismerjük a megrendelő szervezetét, az üzleti
-folyamatait, illetve meghatározzuk azokat a folyamatokat, amelyeket a megrendelt informatikai
-rendszer támogatni fog. Ehhez meg kell ismernünk a megrendelő szakkifejezéseit is, amiből
-fogalomszótárt szoktunk építeni. A modellezés során a következő tevékenységeket szoktuk elvégezni:
-- üzleti szereplő és munkatárs elemzés,
-- üzleti folyamat elemzés,
-- üzleti entitás elemzés,
-- üzleti folyamatok modellezése."
+  Egy androidos és egy webes játékot fogunk készíteni, ahogy az a megrendelő elvárásai alapján kitaláltuk. Minden informatika háttér megfelel a követelményeknek és az elvárásoknak.
  --------------------------------------------------------------------------------------------------------------------------------------
 6. Követelménylista
 "A követelmény listában általában ezek az oszlopok szerepelnek:"
