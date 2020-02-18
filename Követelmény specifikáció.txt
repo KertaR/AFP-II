@@ -44,10 +44,7 @@ Modul      |ID         |Név        |Verziószám |Kifejtés
  A fejlesztőket 2 csoportra osztjuk, ketten a webes, és ketten az androidos verzióval fognak komolyabban foglalkozni. A párosokat szintén szétosztjuk egy frontendes és egy backendes részre. A csoport hetente egyszer leül és közösen átbeszéli a már meglévő folyamatokat, illetve azok tesztelését és az esetleges hibákat. Ha nem merülnek fel újabb kérdések, akkor a további feladatok és fejlesztések kerülnek előtérbe.
  Ezenkívül plusz feladatnak minősül a specifikációk megírása, azaz a program készítésének dokumentálása, illetve a játékhoz szükséges design tervek, karakterek, profilképek, képességek, itemek kidolgozása. 
 ->Szabad szöveges riport:
-"A szabad szöveges riport egy-két óránál ne legyen hosszabb, különben sok tévedés lesz a szövegben.
-Óránként tartsunk szünetet. Az elkészült szöveget a végén érdemes felolvasni. A véglegesített
-szöveget el kell küldeni a megrendelőnek jegyzőkönyv formájában. A jegyzőkönyvet tanácsos
-eltárolni a projekt verziókövető rendszerébe. A mellékletben megtalálható egy jegyzőkönyv sablon."
+ Célunk egy olyan program megvalósítása, amely már létező játékok stílusára épül. Egy olyan stratégiai játékot képzeltünk el, amelyben egyesül League of Legends-ből és a Dota 2-ből már ismert karakter felépítés és választás, a kártyajátékok kedvelőinek szánt Hearthstone harci szakasza, a TFT (Teamfight Tactics) item struktúrája és Mobile Legends: Bang Bang android stílusa, amelyből egy új játék születik meg.
  --------------------------------------------------------------------------------------------------------------------------------------
 8. Fogalomszótár
 - Android: Az Android Linux kernelt használó mobil operációs rendszer, elsősorban érintőképernyős mobil eszközökre (okostelefon, táblagép) tervezve.
