@@ -30,6 +30,7 @@ A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, 
  --------------------------------------------------------------------------------------------------------------------------------------
 5. Igényelt üzleti folyamatok modellje
   Egy androidos és egy webes játékot fogunk készíteni, ahogy az a megrendelő elvárásai alapján kitaláltuk. Minden informatika háttér megfelel a követelményeknek és az elvárásoknak.
+  A program az előre kidolgozott verzióknak megfelelően készül el. A verziókban leírtak opcionálisak és a változás lehetőségét mindvégig fenntartjuk.
  --------------------------------------------------------------------------------------------------------------------------------------
 6. Követelménylista
 Modul        |ID |Név                   |Verziószám |Kifejtés
