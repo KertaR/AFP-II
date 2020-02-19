@@ -27,16 +27,37 @@ A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, 
   Egy androidos és egy webes játékot fogunk készíteni, ahogy az a megrendelő elvárásai alapján kitaláltuk. Minden informatika háttér megfelel a követelményeknek és az elvárásoknak.
  --------------------------------------------------------------------------------------------------------------------------------------
 6. Követelménylista
-Modul|ID|Név|Verziószám |Kifejtés
-|K1|Belépés||A játékos a felhasználó neve és a jelszava alapján léphet be a játékba.
-|K2|Karakter szerzés||Első bejelentkezéskor a felhasználónak 5 véletlenszerűen megjelenő karakter közül kell választania kettőt. Eleinte a játékos ezzel a kettő karakterrel játszhat, majd később vehet többet, amiért golddal fizethet.
-|K3||Karakter tulajdonságok|A karaktereknek legyenek életerejük és manájuk, valamint 4 alap képességel is rendelkezzenek.
-|K4|Gold szerzés||Goldot a harcok során körönként lehessen szerezni.
-|K5|Vásárlási lehetőségek||Karakterek mellett a játékosok skineket is vásárolhatnak, amik megváltoztatják a karakterük alap statját.
-|K6|Harcok folyamata||A harcok során a játékos körönként tudjon goldot kapni, emelett pedig eldöntheti, hogy skilleket vagy itemet vagy esetleg ezek közül egyiket sem választja.
-|K7|Cooldown||A skilleknek legyen cooldownja, az elsőt minden körben lehessen használni, a másodikat minden második körben és ez így növekedjen körönként. AZ itemekből származó skilleket minden 3. körben újra fel lehessen használni.
-|K8|Item||Item vásárlásánál a játékos maradjon ki egy körből. Két fajta item legyen passzív és aktív. A passzív item növelje a statot, az aktív pedig adjon újabb skillt. Ha a játékos egyiket sem szeretné használni, akkor legyen egy olyan lehetőség, hogy kimarad egy körből.
-|K9|Harcok||A harcok addig tartsanak, míg az egyik karakter meg nem hal vagy míg az egyik játékos fel nem adja. A győztes kapjon goldot és xp-t, míg a vesztes csak xp-t kapjon.
+Modul        |ID|Név                   |Verziószám |Kifejtés
+Bejelentkezés|K1 |Belépés               |
+A játékos a felhasználó neve és a jelszava alapján léphet be a játékba.
+Felhasználó  |K2 |Gold                  |
+A felhasználó rendelkezik golddal, amiből hősöket tud venni.
+Felhasználó  |K3 |Tapasztalati pont     |
+A felhasználó szintjét határozza meg a tapasztalati pontja.
+Felhasználó  |K4 |Karakter szerzés      |
+Első bejelentkezéskor a felhasználónak 5 véletlenszerűen megjelenő karakter közül kell választania kettőt. Eleinte a játékos ezzel a kettő karakterrel játszhat, majd később vehet többet, amiért golddal fizethet.
+Karakter     |K5 |Karakter adatai       |
+A karaktereknek legyenek életerejük és manájuk.
+Karakter     |K6 |Karakter tulajdonságok|
+A karakterek statja.
+Karakter     |K7 |Karakter képességek   |
+A karaktereknek 4 alapképessége van.
+Karakter     |K8 |Karakter skinek       |
+Karakterek mellett a játékosok skineket is vásárolhatnak, amik megváltoztatják a karakterük alap statját.
+Játék        |K9 |Gold szerzés          |
+Goldot a harcok során körönként lehessen szerezni.
+Játék        |K10|Harcok folyamata      |
+A harcok során a játékos körönként tudjon goldot kapni, emelett pedig eldöntheti, hogy skilleket vagy itemet vagy esetleg ezek közül egyiket sem választja.
+Játék        |K11|Végkimenetele         |
+A harcok addig tartsanak, míg az egyik karakter meg nem hal vagy míg az egyik játékos fel nem adja. A győztes kapjon goldot és xp-t, míg a vesztes csak xp-t kapjon.
+Itemek       |K12|Cooldown              |
+A skilleknek legyen cooldownja, az elsőt minden körben lehessen használni, a másodikat minden második körben és ez így növekedjen körönként. AZ itemekből származó skilleket minden 3. körben újra fel lehessen használni.
+Itemek       |K13|Item                  |
+Item vásárlásánál a játékos maradjon ki egy körből. Két fajta item legyen passzív és aktív. Ha a játékos egyiket sem szeretné használni, akkor legyen egy olyan lehetőség, hogy kimarad egy körből.
+Itemek       |K14|Passzív itemek        |
+A passzív item növelje a statot.
+Itemek       |K15|Aktív itemek          |
+Az aktív itemek egy új skillt adnak. 
  --------------------------------------------------------------------------------------------------------------------------------------
 7. Irányított és szabad szöveges riportok szövege
 ->Írányított szöveges riport:
