@@ -1,0 +1,11 @@
+0. A rendszer célja
+1. Projekt terv
+2. Követelmények
+3. Fizikai környezetek
+4. Üzleti folyamatok modellje
+5. Funkcionális terv
+6. Absztrakt domain modell
+7. Architekturális nyelv
+8. Adatbázis terv
+9. Implementációs terv
+10. Teszt
