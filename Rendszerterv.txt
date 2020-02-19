@@ -4,6 +4,10 @@
  A játék önmagában nem csak a szellemi képességek növelését veszi alapul, hanem a kapcsolatépítésre is törekedik, hiszen a játékosok egymás ellen is rendezhetnek meccseket, amivel egymás képességeit felmérhetik és időt töltenek a másik megismerésével.
  --------------------------------------------------------------------------------------------------------------------------------------
 1. Projekt terv
+ A program a megadott határidőn belül, azaz körülbelül 3 hónapon belül elkészül. A játék készítésére 4 fejlesztő áll rendelkésünkre, illetve segítők az esetleges problémák megoldása véget.
+ A fejlesztőket 2 csoportra osztjuk, ketten a webes, és ketten az androidos verzióval fognak komolyabban foglalkozni. A párosokat szintén szétosztjuk egy frontendes és egy backendes részre. A csoport hetente egyszer leül és közösen átbeszéli a már meglévő folyamatokat, illetve azok tesztelését és az esetleges hibákat. Ha nem merülnek fel újabb kérdések, akkor a további feladatok és fejlesztések kerülnek előtérbe.
+ Ezenkívül plusz feladatnak minősül a specifikációk megírása, azaz a program készítésének dokumentálása, illetve a játékhoz szükséges design tervek, karakterek, profilképek, képességek, itemek kidolgozása. 
+  Elsősorban miután kész a rendszerterv és elkészül egy UML ábra a program megvalósítására, elkészül egy alaprogram, amire a későbbiekben lehet építeni és továbbfejleszteni. Az alapprogram célja egy müködőképes játék létrehozása, mindenféle bonyolultság nélkül, csak a rendes működésre törekedve. Ha ez kész, akkor a követelmény specifikációban leírt követelménylista alapján haladva lesznek hozzáadva az adott szinten elvárt funkciók, amíg el nem jutunk a vágyálomrendszerben leírt és elképzelt játékhoz.
  --------------------------------------------------------------------------------------------------------------------------------------
 2. Követelmények
  --------------------------------------------------------------------------------------------------------------------------------------
