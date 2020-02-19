@@ -63,6 +63,10 @@ Itemek       |K14|Passzív itemek        |0.5 verzió
 A passzív item növelje a statot.
 Itemek       |K15|Aktív itemek          |0.5 verzió
 Az aktív itemek egy új skillt adnak. 
+Csaták       |K16|Bot játékosok         |0.2 verzió
+Bot meccses csaták.
+Csaták       |K17|PVP játékmód          |0.6 verzió
+PVP játékmód bevezetése.
  --------------------------------------------------------------------------------------------------------------------------------------
 7. Irányított és szabad szöveges riportok szövege
 ->Írányított szöveges riport:
