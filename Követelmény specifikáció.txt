@@ -86,6 +86,7 @@ PVP játékmód bevezetése.
 - Kifejtés: Kötelező. A követelmény 2-3 mondatos, esetleg ennél is hosszabb kifejtése. Önállóan is értelmes. Megjegyzéseket tartalmazhat a programozóknak, tesztelőknek, vagy más szerepkörű olvasóknak.
 - Modul: Nem kötelező, itt adhatjuk meg, hogy a követelmény melyik nagy modulhoz /komponenshez tartozik. Ennek segítségével már a tervezés legelején komponensekre bonthatjuk a rendszert.
 - Név: Kötelező. A követelmény 2-3 szavas megfogalmazása. Önmagában nem feltétlenülértelmes, de beszédes.
+- PVP: (Player vs. Player) – lehetőség arra, hogy a játékosok megtámadják egymást, főleg RPG típusú játékokban van külön kiemelve a pvp lehetőség.
 - Skin: Karakterek különféle kinézetei, amelyek javítják vagy épp rontják a statját.
 - Stat: Karakterek alap adatai.
 - UML: Az UML (Unified Modeling Language) szabványos, általános célú modellező nyelv, üzleti elemzők, rendszertervezők, szoftvermérnökök számára.
