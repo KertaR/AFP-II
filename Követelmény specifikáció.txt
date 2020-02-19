@@ -21,7 +21,12 @@ AZ EURÓPAI PARLAMENT ÉS A TANÁCS (EU) 2016/679 RENDELETE (2016. április 27.)
 A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, mikrofon) való hozzáférést biztosítani kell. Ezeket bizalmasan kezeljük, harmadik félhez nem juttatjuk el, semmilyen formában, másnak hozzáférést nem biztosítunk.
  --------------------------------------------------------------------------------------------------------------------------------------
 4. Jelenlegi üzleti folyamatok modellje
- "Egy helyen és egy időben végrehajtott folyamat, amely valamely üzleti szereplő vagy üzleti munkatárs számára értéket termel. (Lehet UML ábra is)"
+ Első lépésben egy alap programot készítünk el, ahol a felhasználó képes bejelentkezni a játékba. Tud karakterek közül választani és velük csatákba menni. A csatákat előre leprogramozott botok ellen játszhatják.
+ Második lépésben a programot felfejlesztjük annyira, hogy a felhasználók rendelkeznek golddal amiből karaktert lehet vásárolni. A karakterekhez képességeket rendelünk és ezeket felhasználva fognak tudni harcolni egymás ellen. A képességeknek ebben a verzióban még nincs cooldownja.
+ A harmadik verzió folyamán bevezetjük a goldszerzés folyamatát és annak algoritmusát, miszerint, mennyi goldot kapjanak a csatákért. A karakterek képességei cooldownnal bővülnek, így csökkentve a használati lehetőségüket, fokozva az izgalmakat.
+ A negyedik verzióban a felhasználókhoz rendelünk tapasztalati pontokat, amelyeknek szintén lesz egy algoritmusa, hogy mi alapján, mennyit osszon ki a rendszer egy-egy meccsért cserébe. A tapasztalati pontok által tudnak a játékosok szintet lépni, így mutatva más játékosok számára, mennyi tapasztalattal rendelkeznek. Ebben a verzióban jelennek meg az itemek is, amelyeket a harcok folyamán lehet megvásárolni és a karakterekhez statokat rendelünk.
+ Az ötödik rész során a karakterek skineket kapnak, amelyek változtatnak a statukon. Az itemeket pedig két részre osztjuk, aktív és passzív item kategóriában.
+ A hatodik és egyben utolsó verzió során a játékosok képesek lesznek egymás ellen is harcolni, nem csak botok ellen. A tökéletesség hiánya nélkül, fontosnak tartjuk, hogy túl nagy szintkülönbséggel rendelkező játékosokat ne rakjon egymás ellen a rendszer.
  --------------------------------------------------------------------------------------------------------------------------------------
 5. Igényelt üzleti folyamatok modellje
   Egy androidos és egy webes játékot fogunk készíteni, ahogy az a megrendelő elvárásai alapján kitaláltuk. Minden informatika háttér megfelel a követelményeknek és az elvárásoknak.
