@@ -57,6 +57,7 @@ Modul|ID|Név|Verziószám |Kifejtés
 - Név: Kötelező. A követelmény 2-3 szavas megfogalmazása. Önmagában nem feltétlenülértelmes, de beszédes.
 - Skin: Karakterek különféle kinézetei, amelyek javítják vagy épp rontják a statját.
 - Stat: Karakterek alap adatai.
+- UML: Az UML (Unified Modeling Language) szabványos, általános célú modellező nyelv, üzleti elemzők, rendszertervezők, szoftvermérnökök számára.
 - User: Felhasználó.
 - V.: Nem kötelező. Annak a verziónak a száma, ahol szeretnénk, ha már ez a követelmény ki lenne fejtve. A 0.1. verzió a legkisebb. Ezt az architekturális követelményeknek tartjuk fenn. Az 1.0. verzió, illetve ez alattiak a reális elvárások, az e felettiek vágyálom, vagy reálisan csak későbbi verzióban elérhető követelmények. Az itt megadott verziók az ütemtervben még felülbírálhatók a prioritás segítségével.
 - Web: A világháló (angol eredetiben World Wide Web, WWW vagy röviden Web) az interneten működő, egymással úgynevezett hiperhivatkozásokkal összekötött dokumentumok rendszere.
