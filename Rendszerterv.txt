@@ -95,7 +95,7 @@ Absztrakt komponensek:
  A főprogramban lehet látni a karaktereket. A karakterekre kattintva lehet őket közelebbről megtekinteni, itt látható statjuk, illetve hogy milyen skinek elérhetők rájuk.
  A játékbon belül lehet találkozni az itemekkel és itt lehet őket megvásárolni a karaktereknek amíg az összecsapás nem ér véget.
  --------------------------------------------------------------------------------------------------------------------------------------
-7. Architekturális nyelv
+7. Architekturális terv
  --------------------------------------------------------------------------------------------------------------------------------------
 8. Adatbázis terv
 A 0.1-es verzióban 5 táblával tudunk dolgozni. Ez még csak egy alap adatbázis terv a programhoz. Van egy User, Karakter, Skin, Item és Képesség osztályunk. Az implementációs tervben, illetve az UML ábra 0.1-es verzióban látható ezek pontos kidolgozása. Jelenleg még csak a karakter táblát tudjuk összekapcsolni a skin és a képességek osztállyal.
