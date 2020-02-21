@@ -129,6 +129,10 @@ Páncél: double
 KritikusEsély: double
 Ár: int
 
+ITEM: Osztály
+Ikon: Kép
+Ár: int
+
 KÉPESSÉG: Osztály
 Ikon: Kép
 Manahasználat: double
