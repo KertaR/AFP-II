@@ -100,5 +100,30 @@ Absztrakt komponensek:
 8. Adatbázis terv
  --------------------------------------------------------------------------------------------------------------------------------------
 9. Implementációs terv
+
+USER: Osztály
+Név: string
+Jelszó: string
+Profilkép: Kép
+XP: int
+Gold: int
+
+KARAKTER: Osztály
+Képesség: Képesség Lista
+Név: string
+Életpont: double
+Mana: double
+Páncél: double
+
+SKIN: Osztály
+Karakter: Karakter
+Életpont: double
+Mana: double
+Páncél: double
+
+KÉPESSÉG: Osztály
+Ikon: Kép
+Manahasználat: double
+
  --------------------------------------------------------------------------------------------------------------------------------------
 10. Teszt
