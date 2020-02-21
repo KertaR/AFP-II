@@ -130,6 +130,7 @@ KritikusEsély: double
 KÉPESSÉG: Osztály
 Ikon: Kép
 Manahasználat: double
+ÚjratöltésiIdő: int
 
  --------------------------------------------------------------------------------------------------------------------------------------
 10. Tesztterv
