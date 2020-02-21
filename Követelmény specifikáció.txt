@@ -36,38 +36,40 @@ A számítógépen lévö fájlokhoz, számítógép eszközeihez (pl.: kamera, 
 Modul        |ID |Név                   |Verziószám |Kifejtés
 Bejelentkezés|K1 |Belépés               |0.1 verzió
 A játékos a felhasználó neve és a jelszava alapján léphet be a játékba.
-Felhasználó  |K2 |Gold                  |0.2 verzió
-A felhasználó rendelkezik golddal, amiből hősöket tud venni.
-Felhasználó  |K3 |Tapasztalati pont     |0.4 verzió
-A felhasználó szintjét határozza meg a tapasztalati pontja.
-Felhasználó  |K4 |Karakter szerzés      |0.2 verzió
-Első bejelentkezéskor a felhasználónak 5 véletlenszerűen megjelenő karakter közül kell választania kettőt. Eleinte a játékos ezzel a kettő karakterrel játszhat, majd később vehet többet, amiért golddal fizethet.
 Karakter     |K5 |Karakter adatai       |0.1 verzió
 A karaktereknek legyenek életerejük és manájuk.
-Karakter     |K6 |Karakter tulajdonságok|0.4 verzió
-A karakterek statja.
-Karakter     |K7 |Karakter képességek   |0.2 verzió
-A karaktereknek 4 alapképessége van.
-Karakter     |K8 |Karakter skinek       |0.5 verzió
-Karakterek mellett a játékosok skineket is vásárolhatnak, amik megváltoztatják a karakterük alap statját.
-Játék        |K9 |Gold szerzés          |0.3 verzió
-Goldot a harcok során körönként lehessen szerezni.
 Játék        |K10|Harcok folyamata      |0.1 verzió
 A harcok során a játékos körönként tudjon goldot kapni, emelett pedig eldöntheti, hogy skilleket vagy itemet vagy esetleg ezek közül egyiket sem választja.
+Felhasználó  |K2 |Gold                  |0.2 verzió
+A felhasználó rendelkezik golddal, amiből hősöket tud venni.
+Csaták       |K16|Bot játékosok         |0.2 verzió
+Bot meccses csaták.
+Felhasználó  |K4 |Karakter szerzés      |0.2 verzió
+Első bejelentkezéskor a felhasználónak 5 véletlenszerűen megjelenő karakter közül kell választania kettőt. Eleinte a játékos ezzel a kettő karakterrel játszhat, majd később vehet többet, amiért golddal fizethet.
+Karakter     |K7 |Karakter képességek   |0.2 verzió
+A karaktereknek 4 alapképessége van.
 Játék        |K11|Végkimenetele         |0.3 verzió
 A harcok addig tartsanak, míg az egyik karakter meg nem hal vagy míg az egyik játékos fel nem adja. A győztes kapjon goldot és xp-t, míg a vesztes csak xp-t kapjon.
 Itemek       |K12|Cooldown              |0.3 verzió
 A skilleknek legyen cooldownja, az elsőt minden körben lehessen használni, a másodikat minden második körben és ez így növekedjen körönként. AZ itemekből származó skilleket minden 3. körben újra fel lehessen használni.
+Játék        |K9 |Gold szerzés          |0.3 verzió
+Goldot a harcok során körönként lehessen szerezni.
 Itemek       |K13|Item                  |0.4 verzió
 Item vásárlásánál a játékos maradjon ki egy körből. Két fajta item legyen passzív és aktív. Ha a játékos egyiket sem szeretné használni, akkor legyen egy olyan lehetőség, hogy kimarad egy körből.
+Felhasználó  |K3 |Tapasztalati pont     |0.4 verzió
+A felhasználó szintjét határozza meg a tapasztalati pontja.
+Karakter     |K6 |Karakter tulajdonságok|0.4 verzió
+A karakterek statja.
 Itemek       |K14|Passzív itemek        |0.5 verzió
 A passzív item növelje a statot.
 Itemek       |K15|Aktív itemek          |0.5 verzió
 Az aktív itemek egy új skillt adnak. 
-Csaták       |K16|Bot játékosok         |0.2 verzió
-Bot meccses csaták.
+Karakter     |K8 |Karakter skinek       |0.5 verzió
+Karakterek mellett a játékosok skineket is vásárolhatnak, amik megváltoztatják a karakterük alap statját.
 Csaták       |K17|PVP játékmód          |0.6 verzió
 PVP játékmód bevezetése.
+Profilkép    |K18|Profilkép változtatás |0.6 verzió
+Egyedi profilkép készítése.
  --------------------------------------------------------------------------------------------------------------------------------------
 7. Irányított és szabad szöveges riportok szövege
 ->Írányított szöveges riport:
