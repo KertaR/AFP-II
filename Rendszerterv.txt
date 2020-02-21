@@ -51,6 +51,13 @@ Egyedi profilkép készítése.
 3. Fizikai környezetek
  --------------------------------------------------------------------------------------------------------------------------------------
 4. Üzleti folyamatok modellje
+ Első lépésben a funkcionális- és követelmény specifikáció, illetve a rendszerterv elkészítése a lényeg. Ha a szöveges dokumentumokban leírtak megfelelnek a valóságnak és képesek vagyunk tartani az ütemtervet, akkor jövetnek a további feladatok. Fontos, hogy a leírt dolgokat jól átgondoljuk, a megvalósítási lehetőségeket feltérképezzük és ezek után már csak az itt leírtak alapján le kelljen kódolni a játékot. 
+ A funkcionális specifikáció (angolul: functional specification) a felhasználó szemszögéből írja le a rendszert. A követelményspecifikációból ismerjük az elkészítendő rendszer követelményeit, üzleti folyamatait.
+ A követelményspecifikáció (angolul: requirement specification) helyét a szoftver életciklusban megismerhettük a Rendszerszervezés című fejezetből. Itt az elkészítéséhez szükséges technikákat ismertetjük. 
+ A rendszertervben a program megvalósításának lépései vannak kifejtve részletesen.
+ A design tervekben a frontendesek dolga a design terveinek és a játék kinézetének megvalósítása. Ezen terveket mind androidos, mind webes felületen el kell készíteni. Ez két ember feladata lenne, a webes és androidos csoportnak külön frontendesei végzik ezeknek a kidolgozását.
+ Az androidos csapat Android Studioban készíti el a program telefonos verzióját, míg a másik csoporté a webes platform megalkotása. A csapatoknak szintén két része van, vannak a frontendesek és a backendesek, ezek szintén a saját részüket veszik ki  a feladatokból, de ha úgy van segítenek a másik félnek a játék megvalósításában.
+ Az, hogy pontosan ki, min dolgozott, azt a trello ábrákon lehet nyomonkövetni.
  --------------------------------------------------------------------------------------------------------------------------------------
 5. Funkcionális terv
  A programba felhasználónév és jelszó segítségével lehet bejelentkezni. Ezen kombinációkat szükséges tárolni, hogy ne lehessen egyszerre két embernek ugyanaz a felhasználóneve, illetve a jelszavakat titkosítani kell, hogy ne lehessen könnyen feltörhető a rendszer.
