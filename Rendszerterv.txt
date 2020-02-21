@@ -49,6 +49,8 @@ Profilkép    |K18|Profilkép változtatás |0.6 verzió
 Egyedi profilkép készítése.
  --------------------------------------------------------------------------------------------------------------------------------------
 3. Fizikai környezetek
+Webes rész: 
+Androidos rész: A androidos verzió az Android Studio 3.5.3 verziójával készül.
  --------------------------------------------------------------------------------------------------------------------------------------
 4. Üzleti folyamatok modellje
  Első lépésben a funkcionális- és követelmény specifikáció, illetve a rendszerterv elkészítése a lényeg. Ha a szöveges dokumentumokban leírtak megfelelnek a valóságnak és képesek vagyunk tartani az ütemtervet, akkor jövetnek a további feladatok. Fontos, hogy a leírt dolgokat jól átgondoljuk, a megvalósítási lehetőségeket feltérképezzük és ezek után már csak az itt leírtak alapján le kelljen kódolni a játékot. 
