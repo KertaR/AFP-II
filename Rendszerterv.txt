@@ -105,6 +105,7 @@ USER: Osztály
 Név: string
 Jelszó: string
 Profilkép: Kép
+BirtokoltKarakterek: Karakter Lista
 XP: int
 Gold: int
 
