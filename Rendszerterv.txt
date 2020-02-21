@@ -96,6 +96,20 @@ Absztrakt komponensek:
  A játékbon belül lehet találkozni az itemekkel és itt lehet őket megvásárolni a karaktereknek amíg az összecsapás nem ér véget.
  --------------------------------------------------------------------------------------------------------------------------------------
 7. Architekturális terv
+Bejelentkezés/Regisztrációs esetek:
+ A regisztráció során, ha már látező felhasználónevet adunk vagy ha olyan karaktereket használunk, amelyek nem megengedettek (pl.: vessző, pontosvessző, #, @ stb.), akkor hibaüzenetet kapunk.
+ A bejelentkezés során, ha nem megfelelő felhasználónevet vagy jelszót adunk meg, szintén hibaüzenetet jelez a rendszer.
+Vásárlásnál:
+ Ha megvásároltunk egy karaktert/skint, akkor az a karakter már ne jelenjen meg a boltban megvásárolható karakterek között.
+ Ha nincs meg egy karakter, akkor annak a karakternek a skinjét sem lehet megvásárolni.
+ Ha nincs elegendő goldunk, akkor szintén ugyanez a helyzet áll fenn.
+Játékon belül:
+ Egy képességet egy körön belül csak egyszer lehet használni.
+ Passzív itemet ne rakja a rendszer aktív itemek közé.
+ A rendszer ne mutassa meg az enemy statjait.
+ Ha elmegy az internet kapcsolat vagy valamilyen oknál fogva az egyik játékos feladás nélkül kilép egy pvp meccsből, akkor a meccset elhagyó játékos a következő játékát csak bot ellen indíthatja. Az elhagyott meccsből a lejátszott ideig történő adatok alapján elveszíti a meccset. Miután az egyik játékos elhagyja a játékot a meccs véget ér. A bentmaradt játékos automatikusan nyeri a meccset, viszont nem szerez goldot. Mindkét játékos a meccs alatt gyűjtött tapasztalati pont felét kapja meg.
+ Ha elmegy az internet kapcsolat vagy valamilyen oknál fogva egy játékos kilép egy bot meccsből, akkor az abból származó tapasztalati pontok elvesznek.
+ Ha egy játékos több egymást követő meccs során ismeretlen okból elhagyja a meccset, akkor tiltást kap. Minél több alkalommal ismétlődik a meccsek elhagyása a tiltások ellenére a játékos egyere több ideig lesz tiltva és egy pontot elérve a fiókja véglegesen törlődik. Az első ilyen alkalommal, amikor egy játékos tiltást érdemel a rendszer 10 percre tiltja le és ennek időtartama minden alkalommal 10 perccel növekszik, amíg egy órás eltiltást nem kap ajátékos. Ezután egy napra, majd egy hétre, végül pedig egy hónapra is kaphat kitiltást, és ennek végereményeképpen a következő esetben perma bant kap. Ha egy játékos már kapott eltiltást, viszont ha ezt követően fél évig nem tesz semmi hasonló megrovást érdemlő dolgot, akkor a rendszer automatikusan leveszi az eddig rárakott tiltások hosszát és a felhasználó újból csak 10 percet kaphat egy tiltás alkalmával.
  --------------------------------------------------------------------------------------------------------------------------------------
 8. Adatbázis terv
 A 0.1-es verzióban 5 táblával tudunk dolgozni. Ez még csak egy alap adatbázis terv a programhoz. Van egy User, Karakter, Skin, Item és Képesség osztályunk. Az implementációs tervben, illetve az UML ábra 0.1-es verzióban látható ezek pontos kidolgozása. Jelenleg még csak a karakter táblát tudjuk összekapcsolni a skin és a képességek osztállyal.
