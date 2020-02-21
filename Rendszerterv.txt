@@ -73,6 +73,27 @@ Androidos rész: A androidos verzió az Android Studio 3.5.3 verziójával kész
    A kilépés menüponttal a játékos kilép a játékból.
  --------------------------------------------------------------------------------------------------------------------------------------
 6. Absztrakt domain modell
+Domain specifikáció:
+- bejelentkezés: A játékba való belépés jelszó és felhasználónév köteles.
+- bolt: Itt vásárolhatók karakterek, skinek, illetve játékon belül itemek.
+- felhasználónév: A rendszerbe regisztrált felhasználó neve.
+- gold: A játékban használatos fizető eszköz.
+- item: Karakterek statját passzívan vagy aktívan növelő tárgy.
+- játék: A program játék része.
+- jelszó: A bejelentkezéshez szükséges adat.
+- karakter: A játékban használható hős.
+- képességek: A karakterek rendelkeznek 4 alapképességgel, amellyel képesek támadni vagy védekezni.
+- kijelentkezés: A programból való kilépést jelenti.
+- profil: A felhasználó alapadatait tartalmazó rész.
+- skin: A karatkereknek lehet vásárolni más kinézetet, amely ronhat vagy javíthat a statján.
+- stat: A karakterek képességeinek mértéke egy adott táblán megmutatva, ezzel szemléltetik, hogy egymáshoz képest mennyire erősek. Összességében minden karakter ugyanolyan erős, csak ez más teljesítményben mutatkozik meg.
+- tapasztalati pont: A tapasztalati pontok segítségével tud a felhasználó szintet lépni, és ezzel mutatja a rendszerben elért teljesítményét. 
+Absztrakt komponensek:
+ A bejelentkezéshez szükséges a felhasználónév és a jelszó. Csak akkor tudsz kijelentkezni, ha egyszer kiléptél.
+ A bejelentkezést követően meg lehet tekinteni a játékosok profilját, a boltot használni lehet, illetve játékot lehet indítani.
+ A profilon látható egy-egy játékos neve, profilképe, hogy mennyi golddal rendelkezik és hogy milyen szintet ért el eddig a tapasztalati pontok megszerzésével.
+ A főprogramban lehet látni a karaktereket. A karakterekre kattintva lehet őket közelebbről megtekinteni, itt látható statjuk, illetve hogy milyen skinek elérhetők rájuk.
+ A játékbon belül lehet találkozni az itemekkel és itt lehet őket megvásárolni a karaktereknek amíg az összecsapás nem ér véget.
  --------------------------------------------------------------------------------------------------------------------------------------
 7. Architekturális nyelv
  --------------------------------------------------------------------------------------------------------------------------------------
