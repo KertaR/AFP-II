@@ -117,6 +117,7 @@ Kép: Kép
 Mana: double
 Páncél: double
 KritikusEsély: double
+Ár: int
 
 SKIN: Osztály
 Karakter: Karakter
@@ -126,6 +127,7 @@ Kép: Kép
 Mana: double
 Páncél: double
 KritikusEsély: double
+Ár: int
 
 KÉPESSÉG: Osztály
 Ikon: Kép
