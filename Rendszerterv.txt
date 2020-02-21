@@ -111,12 +111,14 @@ Gold: int
 KARAKTER: Osztály
 Képesség: Képesség Lista
 Név: string
+Kép: Kép
 Életpont: double
 Mana: double
 Páncél: double
 
 SKIN: Osztály
 Karakter: Karakter
+Kép: Kép
 Életpont: double
 Mana: double
 Páncél: double
