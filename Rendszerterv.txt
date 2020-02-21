@@ -116,6 +116,7 @@ Kép: Kép
 Életpont: double
 Mana: double
 Páncél: double
+KritikusEsély: double
 
 SKIN: Osztály
 Karakter: Karakter
