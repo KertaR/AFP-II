@@ -120,10 +120,12 @@ KritikusEsély: double
 
 SKIN: Osztály
 Karakter: Karakter
+Név: string
 Kép: Kép
 Életpont: double
 Mana: double
 Páncél: double
+KritikusEsély: double
 
 KÉPESSÉG: Osztály
 Ikon: Kép
