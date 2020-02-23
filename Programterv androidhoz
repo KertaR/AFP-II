@@ -1,2 +1,25 @@
 0. Programterv leíró változata:
+Játék android verziójának részletes leírása:
+ A játék androidos felülete az Android Studio 3.5.3-as verziójával készül. A fejlesztő csoport két fős: egy backendes és egy frontendes. A játék a Sakoshi nevet kapta a 0.1-es verzióban.
+ A program 3 nagy részből áll:
+1. Bejelentkezési felület
+ A bejelentkezési felületen három lehetőséget kíván nyújtani a program. Elsőként a regisztrációval fogunk foglalkozni.
+ - A regisztráció során egy új (alap) felhasználói felületet készítünk, ehhez egy, a rendszerben eddig nem szereplő felhasználó névre és egy jelszóra van szükségünk. A felhasználónév maximum 15 karakteres lehet, kis- és nagybetűket egyaránt tartalmazhat, viszont nem lehetnek benne különleges karakterek (ezalatt értve a különböző mondatvégi írásjeleket, speciális karaktereket és az egyéb idegennyelvi formátumokat pl.: kanji, hiragana). Két felhasználó név akkor számít különbözőnek, ha legalább egy karaktere nem egyezik meg. Tehát pl.: Sakusa != SAkusa vagy Ivern != lvern (nagy i és kis l különbség). A jelszóra ugyanazok a speciális megszorítások vonatkoznak, kivéve, hogy itt nem kell egyedinek lennie a jelszónak, azaz két felhasználó is használhatja ugyanazt a jelszót. A regisztráció során minden adatot kétszer kell megadni, hogy ne legyen kétség afelől, hogy a felhasználó ténylegesen azt akarta írni, amit akart.
+ - A bejelentkezés során egy, már regisztrált felhasználónév és jelszó kombinációt kell megadni a belépéshez. Fontos, hogy míg a beírt felhasználónév szabad szemmel is olvasható, addig a jelszó titkosított tartalomnak számít, így ne lehessen elolvasni. Helyén a már megszokott "*" karakter szerepeljen. A csillagok száma egyezzen meg a beírt karakterek mennyiségével.
+ - Az utolsó lehetőség a kilépés. Ennek használatával a felhasználó bezárja a programot.
+----------------
+ 2. Főprogram
+ A főprogramot 10 nagy részre lehet osztani.
+ - A főprogrogram minden lap oldalán található egy lenyitható fül, amely tetején a felhasználó főbb adatai láthatók, köztük a felhasználónév, a felhasználó profilképe, tapasztalati pontja, aktuális szintje, goldja és egy menü kezelő felület.  A felhasználó neve egyezik a bejelentkezéskor megadott névvel. Ha a felhasználó módosítja a felhasználó nevét, az itt is automatikusan megváltozik. A felhasználó 6 kép közül tud választani profilképet az előre elkészített képek közül. A képre kattintva a program feldobja a választási lehetőségeket és miután a felhasználó kiválaszt egyet egy mentés opcióval meg is változik és ezentúl a kiválasztott kép jelenik meg a neve mellett. (Ha a felhasználó egyedi profilképet szeretne magának beállítani, az csak akkor lehetséges, ha fizet ennek az opciónak a feloldásáért.) 
+A felhasználó egy megadott algoritmus alapján szerez tapasztalati pontokat. Minden szintnél egy megadott számú tapasztalati pontot kell elérni, ez szintenként egyenes arányossággal növekszik. Ha felhasználó eléri az aktuális szintjének növeléséhez szükséges tapasztalati pontot, akkor a felhasználó szintet lép. Szintlépéskor a felhasználó plusz goldot szerez, ennek értéke a szintjének megfelelően változik. Az új felhasználók 0. szintről indulnak. A felhasználó ezenkívül rendelkezik még golddal. A gold a játékban használatos fizető eszköz, ebből lehet karaktereket és skineket vásárolni. A felhasználó PvP meccsek során vagy szintlépéskor szerezhet goldot. A gold olyan mint a való életben használt fizetőeszköz. Csak annyi golddal gazdálkodhat a felhasználó amennyivel rendelkezik. A gold mennyisége nem mehet át mínuszba és hitelre sem lehet vásárolni.
+A menü kezelő felületén válthat a felhasználó a főprogramban megjeleníthető oldalak között. Léphet a kezdőlapra, a profiljára, a boltba, játékot indíthat, beállításokat hajthat végre és kijelentkezhet a játékból.
+ - A kezdőlapon lehet megtekinteni a játékkal kapcsolatos aktuális híreket, frissítéseket, új karakterek leírását stb. Ez egy automatikus oldal, amely minden alkalommal frissül, akárhányszor a rendszerben változás történik és a fejlesztők valami újat hoznak be a játékba. Az egyes hírekre kattintva bővebben is megtekinthetővé válnak az üzeneteket.
+ - A profil felületen megjelenik a játékos profilképe, neve, szintje és az általa birtokolt karakterek. A felhasználó első bejelentkezés alkalmával 5 random dobott karakter közül választhat kettőt, ezekkel kezdheti el a játékot. A birtokolt karakterekre kattintva megnézheti a felhasználó a karakterek részletes leírását. Itt láthatja a karakterek statját (életerő, mana, pajzs, attack speed). Minden karakternek különböző statjai vannak, viszont ezek összességében a
+ - bolt
+ - játékmod választás
+ - karakterválasztás
+ - meccsvegi összefoglaló
+ - szintlépés
+ - beállítások
+ - kijelentkezés
 1. Programterv programozási változata:
