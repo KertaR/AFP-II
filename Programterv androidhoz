@@ -1,10 +1,8 @@
 0. Programterv leíró változata:
 
-
 Játék android verziójának részletes leírása:
 A játék androidos felülete az Android Studio 3.5.3-as verziójával készül. A fejlesztő csoport két fős: egy backendes és egy frontendes. A játék a Sakoshi nevet kapta a 0.1-es verzióban.
  A program 3 nagy részből áll:
- 
  
 1. Bejelentkezési felület
  A bejelentkezési felületen három lehetőséget kíván nyújtani a program. Elsőként a regisztrációval fogunk foglalkozni.
