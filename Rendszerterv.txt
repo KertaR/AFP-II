@@ -1,4 +1,12 @@
-
+0. A rendszer célja
+1. Projekt terv
+2. Követelmények
+3. Fizikai környezetek
+4. Üzleti folyamatok modellje
+5. Funkcionális terv
+6. Absztrakt domain modell
+7. Architekturális terv
+8. Adatbázis terv
 9. Implementációs terv
 
 USER: Osztály
@@ -37,4 +45,4 @@ KÉPESSÉG: Osztály
 Ikon: Kép
 Manahasználat: double
 ÚjratöltésiIdő: int
-
+10. Tesztterv
