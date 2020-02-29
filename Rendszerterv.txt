@@ -1,4 +1,13 @@
 0. A rendszer célja
+Egy olyan szoftver megvalósítása, amely fejleszti a célközönség stratégiai és matematikai tudását szórakoztató módon.
+A szoftver egy körökre szabott stratégiai játék lesz, amely különböző karakterek irányítását adja a játékos kezébe.
+A karakterek képességekkel rendelkeznek amiket a játékos szabadon használhat, illetve képes felszerelni különböző
+tárgyakkal, amelyek növelik a karakter bizonyos képességeit. A rendszer megvalósítja azt is hogy minden játékos, avagy
+akik a szoftvert használják, képesek bejelentkezni az adott játékba, és saját felhasználói fiókkal rendelkezzen. A 
+felhasználói fiók arra használatos hogy minden játékos adatait eltároljuk. A felhasználói fiók azért szükséges még,
+hogy tárolja azokat a karaktereket amiket használni tud, illetve hogy mennyit játszott a szoftverrel. A játéknak 2 nagyobb
+játékmódja van, az egyik hogy a számítógép ellen játszik, illetve a másik hogy másik játékos ellen játszhasson.
+
 1. Projekt terv
 2. Követelmények
 3. Fizikai környezetek
