@@ -50,4 +50,29 @@ A játék androidos felülete az Android Studio 3.5.3-as verziójával készül.
  A játékot nincs kedvem kidolgozni -.-
  
  
-        Programterv programozási változata:
+<strong>Programterv programozási változata:</strong>
+
+Osztályok:(angolul írom a neveket mert angolul illik programoznixd)
+
+-User: Ebben az osztályban lesz definiálva egy adott felhasználó, illetve a regisztráció, bejelentkezési dolgok.
+	Mezők:
+	- Name: string típus, Ez lesz a felhasználó neve a játékosnak, regisztrációnál, bejelentkezésnél ezt kell beírni.
+		A name több helyen megfog jelenni(pl: harcoknál, kezdőlapon)
+	- Password: string típus, Ezt kell használni, hogy bejelentkezhess a fiókba.
+	- Email: string típus, amennyiben a felhasználó verifikálja az emailját.
+	- ProfilePicture: Kép típus, ez fog megjelenni a kezdőlapon, mint kép, előre megadott profilképekből lehet választani.
+	- Characters: Character Lista típus, itt tárolódnak a már megszerzett karakterek.
+	- Experience: int típus, Ez tárolja a felhasználó által megszerzett tapasztalati pontokat. Ebből lehet majd kiszámolni a jelenlegi szintet.
+	- Gold: int típus, Ez tárolja a felhasználó által megszerzett aranyat. Ezt használjuk hősök, és skinek megvásárlásakor.
+
+	Metódusok:
+	- Register(): Ez a metódus kell ahhoz hogy regisztrálhass egy adott felhasználót. A felületen az alábbiakat kell megadni:
+						  - Felhasználónév: Ez egy egyedi string mező, tehát kelleni fog mögé egy algoritmus ami megnézi hogy az
+								    adott név már létezik e! Illetve minimum 4 betűből, maximum 15 betűből kell álljon.
+								    Ezt megoldhatjuk feltételes elágazással. Továbbá a felhasználónév nem tartalmazhat
+								    speciális karaktereket, ezt valószínűleg Regex-el kell megoldani, de majd meglátjuk.
+						  - Felhasználónév ismétlése: Ugyanannak kell szerepelnie mint a "Felhasználó" mezőben.
+						  - Jelszó: A jelszónak minimum 4 és maximum 255 betűből kell állnia. Továbbá tartalmaznia kell egy nagy, és
+							    és kis betűt, illetve számot. Speciális karaktert nem tartalmazhat. A jelszó-t kódolással tároljuk
+							    el.
+						  - Jelszó ismétlése: Ugyanazt kell beírni mint a "Jelszó" mezőbe.
