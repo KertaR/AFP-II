@@ -10,6 +10,31 @@ játékmódja van, az egyik hogy a számítógép ellen játszik, illetve a más
 A szoftver két platformon is megfog jelenni: Android, Webalkalmazás.
 
 1. Projekt terv
+A projekt elkészítéséhez összesen 13 hét áll rendelkezésre. Tehát a projekt elkészületének határideje: 2020. Május 3.
+A csapat 4 főből áll, illetve 1 projekt menedzserből.
+A csapatból 2 ember az androidos részért felel, a másik 2 ember pedig a webalkalmazásért.
+A Project menedzser ahol tud segíteni fog a fejlesztésben, és tanáccsal látja el a tagokat.
+
+Mérföldkövek:
+-Funkcionális specifikáció megírása
+-Követelmény specifikáció megírása
+-Rendszerterv megírása
+-Programterv készítése
+-UML ábra elkészítése
+-Implementáció elkészítése
+-Felhasználók létrehozása (felhasználónév + jelszó, bejelentkezés)
+-Felhasználó alapadatok (profilkép, név, szint, gold)
+-Karakterek létrehozása (életerő, mana)
+-Karakterekhez képességeket rendelni
+-Skinek létrehozása
+-Harc létrehozása
+-Skillek létrehozása
+-Itemek vásárlása
+-Kimaradsz a körből
+-Harcvégi győzelem/vereség jutelmak
+-Szintlépés
+-Tesztelések
+
 2. Követelmények
 3. Fizikai környezetek
 4. Üzleti folyamatok modellje
