@@ -201,6 +201,7 @@ Osztályok:(angolul írom a neveket mert angolul illik programoznixd)
        - Gold: int típus, Ez tárolja a felhasználó által megszerzett aranyat. Ezt használjuk hősök, és skinek megvásárlásakor.
  ---------------------------------------------------------------------------------------------------------------------------------------
 Metódusok:
+
 - Register(): Ez a metódus kell ahhoz hogy regisztrálhass egy adott felhasználót. 
               A felületen az alábbiakat kell megadni:
 	      - Felhasználónév: Ez egy egyedi string mező, tehát kelleni fog mögé egy algoritmus ami megnézi hogy az adott név már                                       létezik e! Illetve minimum 4 betűből, maximum 15 betűből kell álljon.Ezt megoldhatjuk feltételes                                         elágazással. Továbbá a felhasználónév nem tartalmazhat speciális karaktereket, ezt valószínűleg Regex-el                                 kell megoldani, de majd meglátjuk.
