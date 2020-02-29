@@ -7,6 +7,7 @@ akik a szoftvert használják, képesek bejelentkezni az adott játékba, és sa
 felhasználói fiók arra használatos hogy minden játékos adatait eltároljuk. A felhasználói fiók azért szükséges még,
 hogy tárolja azokat a karaktereket amiket használni tud, illetve hogy mennyit játszott a szoftverrel. A játéknak 2 nagyobb
 játékmódja van, az egyik hogy a számítógép ellen játszik, illetve a másik hogy másik játékos ellen játszhasson.
+A szoftver két platformon is megfog jelenni: Android, Webalkalmazás.
 
 1. Projekt terv
 2. Követelmények
