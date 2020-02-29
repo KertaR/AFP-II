@@ -1,0 +1,98 @@
+					Háttértörténet
+"A Sylweis heves folyamain túl létezik egy világ, ahol még senki sem járt. Senki sem tudja, hogy hol van, de még azt sem sejtik, hogy merre keressék. A birodalom, melynek határait még az õskorban húzták meg, a képzelet egyik legmélyebb zugában található meg. Ott, ahol senki sem keresné.
+Eme csodás és páratlan világban egy egészen különleges hadsereggel rendelkezõ birodalom kapott helyet, melynek harcosai mind az igazság oldalán szállnak harcba. Céljuk megszüntetni egy olyan világot, ahol a szenvedés és a kapzsiság határai nem léteznek és az emberek halomszámra képesek gyilkolászni egymást, a megbánás legkisebb nyoma nélkül.
+Mindenkinek jár egy esély, hogy a jó útra térjen. Te melyik oldalon állsz? A döntés a Te kezedben van!"
+---------------------------------------------------------------------------------------------------
+		   			 Karakterek
+	1. Ameyuki hercegnõ
+ Az egykori uralkodói család tagjai közül már csak ketten maradtak életben. Míg a jogos trónörökös a rossz útra tért, addig Ameyuki célja mindvégig a jó ügyek szolgálata maradt. A támogató hátterének és kitartásának hála, mára rengeteg erõre tett szert, hogy varázserejének használatával felvegye a versenyt az öccsével szemben és leszámoljon minden gonosztevõvel ezen a világon.
+"Nem kell különlegesnek születni ahhoz, hogy valami igazán egyedit alkothass."
+Adatok:
+ - életerõ: 450
+ - manamennyiség: 220
+ - pajzs: 120
+ - attack speed: 20%
+Képességei:
+ - a : Egy erõs mágikus csapást mér az enemyre. 
+        sebzés: 75 hp
+        költség: 120 mana
+ - b : Képes healelni magát. 
+        heal: 50 hp
+        költség: 60 mana 
+ - c : Elhasználása utáni körben visszatölt neki plusz 120 manát.
+        költség: 100 mana
+ - d : Visszeveri az enemy támadásait, így az szenvedi el a saját maga által kiosztani kívánt sebzést.
+        költség: 180 mana
+
+
+	2. Yoshi
+ Ameyuki testvére, aki fiatalon már a rossz útra tért. Apja nem fordított elég figyelmet a nevelésére, ezért már gyerekként sok gondot okozott, hogy ezzel felhívja magára a figyelmet. Mivel ezzel apja haláláig nem járt túl sok sikerrel, végül a király az örökségébõl is kizárta. Ezekután nem meglepõ, hogy a gonosz lelkek közt talált vígaszra és egy új birodalmat készül megvalósítani, ahol senki sem kérdõjelezheti meg a hatalmát.
+"Én sem születtem gonosznak. A világ tett azzá."
+Adatok:
+ - életerõ: 470
+ - manamennyiség: 200
+ - pajzs: 140
+ - attack speed: 30%
+Képességei:
+ - a :
+ - b :
+ - c :
+ - d :
+
+
+	3. Sakusa
+ A felmenõi õsidõk óta szolgálták az uralkodói családot. Apja a királyi testõrség vezetõje volt, halála után XY lépett a helyére és a hercegnõ bizalmasává vált. Minden erejével azon van, hogy megvédje a királynõt a rá leselkedõ veszélytõl és segítse õt a célja megvalósításában. Legnagyobb ellensége Shizuki, akivel egy régi konfliktus után váltak el útjaik. Akárhányszor találkoztak, mindig alulmaradt a fiúval szemben, de a végsõ leszámolás még várat magára. 
+"Vedd kezedbe a sorsom és döntsd el te a végzetem!"
+Adatok:
+ - életerõ: 620
+ - manamennyiség: 120
+ - pajzs: 340
+ - attack speed: 69%
+Képességei:
+ - a : Eldobja a késeit, ezzel kisebb sebzést okoz az ellenségnek. 5 pengét dob el, ebbõl mindegyik 20% eséllyel talál be.
+        sebzés: 45hp/penge
+        költség: 55 mana
+ - b : Eltûnik az árnyban. Az enemy 3 lapot kap, amely közül az egyik mögött megtalálható a karakter, ha eltalálja õ támad, ellenkezõ esetben egy körbõl kimarad.
+        költség: 80 mana 
+ - c : Köpenyét maga elé húzza, ezzel pajzsot képezve védi ki az ellenség támadásának egy részét.
+        pajzs: +70 "hp"
+        költség: 40 mana
+ - d : Az ellenség mögé kerül és a kiritkus csapását 90%-ra megnövelt támadást visz be.
+        sebzés: 250 hp
+        költség: 95 mana
+
+
+	4. Shizuki
+ A szülei voltak a legjobb hadvezérek a birodalomban, azonban egy heves ütközet alkalmával nem akartak hallgatni a józan észre és a biztos halálba vezették a királyi sereget. Shizuki sosem tudta megbocsájtani szülei halálát, az õket magukra hagyó testõrség parancsnokának. Ám mielõtt a vérét tudta volna venni a parancsnok egy súlyos betegségben életét vesztette és a családjából csak egy ember maradt életben: XY. Shizuki célja végezni a lánnyal, ezzel beteljesítve a sorsát, azaz bosszút állni szülei halálán.
+"A bosszú is csak egy lehetõség. Nem muszáj élned vele."
+Adatok:
+ - életerõ: 620
+ - manamennyiség: 120
+ - pajzs: 340
+ - attack speed: 69%
+Képességei:
+ - a : Eldobja a késeit, ezzel kisebb sebzést okoz az ellenségnek. 5 pengét dob el, ebbõl mindegyik 20% eséllyel talál be.
+        sebzés: 45hp/penge
+        költség: 55 mana
+ - b : Eltûnik az árnyban. Az enemy 3 lapot kap, amely közül az egyik mögött megtalálható a karakter, ha eltalálja õ támad, ellenkezõ esetben egy körbõl kimarad.
+        költség: 80 mana 
+ - c : Köpenyét maga elé húzza, ezzel pajzsot képezve védi ki az ellenség támadásának egy részét.
+        pajzs: +70 "hp"
+        költség: 40 mana
+ - d : Az ellenség mögé kerül és a kiritkus csapását 90%-ra megnövelt támadást visz be.
+        sebzés: 250 hp
+        költség: 95 mana
+
+
+	5.
+---------------------------------------------------------------------------------------------------
+				    Bannolási figyelmeztetés
+ "Tisztelt Játékos! Az utóbbi idõkben tapasztaltak során azt vettük észre, hogy viselkedésével több ponton is megsértette a játék fõbb szabályait. Ezen szabályszegések alkalmával már elérte a bûntetési idõ maximum határát. Sajnálattal kell közölnünk, hogy még egy ilyen cselekedet végleges tiltást von maga után. Amennyiben úgy gondolja, hogy magaviseletével és játékban nyújtott teljesítményével nem szegte meg a felhasználási feltételekben összefoglalt szabályokat, akkor forduljon adminjainkhoz panaszával.
+								Üdv.: Fejlesztõk"
+---------------------------------------------------------------------------------------------------
+				   Felhasználási feltételek
+ "A felhasználási feltételek a Játékosok érdekében születtek meg és céljuk a Felhasználók személyazonosságának és biztonságának teljeskörû védelme.
+ 0.Személyazonosság védelme
+	0.1 A játékban nagyon fontos, hogy mindenkinek meghagyjuk a személyi szabadságát, ezért nem szükséges megadni semmilyen személyes adatot. Ez a gyerekek érdekében alakult e módon, hogy még véletlenül se kerülhessenek olyan helyzetbe, ahol akaratlanul is személyes információt kelljen szolgáltatniuk. 
+	0.2 A játékban nincs lehetõség chatelésre. Így csökkentve a lehetõségét annak, hogy a fiatalok szexuális zaklatások vagy fenyegetések áldozataivá váljanak.
+	0.3 A fejlesztõk és az adminok soha nem kérik el egy felhasználó jelszavát. Ha bármilyen olyan formátumú üzenetet kap egy játékos, ahol valaki ez után érdeklõdik, akkor azt azonnal jelentse a fejlesztõknek. (A fejlesztõket a lap alján található e-mail címen lehet elérni.)
