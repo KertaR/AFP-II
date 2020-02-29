@@ -81,8 +81,13 @@ Osztályok:(angolul írom a neveket mert angolul illik programoznixd)
 								    adott név már létezik e! Illetve minimum 4 betűből, maximum 15 betűből kell álljon.
 								    Ezt megoldhatjuk feltételes elágazással. Továbbá a felhasználónév nem tartalmazhat
 								    speciális karaktereket, ezt valószínűleg Regex-el kell megoldani, de majd meglátjuk.
-						  - Felhasználónév ismétlése: Ugyanannak kell szerepelnie mint a "Felhasználó" mezőben.
+						  - Emailcím: Opcionálisan megadható egy emailcím, ellenőrizni kell hogy valós-e az email cím.
 						  - Jelszó: A jelszónak minimum 4 és maximum 255 betűből kell állnia. Továbbá tartalmaznia kell egy nagy, és
 							    és kis betűt, illetve számot. Speciális karaktert nem tartalmazhat. A jelszó-t kódolással tároljuk
 							    el.
 						  - Jelszó ismétlése: Ugyanazt kell beírni mint a "Jelszó" mezőbe.
+	- Login(): Ez a metódus arra szolgál hogy az adott játékost bejelentkeztesse a játékba. Bejelentkezéskor, szükséges a felhasználónév
+		   és a jelszó. Ha hibás értékeket ad meg akkor aszerint dobja a hibaüzeneteket. Ha sikeres a bejelentkezés akkor átirányít
+		   a játék kezdőlapjára.
+	- Logout(): Ez a metódus a kezdőlap "kijelentkezés" gombjával érhető majd el. A lényege hogy kijelentkezteti az adott felhasználót
+		    a játékból.							  
