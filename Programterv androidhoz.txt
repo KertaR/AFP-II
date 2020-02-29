@@ -186,26 +186,24 @@ A játék androidos felülete az Android Studio 3.5.3-as verziójával készül.
 Osztályok:(angolul írom a neveket mert angolul illik programoznixd)
 
 -Views: Ez az osztály fog felelni a megjelenítésekért.(Ez az osztály változhat, mert nemtudom teljesen hogy működik az android studio)
-	
 	Metódusok:
-	- ListAllCharacter(): Ez a metódus akkor fog lefutni amikor a bolt fülre kattint a felhasználó. Célja hogy a már implementált karaktereket kilistázza.
-	- Login(): Ez a metódus arra szolgál hogy az adott játékost bejelentkeztesse a játékba. Bejelentkezéskor, szükséges a felhasználónév és a jelszó. Ha hibás értékeket ad meg akkor aszerint dobja a hibaüzeneteket. Ha sikeres a bejelentkezés akkor átirányít a játék kezdőlapjára.
-	- Logout(): Ez a metódus a kezdőlap "kijelentkezés" gombjával érhető majd el. A lényege hogy kijelentkezteti az adott felhasználót a játékból.	
-
+	- ListAllCharacter(): Ez a metódus akkor fog lefutni amikor a bolt fülre kattint a felhasználó. Célja hogy a már implementált                                 karaktereket kilistázza.
+	- Login(): Ez a metódus arra szolgál hogy az adott játékost bejelentkeztesse a játékba. Bejelentkezéskor, szükséges a                              felhasználónév és a jelszó. Ha hibás értékeket ad meg akkor aszerint dobja a hibaüzeneteket. Ha sikeres a                                bejelentkezés akkor átirányít a játék kezdőlapjára.
+	- Logout(): Ez a metódus a kezdőlap "kijelentkezés" gombjával érhető majd el. A lényege hogy kijelentkezteti az adott                               felhasználót a játékból.	
+ --------------------------------------------------------------------------------------------------------------------------------------- 
 -Controller: Ez az osztály fog felelni az adatbázis kapcsolatért.
-
 	Metódusok:
 	- Register(): Ez a metódus kell ahhoz hogy regisztrálhass egy adott felhasználót. A felületen az alábbiakat kell megadni:
-			- Felhasználónév: Ez egy egyedi string mező, tehát kelleni fog mögé egy algoritmus ami megnézi hogy az
-					  adott név már létezik e! Illetve minimum 4 betűből, maximum 15 betűből kell álljon.
-					  Ezt megoldhatjuk feltételes elágazással. Továbbá a felhasználónév nem tartalmazhat
-					  speciális karaktereket, ezt valószínűleg Regex-el kell megoldani, de majd meglátjuk.
-			- Emailcím: Opcionálisan megadható egy emailcím, ellenőrizni kell hogy valós-e az email cím.
-			- Jelszó: A jelszónak minimum 4 és maximum 255 betűből kell állnia. Továbbá tartalmaznia kell egy nagy, és
-				  és kis betűt, illetve számot. Speciális karaktert nem tartalmazhat. A jelszó-t kódolással tároljuk
-				  el.
-			- Jelszó ismétlése: Ugyanazt kell beírni mint a "Jelszó" mezőbe.
-
+		      - Felhasználónév: Ez egy egyedi string mező, tehát kelleni fog mögé egy algoritmus ami megnézi hogy az
+					adott név már létezik e! Illetve minimum 4 betűből, maximum 15 betűből kell álljon.
+					Ezt megoldhatjuk feltételes elágazással. Továbbá a felhasználónév nem tartalmazhat
+					speciális karaktereket, ezt valószínűleg Regex-el kell megoldani, de majd meglátjuk.
+		      - Emailcím: Opcionálisan megadható egy emailcím, ellenőrizni kell hogy valós-e az email cím.
+		      - Jelszó: A jelszónak minimum 4 és maximum 255 betűből kell állnia. Továbbá tartalmaznia kell egy nagy, és
+			        és kis betűt, illetve számot. Speciális karaktert nem tartalmazhat. A jelszó-t kódolással tároljuk
+			        el.
+		      - Jelszó ismétlése: Ugyanazt kell beírni mint a "Jelszó" mezőbe.
+ --------------------------------------------------------------------------------------------------------------------------------------- 
 -User: Ebben az osztályban lesz definiálva egy adott felhasználó, illetve a regisztráció, bejelentkezési dolgok.
 	Mezők:
 	- Name: string típus, Ez lesz a felhasználó neve a játékosnak, regisztrációnál, bejelentkezésnél ezt kell beírni.
@@ -214,12 +212,12 @@ Osztályok:(angolul írom a neveket mert angolul illik programoznixd)
 	- Email: string típus, amennyiben a felhasználó verifikálja az emailját.
 	- ProfilePicture: Kép típus, ez fog megjelenni a kezdőlapon, mint kép, előre megadott profilképekből lehet választani.
 	- Characters: Character Lista típus, itt tárolódnak a már megszerzett karakterek.
-	- Experience: int típus, Ez tárolja a felhasználó által megszerzett tapasztalati pontokat. Ebből lehet majd kiszámolni a jelenlegi szintet.
+	- Experience: int típus, Ez tárolja a felhasználó által megszerzett tapasztalati pontokat. Ebből lehet majd kiszámolni a                               jelenlegi szintet.
 	- Gold: int típus, Ez tárolja a felhasználó által megszerzett aranyat. Ezt használjuk hősök, és skinek megvásárlásakor.
 
 	Metódusok:
-	- BuyCharacter(Character character): Ez a metódus arra szolgál hogy egy adott karaktert aktiváljon a megadott felhasználóhoz. A metódus úgy fog kinézni hogy a boltban fel lesznek sorolva a karakterek, majd a megvétel gombra kattintva a karakterhez megadott gold alapján, és a bejelentkezett felhasználó szerint hozzáadja a "Characters" listájához a kiválasztott karaktert.	  
-	
+	- BuyCharacter(Character character): Ez a metódus arra szolgál hogy egy adott karaktert aktiváljon a megadott felhasználóhoz. A                                              metódus úgy fog kinézni hogy a boltban fel lesznek sorolva a karakterek, majd a megvétel                                                gombra kattintva a karakterhez megadott gold alapján, és a bejelentkezett felhasználó                                                    szerint hozzáadja a "Characters" listájához a kiválasztott karaktert.	  
+ --------------------------------------------------------------------------------------------------------------------------------------	
 -Character: Ez az osztály felel a karakterek kezeléséért.
 	Mezők:
 	- Skill: Skill Tömb típus, 4-es hosszúságú
@@ -230,15 +228,16 @@ Osztályok:(angolul írom a neveket mert angolul illik programoznixd)
 	- Defence: double típus, ez tárolja a karakter páncélpontját.
 	- CriticalHit: double típus, ez tárolja a karakter kritikus csapásainak esélyét.
 	- Cost: int típus, ez tárolja a karakter vételárát. A bolt részlegnél fog megjelenni.
-
+ --------------------------------------------------------------------------------------------------------------------------------------- 
 -Képesség: Ez az osztály felel a képességek kezeléséért. Ez egy absztrakt osztály lesz, tehát minden skillhez újabb osztály-t fogunk létrehozni.
 	Mezők:
 	- Ikon: Kép típus, az adott skill vizuális megjelenését tartalmazza.
 	- Manahasználat: double típus, ez határozza meg hogy az adott karakter mana pontjából mennyit fog éppen levenni.
 	- ÚjratöltésiIdő: int típus, ez határozza meg hogy a játékon belül mennyi kört kell várni az adott skill elsütéséhez.
+	
 	Metódusok:
 	- Cast(): Ez a metódus akkor hívódik meg hogy ha a képességet "megidézzük".
-
+ --------------------------------------------------------------------------------------------------------------------------------------- 
 -Skin: Ez az osztály valósítja meg a karakterek módsítását "skinek" által. A "Character" osztály lesz az őse. Az összes mezőt, kivétel a "Cost" mezőt módsítani fogja ez az osztály.
 	Mezők:
 	- Skill: Skill Tömb típus, 4-es hosszúságú
@@ -249,5 +248,5 @@ Osztályok:(angolul írom a neveket mert angolul illik programoznixd)
 	- Defence: double típus, ez tárolja a karakter páncélpontját.
 	- CriticalHit: double típus, ez tárolja a karakter kritikus csapásainak esélyét.
 	- Cost: int típus, ez tárolja a skin vételárát. A bolt részlegnél fog megjelenni.
-
+ --------------------------------------------------------------------------------------------------------------------------------------- 
 -Item: Ez az osztály felel az itemek kezeléséért.						  
