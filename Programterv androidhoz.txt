@@ -133,6 +133,45 @@ A játék androidos felülete az Android Studio 3.5.3-as verziójával készül.
                    A rendszer kísérje figyelemmel a bejelentkezett felhasználókat.
                    EGYSZERRE EGY FELHASZNÁLÓ CSAK EGY ESZKÖZÖK LEHET BEJELENTKEZVE.
  --------------------------------------------------------------------------------------------------------------------------------------- 
+    3.Játék
+  - Karakterek: 3D-s megjelenítés.
+                Mozgás implementálása.
+                Kommunikációs képességek kidolgozása.
+                Képességhasználat bemutatása.
+                Sebződés kidolgozása.
+                Karakter nevének mutatása a karakter feje fölött.
+                A karakter neve mellett jelenítse meg a karakter életerejét, manáját és pajzs szintjét.
+                A mana szintje az elcastolt varázslatoknak megfelelően csökkenjen.
+                Az életerő és a pajzs szintje az elszevedett támadásoknak megfelelően csökkenjen.
+                Az életerő és a pajzs szintje a vásárolt itemeknek és elcastolt varázslatoknak megfelelően változzon.
+                A karakter critical hitje szintén itemtől és varázslattól függően változzon.
+  - Felhasználó: Profilképes megjelenítése.
+                 Szint mutatása.
+  - Varázslatok: Karakter varázslatainak megjelenítése.
+                 Plusz két hely az itemekből származó varázslatoknak.
+                 A karakter 1. varázslatát körönként egyszer lehet elhasználni.
+                 A karakter 2. varázslatát minden 2. körben tudja elcastolni.
+                 A karakter 3. varázslatát minden 3. körben lehet felhasználni.
+                 A karakter 4. varázslatát csak minden 4. körben tudja újra használni a játékos.
+                 Az itemekből származó varázslatok cooldownja 3 kör.
+                 Az elcastolt varázslatok töltési idejét jelezze ki a rendszer.
+  - Bolt: Vásárlási felület megnyitása.
+          Tárgyak megjelenítése.
+          Gold mennyiség mutatása.
+          Akitív/passzív tárgyak szétszedése.
+          Tárgyak megjelnítése ABC sorrendben, ár szerint.
+          Tárgyak vásárlása.
+          Gold pontos kezelése vásárlás esetén.
+          Passzív itemekből csak 4 et lehet venni.
+          Passzív item estén egy itemből többet is meg lehet vásárolni.
+          Aktív itemekből csak 2-őt lehet venni.
+          Egy aktív itemet csak egyszer lehet megvásárolni.
+  - TAB: Felhasználók profiljának megjelenítése.
+         Karakterek alap adatainak mutatása. (Skin esetén, skinnel)
+         Karakterek képességeinek leírása.
+         Aktív tárgyak megjelnítése.
+         Passzív tárgyak felsorolása.
+  - Feladás: Harc feladása.
 
  
                                                   2. Programterv BACKENDES változata:
