@@ -47,7 +47,17 @@ A játék androidos felülete az Android Studio 3.5.3-as verziójával készül.
  - A kijelentkezésre kattintva a játékos elhagyja a főprogramot és visszatér a bejelentkezési képernyőre, ahol újra be kell írnia a felhasználónevét és a jelszavát. Ha a játékos kijelentkezés nélkül zárja be a játékot akkor a program újbóli megnyitásával ???
  ---------------------------------------------------------------------------------------------------------------------------------------
  3. Játék
- A játékot nincs kedvem kidolgozni -.-
+  A játék pontos kivitelezése lesz a program elkészítésének lényegesebb része. Fontos, hogy minden opció lenyomásával a műveletek hiba nélkül, pontos sorrendben hajtódjanak végre.
+  
+  - A játék kezdetekor a képernyő két részre oszlik. A felső részben látható az enemy, míg a képernyő alján a saját adatait látja a felhasználó. Részletesebben:
+  A fenti részen látható az enemy által választott karakter 3D-s alakja. A karakter egy alap mozgást ismétel folyamatosan. A karakter animációjával együtt látható a karakter neve, életereje és mana szintje. Felette, az oldal legtetején lehet látni az enemy profilképét, mellette a neve és a szintje látható.
+  Középen, bal oldalt van egy kis ikon. Ennek segítségel meg lehet jeleníteni a saját és az enemy statjait: birtokolt felszereléseit, a karaktere képességeit, attack speed-jét stb.
+  A lenti részen a felhasználó által kiválasztott karakter 3D-s mása jelenik meg. Ez szintén egy alap mozgásformát ismételget. A design-a felett ott szerepel a neve, hpja és a rendelkezésre álló manaszintje.
+  A lap alján található a karakter által használható 6 képesség (4 ikon, 2 tárgy hely).
+  A jobb szélső sarokban látható a felhasználó által szerzett gold mennyiség és a bolt. A boltot megnyitva, alul elérhetővé válik a feladás funkció is.
+  - Az első kör kezdetén a felhasználó csak a karaktere képességeivel támadhat az enemyre vagy offolhatja az első kört; de lehetősége van feladni a meccset.
+  - A további körökben lehetőség van itemeket vásárolni.
+  - A játék addig tart, amíg az egyik fél fel nem adja a harcot vagy az egyik karakter meg nem hal. Ezt követően a program visszatér a főprogramba és láthatóvá válik egy meccsvégi összefoglaló felülete a játéknak.
  
  
 Programterv programozási változata:
