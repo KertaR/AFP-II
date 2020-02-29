@@ -60,7 +60,7 @@ A játék androidos felülete az Android Studio 3.5.3-as verziójával készül.
   - A játék addig tart, amíg az egyik fél fel nem adja a harcot vagy az egyik karakter meg nem hal. Ezt követően a program visszatér a főprogramba és láthatóvá válik egy meccsvégi összefoglaló felülete a játéknak.
  
  
-Programterv programozási változata:
+                                                  1. Programterv programozási változata:
 
 Osztályok:(angolul írom a neveket mert angolul illik programoznixd)
 
@@ -74,7 +74,7 @@ Osztályok:(angolul írom a neveket mert angolul illik programoznixd)
 	- Characters: Character Lista típus, itt tárolódnak a már megszerzett karakterek.
 	- Experience: int típus, Ez tárolja a felhasználó által megszerzett tapasztalati pontokat. Ebből lehet majd kiszámolni a jelenlegi szintet.
 	- Gold: int típus, Ez tárolja a felhasználó által megszerzett aranyat. Ezt használjuk hősök, és skinek megvásárlásakor.
-
+ ---------------------------------------------------------------------------------------------------------------------------------------
 	Metódusok:
 	- Register(): Ez a metódus kell ahhoz hogy regisztrálhass egy adott felhasználót. A felületen az alábbiakat kell megadni:
 						  - Felhasználónév: Ez egy egyedi string mező, tehát kelleni fog mögé egy algoritmus ami megnézi hogy az
