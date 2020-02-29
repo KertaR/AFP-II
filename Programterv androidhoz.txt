@@ -61,6 +61,28 @@ A játék androidos felülete az Android Studio 3.5.3-as verziójával készül.
  
  
                                                   1. Programterv FRONTENDES változata:
+						  
+        Játék android verziójának részletes programozási folyamata:
+A játék androidos felülete az Android Studio 3.5.3-as verziójával készül. A fejlesztés két szakaszra bonható, a backendre és a frontendre. A játék a Sakoshi nevet kapta a 0.1-es verzióban.
+ A program 3 nagy részből áll:
+ 
+   1. Bejelentkezési felület
+ - Regisztráció: A regisztrációhoz szükségünk van egy adatbázisra. 
+                 Az adatbázisban tároljuk el a regisztrált felhasználónév és jelszó kombinációkat. 
+                 Ne engedjen két egyforma felhasználónevet. 
+                 A jelszó és a felhasználónév nem tartalmaz bizonyos karaktereket.
+                 A jelszót ne jelenítse meg.
+ - Bejelentkezés: Csak akkor engedjen be a rendszer, ha szerepel benne a felhasználónév.
+                  Csak akkor engedjen be a rendszer, ha megegyezik a megadott felhasználónév és jelszó kombináció.
+                  A jelszót ne jelenítse meg.
+                  *A rendszer mentse el a jelszót
+ - Kilépés: Rákattintva a program fejezze be a futását.
+ - Felhasználási feltételek: Megnyit egy új oldalt.
+                             Be lehet zárni.
+                             Leírja részletesen a felhasználási feltételeket.
+ - Az alkotókról: Ugyanaz.
+ - Jogi nyilatkozat: Ugyanaz.
+ ---------------------------------------------------------------------------------------------------------------------------------------
  
                                                   2. Programterv BACKENDES változata:
 
