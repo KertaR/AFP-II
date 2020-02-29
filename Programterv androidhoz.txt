@@ -83,6 +83,57 @@ A játék androidos felülete az Android Studio 3.5.3-as verziójával készül.
  - Az alkotókról: Ugyanaz.
  - Jogi nyilatkozat: Ugyanaz.
  ---------------------------------------------------------------------------------------------------------------------------------------
+    2. Főprogram
+ - Kezdőlap: Jelenítse meg a frissitéseket.
+ - Menüpontok: Elő lehessen hívni.
+               A menüpontok új oldalra dobjanak
+ - Profil: Jelenítse meg a felhasználónevet.
+           Írja ki a felhasználó aktuális szintjét.
+           Profilképet lehessen választani.
+           Meg lehet változtatni a profilképet.
+           Mutassa, hogy a felhasználó mennyi tapasztali ponttal rendelkezik.
+           Meg lehessen nézni, hogy a felhasználó milyen karakterekkel rendelkezik.
+           Lehessen különböző lehetőségek szerint sorrendbe rendezni a karaktereket.
+           Mutassa a karakterek nevét és képét.
+           A karakterekre kattinva hozza fel a leírásukat.
+           Lehessen váltogatni a karakterek skinjei között.
+  - Bolt: Látható legyen a felhasználó által birtokolt gold.
+          Lehessen választani, hogy a karaktereket vagy a skineket mutassa a rendszer.
+          *Keresés a karakterek között.
+          Karakterek és skinek rendezése név és ár szerint.
+          A már megvett karaktereket/skineket NE mutassa.
+          Csak azokat engedje megvenni, amelyekre van a felhasználónak elég goldja.
+          Mutassa a karakterek/skinek képét, nevét, árát és vásárlási lehetőség is legyen.
+          Vonja le a goldot, ha a felhasználó vásárol valamit.
+          A megvett skint/karaktert helyezze át a rendszer a felhasználó által birtokolt karakterek/skinek közé.
+  - Játék: Játékmodok közül lehessen választani.
+  - Karakterválasztási felület: Birtokolt karakterek megjelenítése.
+                                Felhasználói profil láthatósága.
+                                Enemy "kész" megjelenítése.
+                                Pickelt karakterek megjelenítése oldalt.
+                                Elfogadás opció.
+                                Visszaszámlálási idő.
+                                Elmulasztott választás esetén dobjon ki a rendszer.
+                                Nem leokézott esetben lockolja le a kiválasztott karaktert.
+  - Töltőképernyő: Töltési sáv.
+  - Meccsvégi összefoglaló: Írja ki a meccs adatait.
+                            Felhasználók pontos adatait jelenitse meg.
+                            Karaktereket, statjaikkal együtt jelenítse meg.
+                            Mutassa a kiosztott/elszenvedett sebzést, healelés mennyiségét stb.
+                            Írja ki ki nyert és vesztett.
+                            Mutassa a megszerzett gold és tapasztalati pont mennyiségét.
+                            Írja jóvá a megszerzett goldot és tapasztalati pontokat.
+  - Szintlépés: Szintek meghatározása.
+                Szintlépési jutalmak megadása.
+                Jutalmak jóváírása.
+                Szintlépés megjelenítése.
+  - Beállítások: Felhasználónév módosítása.
+                 Jelszó módosítása.
+  - Kijelentkezés: Jelentkezzen ki a rendszerből.
+                   A rendszer kísérje figyelemmel a bejelentkezett felhasználókat.
+                   EGYSZERRE EGY FELHASZNÁLÓ CSAK EGY ESZKÖZÖK LEHET BEJELENTKEZVE.
+ --------------------------------------------------------------------------------------------------------------------------------------- 
+
  
                                                   2. Programterv BACKENDES változata:
 
