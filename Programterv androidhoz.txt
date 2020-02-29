@@ -50,7 +50,7 @@ A játék androidos felülete az Android Studio 3.5.3-as verziójával készül.
  A játékot nincs kedvem kidolgozni -.-
  
  
-<strong>Programterv programozási változata:</strong>
+Programterv programozási változata:
 
 Osztályok:(angolul írom a neveket mert angolul illik programoznixd)
 
