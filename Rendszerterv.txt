@@ -42,8 +42,8 @@ Mérföldkövek:
 	- támogatott operációs rendszer: multiplatform
 	- támogatott eszközök: PC, laptop, mobileszközök(mobil, pda, tablet)
 	- nem támogatott eszközök: nincs
-	- programozási nyelvek: javascript, -
-	- prototípus: -
+	- programozási nyelvek: javascript, java
+	- prototípus: java
 	- adatbázis-kezelő rendszerek: SQLite
 	- tárhely: <1GB
 	- RAM: <500MB
