@@ -41,7 +41,7 @@ Mérföldkövek:
 		
 		A programnak tartalmaznia kell regisztrációs, illetve bejelentkező felületet, adatbázis kapcsolattal.
 		Továbbá egy játékon belüli profillal is rendelkeznie kell minden felhasználónak.
-		A programban lenni kell egy játékon belüli boltnak, ahol a felhasználók karakterek, skilleket, skineket vehetnek.
+		A programban lenni kell egy játékon belüli boltnak, ahol a felhasználók karakterek, skineket vehetnek.
 		Elérhetővé kell tenni a többjátékos módot, hogy a felhasználók egymás ellen is tudjanak játszani.
 
  	Nemfunkcionális követelmények: 
