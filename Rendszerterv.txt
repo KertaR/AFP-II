@@ -67,6 +67,29 @@ Mérföldkövek:
 
 
 4. Üzleti folyamatok modellje
+
+
+	- Üzleti szereplők : Megrendelő: Tajti Tibor
+			     Forgalmazók és tulajdonosok: Kuborcik Ádám, Keszey Melissza, Török Gabriella, Járomi Dávid Antal
+
+  	- Üzleti folyamatok : Standard software bevezetése: Az munkafolyamat-kezelő rendszer bevezetése a dokumentációban megtalálható.
+			      Egyedi szoftver fejlesztése: A szoftver csak részben lesz egyedi, egy már meglévő játék alapján készül.
+			      Üzleti folyamat optimalizálása: A meglévő folyamatok gyenge pontjainak megtalálásával és kezelésével.
+			      Tevékenység alapú költség számítás: 
+			      - Vásárlás: Tajti Tibor
+			      - Szolgáltatás lefoglalása: Tajti Tibor
+			      - Reklámozás: Nincs szponzor, nem engedélyezett
+			      - Értékesítés: nem értékesíthető
+			      - Szolgáltatás: a szoftver tartalmazhat frissítéseket, melyet a kliens hálózaton keresztül igényelhet
+			      - Könyvelés: Könyvelési és adózási ismereteket igénylő adminisztratív terheiket átvállaljuk.
+			      - Üzemeltetés: Támogatjuk az üzemeltetést, ellátjuk az ahhoz kapcsolódó feladatokat.
+					     
+  	- Üzleti entitások :  - Áru: nem forgalmazható
+			      - Pénz: üzleti célokra nem bocsátható
+			      - Iroda: Eszterházy Károly Egyetem C épülete
+			      - Üzlethelység: Eszterházy Károly Egyetem
+			      - Reklám: Nem engedélyezett
+
 5. Funkcionális terv
 6. Absztrakt domain modell
 7. Architekturális terv
