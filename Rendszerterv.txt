@@ -37,6 +37,22 @@ Mérföldkövek:
 
 2. Követelmények
 
+ 	Funkcionális követelmények:
+		
+		A programnak tartalmaznia kell regisztrációs, illetve bejelentkező felületet, adatbázis kapcsolattal.
+		Továbbá egy játékon belüli profillal is rendelkeznie kell minden felhasználónak.
+		A programban lenni kell egy játékon belüli boltnak, ahol a felhasználók karakterek, skilleket, skineket vehetnek.
+		Elérhetővé kell tenni a többjátékos módot, hogy a felhasználók egymás ellen is tudjanak játszani.
+
+ 	Nemfunkcionális követelmények: 
+
+ 		-A programnak egyszerűnek kell lennie , a teljesítménye nem lehet nagy , viszonylag olcsóbb hardvereken 
+ 		is szépen kell futnia és ezáltal a  megbízhatósága is nagyobb lesz mivel nincs túlterhelve a rendszer.
+
+	Törvényi előírások, szabványok : 
+
+		-Az alkalmazásban nem jelenhetnek meg felnőtt tartalmak.
+
 3. Fizikai környezetek
 
 	- támogatott operációs rendszer: multiplatform
