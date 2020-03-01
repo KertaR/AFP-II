@@ -36,7 +36,20 @@ Mérföldkövek:
 -Tesztelések
 
 2. Követelmények
+
 3. Fizikai környezetek
+
+	- támogatott operációs rendszer: multiplatform
+	- támogatott eszközök: PC, laptop, mobileszközök(mobil, pda, tablet)
+	- nem támogatott eszközök: nincs
+	- programozási nyelvek: javascript, -
+	- prototípus: -
+	- adatbázis-kezelő rendszerek: SQLite
+	- tárhely: <1GB
+	- RAM: <500MB
+	- fejlesztői környezet: Node.Js, Android Studio
+
+
 4. Üzleti folyamatok modellje
 5. Funkcionális terv
 6. Absztrakt domain modell
