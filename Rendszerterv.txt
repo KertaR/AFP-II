@@ -91,9 +91,28 @@ Mérföldkövek:
 			      - Reklám: Nem engedélyezett
 
 5. Funkcionális terv
+
 6. Absztrakt domain modell
+
 7. Architekturális terv
+
+ 	- Architekturális tervezési minta : Gyártó metódus
+
+ 	- Az alkalmazás rétegei, fő komponensei, ezek kapcsolatai : A főoldalon megtalálható a bejelentkezés illetve a regisztráció(adatbázis kapcsolattal). Sikeres belépést követően 								   		    megjelenik a menü. A menüből elérhetővé válik: Kezdőlap, Profil, Bolt, Játék, Beállítások, Kijelentkezés.
+
+ 	- Változások kezelése : A vezérlő osztályok alkalmazásával hatékonyan választhatók el egymástól az interfészek és az entitásokat, amely elősegíti az újrafelhasználhatóság és jobb 					változás-tűrést eredményez.
+
+ 	- Rendszer bővíthetősége : A rendszer rendkívül egyszerű és jól átlátható lesz, ezért könnyen bővíthető.
+
+ 	- Biztonsági funkciók: - Csoportunk kifejezetten ügyel rá, hogy a felhasználó biztonságban érezhesse magát a szoftver által tárolt adatokkal 
+				 kapcsolatban. Ebből kifolyólag kell olyan intézkedéseket csinálni, amely véd az adatlopás ellen: regisztráció/bejelentkezés, illetve az offline működés.
+
+			       - A legáltalánosabb biztonsági követelmény a végfelhasználók és a középső réteghez tartozó szerverek hitelesítése.
+				 A biztonsági architektúra kiválasztásakor igyekszünk megfelelni az üzleti követelményeknek, de kerüljük a többletterheléssel járó megoldásokat.
+				 Vegyük figyelembe, hogy nem minden szolgáltatást és interakciót kell aláírni vagy titkosítani. Ezzel javíthatunk a szoftver teljesítményén.
+
 8. Adatbázis terv
+
 9. Implementációs terv
 
 USER: Osztály
@@ -132,4 +151,5 @@ KÉPESSÉG: Osztály
 Ikon: Kép
 Manahasználat: double
 ÚjratöltésiIdő: int
+
 10. Tesztterv
