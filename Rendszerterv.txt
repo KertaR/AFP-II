@@ -94,6 +94,12 @@ Mérföldkövek:
 
 6. Absztrakt domain modell
 
+ 	- Domain specifikáció, fogalmak : Az általunk készített szoftver a felhasználó és az adatbázis között fog egy közös réteget biztosítani. A szoftver segít a felhasználónak
+			   		  rafikus úton  menedzselni az adatbázist, könnyíti az átláthatóságot, illetve megakadályozza, hogy az adatbázisban redundancia keletkezzen.
+			   		  Ha a felhasználó egy olyan személyt próbál regisztrálni, aki már jelen van az adatbázisban, akkor őt egy hibaüzenettel tájékoztatja erről.
+
+ 	- Absztrakt komponensek, ezek kapcsolatai : -
+
 7. Architekturális terv
 
  	- Architekturális tervezési minta : Gyártó metódus
