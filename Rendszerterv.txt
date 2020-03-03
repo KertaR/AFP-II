@@ -1,4 +1,5 @@
 0. A rendszer célja
+
 Egy olyan szoftver megvalósítása, amely fejleszti a célközönség stratégiai és matematikai tudását szórakoztató módon.
 A szoftver egy körökre szabott stratégiai játék lesz, amely különböző karakterek irányítását adja a játékos kezébe.
 A karakterek képességekkel rendelkeznek amiket a játékos szabadon használhat, illetve képes felszerelni különböző
@@ -10,6 +11,7 @@ játékmódja van, az egyik hogy a számítógép ellen játszik, illetve a más
 A szoftver két platformon is megfog jelenni: Android, Webalkalmazás.
 
 1. Projekt terv
+
 A projekt elkészítéséhez összesen 13 hét áll rendelkezésre. Tehát a projekt elkészületének határideje: 2020. Május 3.
 A csapat 4 főből áll, illetve 1 projekt menedzserből.
 A csapatból 2 ember az androidos részért felel, a másik 2 ember pedig a webalkalmazásért.
@@ -96,7 +98,8 @@ Mérföldkövek:
  	- Rendszerhasználati esetek és lefutásaik : -
  	- Határosztályok : -
  	- Menü-hierarchiák : -
- 	- Képernyőtervek : -
+ 	- Képernyőtervek : Felhasználói interfész (GUI) terv(lehet vázlatos is, részben ez alapján készülnek majd a részletes képernyőtervek)
+			   kezdetben a felhasználó egy teljesen letisztult képernyővel fog találkozni, mely hagyományos színeket és felépítést, felbontást fog tartalmazni.
 
 6. Absztrakt domain modell
 
