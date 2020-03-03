@@ -92,6 +92,12 @@ Mérföldkövek:
 
 5. Funkcionális terv
 
+	- Rendszerszereplők : -
+ 	- Rendszerhasználati esetek és lefutásaik : -
+ 	- Határosztályok : -
+ 	- Menü-hierarchiák : -
+ 	- Képernyőtervek : -
+
 6. Absztrakt domain modell
 
  	- Domain specifikáció, fogalmak : Az általunk készített szoftver a felhasználó és az adatbázis között fog egy közös réteget biztosítani. A szoftver segít a felhasználónak
