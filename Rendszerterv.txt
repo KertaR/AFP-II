@@ -113,6 +113,31 @@ Mérföldkövek:
 
 8. Adatbázis terv
 
+ 	- Logikai adatmodell: - Felhasználók tábla : A regisztrációt követően felkerülnek a felhasználó táblába az adatok.
+						     Ezen adatok segítségével tudunk majd a későbbiekben belépni.						     
+
+			      - Profil adatok tábla : A profil táblában tároljuk el a felhasználó játékkal kapcsolatos adatait(neve,szintje,karakterei, vagyona).
+
+
+ 	- Tárolt eljárások :  REGISTER, LOGIN, GUEST_DATA
+
+ 	- Fizikai adatmodellt legeneráló SQL szkript :  CREATE TABLE felhasznalo(
+							nev VARCHAR2(250) NOT NULL PRIMARY KEY,
+							jelszo VARCHAR2(50) NOT NULL,
+							email_cim VARCHAR2(50) NOT NULL,
+
+							CONSTRAINT FK_felhasznalonev FOREIGN KEY (nev) REFERENCES profil(felhasznalonev)
+							);
+
+							CREATE TABLE profil(
+							felhasznalonev VARCHAR2(250) FOREIGN KEY,
+							szint INT DEFAULT 1,
+							karakterek @LIST,
+							arany INT DEFAULT NULL
+							);
+
+							
+
 9. Implementációs terv
 
 USER: Osztály
