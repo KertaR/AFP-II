@@ -193,3 +193,17 @@ Manahasználat: double
 ÚjratöltésiIdő: int
 
 10. Tesztterv
+ - bejelentkezési teszt: A bejelentkezés folyamán fontos, hogy egy felhasználónév csak egyszer szerepeljen a rendszerben. Egy bejelentkezés csak akkor sikeres, ha a regisztrált felhasználónév és jelszó kombinációt helyesen írjuk be. Csak így lehessen belépni a programba.
+ - profilkép teszt: A profilképeket lehessen változtatni és azt mentse el a rendszer.
+ - tapasztalati pont teszt: A meccsek után szerzett tapasztalati pontok adódjanak hozzá a felhasználó által birtokolt tapasztalati pontokhoz. Ha a tapsztalati pontok eléri a következő szinthez szükséges maximumot, akkor a felhasználó szintet lépjen.
+ - gold teszt: A felhasználó által szerzett gold adódjon hozzá a már birtokolt gold mennyiséghez, illetve karakter/skin vásárlása esetén vonódjon le a megvásárolandó karakter/skin árával megegyező érték. Ha nincs elég goldja a felhasználónak egy vásárlásra, akkor a rendszer automatikusan ne engedje vásárolni (NEM LEHET MÍNUSZ A GOLD).
+ - skin teszt: Ha egy karakternek skineket vásárolunk, akkor ha megváltoztatjuk egy karakter skinjét, akkor annak megfelelően változzon meg a karakternek a statja is.
+ - játékmód teszt: A megfelelő játékmódhoz kapcsolódó játék induljon el.
+ - játék teszt: A játékon belüli folyamatok tesztelése. Értem ezalatt az adott körben választható eseményeket: kör vége opció.
+ - képesség teszt: A képességek használata során az enemyt érje annyi sebzés, amennyi a kiválasztott képességek erejének összegével megegyezik. A felhasznált képességeket a következő körben a meghatározott cooldown ismeretében lehessen újra felhasználni.
+ - item vásárlás teszt: A játékon belül itemet vásárolni a játékon belül szerzett goldból lehet. A vásárolt item értéke ebből kerül levonásra, ha nincs elég gold egy itemre azt ne lehessen megvenni.
+ - passzív item teszt: A passzív itemek a karakterek statjára legyenek hatással.
+ - aktív item teszt: Az aktív itemek bekerülnek a képességek közé és megegyező nagyságú cooldownnal rendelkeznek.
+ - mana teszt: Csak egy megadott mennyiségű manából lehet képességeket használni. Ha nincs elég mana, ne engedélyezzen több képességet használni a rendszer egy körön belül.
+ - életerő teszt: Az ellenfél által kiosztott sebzés mennyisége levonódjon az életerőből, ha nincs plusz pajzsa a hősnek ami felfogjon egy bizonyos mennyiségű sebzést. Ha van healelős képessége a karakternek, akkor annak használata töltsön vissza annyi életerőt, amennyit kell.
+ - pajzs teszt: A pajzs plusz "életerőt" rendel a karakterhez. Ha sebzés éri a karaktert, akkor az először a pajzsból von le életerőt.
