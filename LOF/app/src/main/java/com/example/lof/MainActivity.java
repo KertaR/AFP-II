@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button Bejelentkezes = findViewById(R.id.button);
         Bejelentkezes.setOnClickListener(new View.OnClickListener() {
+        Button Elfogad = findViewById(R.id.button);
+        Elfogad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 setContentView(R.layout.activity_player_menu);
