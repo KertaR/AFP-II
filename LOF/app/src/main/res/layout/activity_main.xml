@@ -4,95 +4,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/background">
-
-    <TextView
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:background="#00FFFFFF"
-        android:text="SAKOSHI"
-        android:textAlignment="center"
-        android:textColor="#E6B6B6"
-        android:textSize="70sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.094" />
+    android:background="@drawable/bejelentkezesi_felulet"
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#330216"
-        android:text="Bejelentkezés"
+        android:layout_width="108dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:background="#00330216"
+        android:text="Elfogad"
         android:textAlignment="center"
-        android:textColor="#E6B6B6"
-        android:textSize="24sp"
+        android:textColor="#370505"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.605" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#330216"
-        android:text="Jelszó"
-        android:textAlignment="center"
-        android:textColor="#E6B6B6"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#330216"
-        android:text="Felhasználónév"
-        android:textAlignment="center"
-        android:textColor="#E6B6B6"
-        android:textColorHint="#8A2D2D"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.294" />
+        app:layout_constraintVertical_bias="0.499" />
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="164dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:text="felhasználó név"
+        android:textAlignment="center"
+        android:textColor="#2B0000"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.367" />
+        app:layout_constraintVertical_bias="0.393" />
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="166dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:text="Jelszó"
+        android:textAlignment="center"
+        android:textColor="#320303"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.514" />
+        app:layout_constraintVertical_bias="0.445" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -100,5 +68,98 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="152dp"
+        android:layout_height="30dp"
+        android:text="Bejelentkezés"
+        android:textAlignment="center"
+        android:textColor="#470505"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="132dp"
+        android:layout_height="38dp"
+        android:background="#00FFFFFF"
+        android:text="Regisztráció"
+        android:textAlignment="center"
+        android:textColor="#330505"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:background="#00FFFFFF"
+        android:text="Kilépés"
+        android:textAlignment="center"
+        android:textColor="#420707"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="227dp"
+        android:layout_height="27dp"
+        android:background="#00FFFFFF"
+        android:text="× Felhasználási feltételek"
+        android:textColor="#430707"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.788" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="155dp"
+        android:layout_height="26dp"
+        android:background="#00FFFFFF"
+        android:text="× Az alkotókról"
+        android:textColor="#3C0606"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="156dp"
+        android:layout_height="25dp"
+        android:background="#00FFFFFF"
+        android:text="× Jogi nyilatkozat"
+        android:textColor="#2C0404"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.861" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
