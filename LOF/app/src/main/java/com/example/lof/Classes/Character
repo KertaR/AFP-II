@@ -1,0 +1,9 @@
+package com.example.lof.Classes;
+
+public class Character{
+    public Character()
+    {
+    }
+
+
+}
