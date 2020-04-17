@@ -9,6 +9,7 @@
 
     <Button
         android:id="@+id/button11"
+        style="@android:style/Widget.Holo.Button.Borderless.Small"
         android:layout_width="146dp"
         android:layout_height="24dp"
         android:background="#00300606"
@@ -25,6 +26,7 @@
 
     <Button
         android:id="@+id/button10"
+        style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
         android:layout_width="125dp"
         android:layout_height="22dp"
         android:background="#00FFFFFF"
@@ -39,9 +41,11 @@
 
     <Button
         android:id="@+id/button9"
+        style="@android:style/Widget.Holo.Button.Borderless.Small"
         android:layout_width="205dp"
         android:layout_height="24dp"
-        android:background="#00FFFFFF"
+        android:background="#00AC1F1F"
+        android:fontFamily="sans-serif"
         android:text="× Felhasználási feltételek"
         android:textAlignment="center"
         android:textColor="#3E0505"
@@ -56,39 +60,40 @@
     <Button
         android:id="@+id/button16"
         style="@android:style/Widget.DeviceDefault.Button.Borderless.Small"
-        android:layout_width="74dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="4dp"
+        android:layout_width="70dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="51dp"
         android:text="Vissza"
         android:textColor="#EAA4A4"
         android:textSize="8sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722" />
+        app:layout_constraintVertical_bias="0.737" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="234dp"
+        android:layout_height="27dp"
         android:layout_marginEnd="4dp"
         android:text="Felhasználási feltételek"
+        android:textAlignment="center"
         android:textColor="#3A0404"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.337" />
+        app:layout_constraintVertical_bias="0.33" />
 
     <ScrollView
-        android:layout_width="244dp"
-        android:layout_height="210dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="227dp"
+        android:layout_height="206dp"
+        android:layout_marginEnd="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
@@ -99,25 +104,24 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="A felhasználási feltételek a Játékosok érdekében születtek meg és véljuk a Felhasználók személyazonosságának és biztonságának teljeskörű védelme.
-                0. Személyazonosság védelme
-                    0.1 A játékban nagyon fontos, hogy mindenkinek meghagyjuk a személyi szabadságát, ezért nem szükséges megadni semmilyen személyes adatot. Ez a gyerekek érdekében alakult e módon, hogy még véletlenül se kerülhessenek olyan helyzetbe, ahol akaratlanuk is személyes információt kellene szolgáltatniuk.
-                    0.2 A játékban nincs lehetőség chatelésre. Így csökkentve a lehetéségét annak, hogy a fiatalok szexuális zaklatások vagy fenyegetések áldozataivá váljanak.
-                    0.3 A fejlesztők és az adminok soha nem kérik el egy felhasználó jelszavát. Ha bármilyen olyan formátumú üzenetet kap egy játékos, ahol valaki ez után érdeklődik, akkor azt azonnal jelentse a fejlesztőknek. (A fejlesztőket a lap alján található e-mail címen lehet elérni.)
-                1. Felelősség
-                    1.1 A játék kizárólag az alkotók tulajdonát képezi. Csak az általuk közzétett és ellenőrzött oldalakon keresztül elérhető.
-                    1.2 A játék szórakozási célból készült, bevételszerzés csak az alkotók engedélyével lehetséges.
-                    1.3 Az alkotók minden esetben törekednek a zökkenőmentes játékélményre és a lehetőségekhez mérten a felhásználókkal való kapcsolattartásra.
-                    1.4 Bármilyen probléma esetén a fejlesztők a tőlük telhető legrövidebb időn belül próbálnak megoldást találni a hibákra.
-                2. Változások
-                    2.1 Az alkotók a jelen felhasználási feltételek változásának jogát fenntartják. E felhasználási feltételek és az esetleges újabb információk áttekintése érdekében kérjük rendszeresen kísérjék figyelemmel a játékkal kapcsolatos módosításokat."/>
+                android:text="A felhasználási feltételek a Játékosok érdekében születtek meg és véljuk a Felhasználók személyazonosságának és biztonságának teljeskörű védelme.\n
+0. Személyazonosság védelme\n
+     0.1 A játékban nagyon fontos, hogy mindenkinek meghagyjuk a személyi szabadságát, ezért nem szükséges megadni semmilyen személyes adatot. Ez a gyerekek érdekében alakult e módon, hogy még véletlenül se kerülhessenek olyan helyzetbe, ahol akaratlanuk is személyes információt kellene szolgáltatniuk.\n
+     0.2 A játékban nincs lehetőség chatelésre. Így csökkentve a lehetéségét annak, hogy a fiatalok szexuális zaklatások vagy fenyegetések áldozataivá váljanak.\n
+     0.3 A fejlesztők és az adminok soha nem kérik el egy felhasználó jelszavát. Ha bármilyen olyan formátumú üzenetet kap egy játékos, ahol valaki ez után érdeklődik, akkor azt azonnal jelentse a fejlesztőknek. (A fejlesztőket a lap alján található e-mail címen lehet elérni.)\n
+1. Felelősség\n
+     1.1 A játék kizárólag az alkotók tulajdonát képezi. Csak az általuk közzétett és ellenőrzött oldalakon keresztül elérhető.\n
+     1.2 A játék szórakozási célból készült, bevételszerzés csak az alkotók engedélyével lehetséges.\n
+     1.3 Az alkotók minden esetben törekednek a zökkenőmentes játékélményre és a lehetőségekhez mérten a felhásználókkal való kapcsolattartásra.\n
+     1.4 Bármilyen probléma esetén a fejlesztők a tőlük telhető legrövidebb időn belül próbálnak megoldást találni a hibákra.\n
+2. Változások\n
+     2.1 Az alkotók a jelen felhasználási feltételek változásának jogát fenntartják. E felhasználási feltételek és az esetleges újabb információk áttekintése érdekében kérjük rendszeresen kísérjék figyelemmel a játékkal kapcsolatos módosításokat." />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

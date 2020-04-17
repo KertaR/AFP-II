@@ -9,8 +9,8 @@
     tools:context=".CreatorActivity">
 
     <ScrollView
-        android:layout_width="244dp"
-        android:layout_height="210dp"
+        android:layout_width="225dp"
+        android:layout_height="208dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,7 +28,11 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Az alkotókról leírás"/>
+                android:text="Fejlesztők:\n                        Sakusa:\n
+Ne félj álmodni! Hisz a legtöbb ötlet alapja, mindig egy remek álom. Ha hiszel magadban és bízol a megérzéseidben, megtalálod azt a lehetőséget, amelyben igazán önmagad lehetsz.\n
+Ne feledd! Sosem vagy egyedül!.\n-----------------------------------------------------\n
+                    Hakudoshi:\n
+5 éves korom óta játékokkal foglalkozom, 7 éves koromtól játékfejlesztő akarok lenni és végre 21 évesen oda jutottam, hogy az első játékommal foglalkozzak." />
         </LinearLayout>
     </ScrollView>
 
@@ -39,13 +43,13 @@
         android:layout_marginEnd="4dp"
         android:text="Az alkotókról"
         android:textColor="#3A0404"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.337" />
+        app:layout_constraintVertical_bias="0.332" />
 
     <Button
         android:id="@+id/button16"
@@ -66,6 +70,7 @@
 
     <Button
         android:id="@+id/button9"
+        style="@android:style/Widget.Holo.Button.Borderless.Small"
         android:layout_width="205dp"
         android:layout_height="24dp"
         android:background="#00FFFFFF"
@@ -82,6 +87,7 @@
 
     <Button
         android:id="@+id/button10"
+        style="@android:style/Widget.Holo.Button.Borderless.Small"
         android:layout_width="125dp"
         android:layout_height="22dp"
         android:background="#00FFFFFF"
@@ -96,8 +102,11 @@
 
     <Button
         android:id="@+id/button11"
+        style="@android:style/Widget.Holo.Button.Borderless.Small"
         android:layout_width="146dp"
         android:layout_height="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:background="#00300606"
         android:text="× Jogi nyilatkozat"
         android:textAlignment="center"
