@@ -2,47 +2,39 @@ package com.example.lof;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import java.lang.annotation.Documented;
-
 public class MainActivity extends AppCompatActivity {
-
+    private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button Elfogad = findViewById(R.id.button);
-        Elfogad.setOnClickListener(new View.OnClickListener() {
+
+        button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_player_menu);
+                openPlayerMenu();
             }
         });
 
         Button Regisztráció = findViewById(R.id.button7);
-        Regisztráció.setOnClickListener(new View.OnClickListener(){
+        Regisztráció.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                setContentView(R.layout.activity_registration);
-            }
-        });
-
-        Button Vissza = findViewById(R.id.button16);
-        Vissza.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                setContentView(R.layout.activity_main);
+            public void onClick(View registration) {
+                openRegistrationActivity();
             }
         });
 
         Button Felhasznalai_feltetelek = findViewById(R.id.button9);
-        Felhasznalai_feltetelek.setOnClickListener(new View.OnClickListener(){
+        Felhasznalai_feltetelek.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-                setContentView(R.layout.activity_terms_of_use);
+            public void onClick(View termsofuse) {
+                openTermsOfUseActivity();
             }
         });
 
@@ -63,4 +55,18 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    public void openRegistrationActivity(){
+        Intent registration = new Intent(this, RegistrationActivity.class);
+        startActivity(registration);
+    }
+
+    public void openTermsOfUseActivity(){
+        Intent termsofuse = new Intent(this,TermsOfUseActivity.class);
+        startActivity(termsofuse);
+    }
+
+    public void openPlayerMenu(){
+        Intent player_menu = new Intent(this,PlayerMenu.class);
+        startActivity(player_menu);
+    }
 }
