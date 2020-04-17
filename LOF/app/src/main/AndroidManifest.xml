@@ -20,7 +20,9 @@
         <activity android:name=".TermsOfUseActivity"></activity>
         <activity android:name=".CreatorActivity"></activity>
         <activity android:name=".LegalNoticeActivity"></activity>
-        <activity android:name=".PlayerMenu"></activity>
+        <activity android:name=".PlayerMenu"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>
