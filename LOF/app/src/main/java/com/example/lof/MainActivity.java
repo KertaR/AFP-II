@@ -8,17 +8,16 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = (Button) findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button Elfogad = findViewById(R.id.button);
+        Elfogad.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                openPlayerMenu();
+            public void onClick(View elfogad) {
+                openElfogad();
             }
         });
 
@@ -41,18 +40,23 @@ public class MainActivity extends AppCompatActivity {
         Button Az_alkotókról = findViewById(R.id.button10);
         Az_alkotókról.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                setContentView(R.layout.activity_creator);
+            public void onClick(View creator) {
+                openCreatorActivity();
             }
         });
 
         Button Jogi_nyilatkozat = findViewById(R.id.button11);
         Jogi_nyilatkozat.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                setContentView(R.layout.activity_legal_notice);
+            public void onClick(View legalnotice) {
+                openLegalNoticeActivity();
             }
         });
+    }
+
+    public void openElfogad(){
+        Intent player_menu = new Intent(this,PlayerMenu.class);
+        startActivity(player_menu);
     }
 
     public void openRegistrationActivity(){
@@ -65,8 +69,15 @@ public class MainActivity extends AppCompatActivity {
         startActivity(termsofuse);
     }
 
-    public void openPlayerMenu(){
-        Intent player_menu = new Intent(this,PlayerMenu.class);
-        startActivity(player_menu);
+    public void openCreatorActivity(){
+        Intent creator = new Intent(this,CreatorActivity.class);
+        startActivity(creator);
     }
+
+    public void openLegalNoticeActivity(){
+        Intent legalnoticeactivity = new Intent(this,LegalNoticeActivity.class);
+        startActivity(legalnoticeactivity);
+    }
+
+
 }

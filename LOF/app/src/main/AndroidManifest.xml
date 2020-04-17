@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".RegistrationActivity"></activity>
+        <activity android:name=".TermsOfUseActivity"></activity>
+        <activity android:name=".CreatorActivity"></activity>
+        <activity android:name=".LegalNoticeActivity"></activity>
     </application>
 
 </manifest>
