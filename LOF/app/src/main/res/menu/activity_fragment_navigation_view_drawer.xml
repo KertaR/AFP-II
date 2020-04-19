@@ -8,19 +8,19 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/karom"
             android:title="Kezdőlap" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/karom"
             android:title="Profil" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/karom"
             android:title="Bolt" />
         <item
             android:id="@+id/blankFragment"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Black_Fragment " />
+            android:icon="@drawable/karom"
+            android:title="Játék" />
     </group>
 </menu>
