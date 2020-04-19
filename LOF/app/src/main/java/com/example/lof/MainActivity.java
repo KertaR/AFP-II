@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openElfogad(){
-        Intent player_menu = new Intent(this,PlayerMenu.class);
+        Intent player_menu = new Intent(this,FragmentNavigationView.class);
         startActivity(player_menu);
     }
 

@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".FragmentNavigationView"
+            android:label="@string/title_activity_fragment_navigation_view"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,13 +20,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegistrationActivity"></activity>
-        <activity android:name=".TermsOfUseActivity"></activity>
-        <activity android:name=".CreatorActivity"></activity>
-        <activity android:name=".LegalNoticeActivity"></activity>
-        <activity android:name=".PlayerMenu"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".TermsOfUseActivity" />
+        <activity android:name=".CreatorActivity" />
+        <activity android:name=".LegalNoticeActivity" />
+        <activity
+            android:name=".PlayerMenu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
