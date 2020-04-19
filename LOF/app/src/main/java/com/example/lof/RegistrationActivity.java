@@ -6,12 +6,25 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+
+import com.example.lof.controllers.UserHandler;
 
 public class RegistrationActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
+
+        Button register = (Button) findViewById(R.id.button12);
+        register.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                UserHandler uh = new UserHandler(getApplicationContext());
+                EditText felhasznalonev = (EditText) findViewById(R.id.editText5);
+                EditText jelszo = (EditText) findViewById(R.id.editText3);
+                uh.Register(felhasznalonev.getText().toString(),jelszo.getText().toString());
+            }
+        });
 
         Button Felhasználási_feltetelek = findViewById(R.id.button9);
         Felhasználási_feltetelek.setOnClickListener(new View.OnClickListener() {
