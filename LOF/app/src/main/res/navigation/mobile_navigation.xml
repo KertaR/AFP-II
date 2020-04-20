@@ -32,12 +32,22 @@
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.lof.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="Profil"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.lof.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="Bolt"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.lof.BlankFragment"
+        android:label="Játék"
+        tools:layout="@layout/fragment_blank"/>
+    <fragment
+        android:id="@+id/blankFragment2"
+        android:name="com.example.lof.BlankFragment2"
+        android:label="fragment_blank2"
+        tools:layout="@layout/fragment_blank2" />
 </navigation>
