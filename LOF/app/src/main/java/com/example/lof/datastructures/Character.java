@@ -1,6 +1,6 @@
 package com.example.lof.datastructures;
 
-public class Character {
+public abstract class Character {
     public Character(Skill[] skills, String name, String portraitpath, double healthpoints, double attackdamage, double mana, double manaregen, double defence, double criticalhit, int cost) {
         this.skills = skills;
         this.name = name;
