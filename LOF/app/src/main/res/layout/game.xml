@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game">
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="59dp"
+        android:layout_height="29dp"
+        android:text="Bolt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="657dp" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="59dp"
+        android:layout_height="29dp"
+        android:text="Feladás"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="686dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
