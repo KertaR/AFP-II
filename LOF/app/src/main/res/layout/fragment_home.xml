@@ -28,6 +28,47 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.064" />
+
+        <ScrollView
+            android:layout_width="299dp"
+            android:layout_height="514dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.645">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView29"
+                    style="@android:style/Widget.Holo.TextView.SpinnerItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Frissítések"
+                    android:textAlignment="center"
+                    android:textColor="#450707"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    style="@android:style/Widget.Holo.Light.TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A játék legújabb 0.1-es verziója új, izgalmas változásokkal várja a Játékosokat! készülj fel velünk a harcra és vágj bele az ütközetekbe, karaktereink változatos és egyedileg kidolgozott képességekkel rendelkezve segítenek majd az utadon!"
+                    android:textColor="#3C0606"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/valaszto" />
+            </LinearLayout>
+        </ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>

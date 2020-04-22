@@ -29,49 +29,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.131" />
 
-        <CheckBox
-            android:id="@+id/checkBox"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Könnyű"
-            android:textAlignment="center"
-            android:textSize="18sp"
-            android:textStyle="italic"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.489"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.217" />
-
-        <CheckBox
-            android:id="@+id/checkBox2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Közepes"
-            android:textAlignment="center"
-            android:textSize="18sp"
-            android:textStyle="italic"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.263" />
-
-        <CheckBox
-            android:id="@+id/checkBox3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Nehéz"
-            android:textAlignment="center"
-            android:textSize="18sp"
-            android:textStyle="italic"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.309" />
-
         <Button
             android:id="@+id/button14"
             style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
@@ -87,6 +44,48 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.383" />
+
+        <RadioGroup
+            android:layout_width="155dp"
+            android:layout_height="95dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.542"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.241">
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Könnyű"
+                android:textColor="#290303"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Közepes"
+                android:textAlignment="inherit"
+                android:textColor="#330505"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nehéz"
+                android:textColor="#350404"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+        </RadioGroup>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
