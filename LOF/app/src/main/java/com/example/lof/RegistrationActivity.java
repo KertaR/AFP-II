@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import com.example.lof.controllers.UserHandler;
 
@@ -59,24 +58,6 @@ public class RegistrationActivity extends AppCompatActivity{
             }
         });
     }
-    /*
-    public boolean validate(){
-        boolean valid = true;
-        if(name.isEmpty() || name.length() > 50){
-            felhasznalonev.setError("Egy érvényes felhaszálónevet adjon meg!");
-            valid = false;
-        }
-        if(password.isEmpty() || password.length() > 35){
-            jelszo.setError("Egy érvényes jelszavat adjon meg!");
-            valid = false;
-        }
-    }
-
-    public void initialize(){
-        name = felhasznalonev.getText().toString().trim();
-        password = jelszo.getText().toString().trim();
-    }
-    */
 
     public void openTermsOfUseActivity(){
         Intent termsofuse = new Intent(this,TermsOfUseActivity.class);
