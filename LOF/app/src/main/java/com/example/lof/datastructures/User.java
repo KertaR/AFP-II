@@ -20,6 +20,8 @@ public class User{
     private String email;
     private String profilepicturepath;
 
+    private int gold;
+
     //Properties
     public String getUsername() {
         return username;
@@ -44,6 +46,12 @@ public class User{
     }
     public void setProfilepicturepath(String profilepicturepath) {
         this.profilepicturepath = profilepicturepath;
+    }
+    public int getGold() {
+        return gold;
+    }
+    public void setGold(int gold) {
+        this.gold = gold;
     }
 
 }

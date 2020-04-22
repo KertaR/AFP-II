@@ -22,7 +22,8 @@ public class RegistrationActivity extends AppCompatActivity{
                 UserHandler uh = new UserHandler(getApplicationContext());
                 EditText felhasznalonev = (EditText) findViewById(R.id.editText5);
                 EditText jelszo = (EditText) findViewById(R.id.editText3);
-                uh.Register(felhasznalonev.getText().toString(),jelszo.getText().toString());
+                EditText jelszoconf = (EditText) findViewById(R.id.editText4);
+                uh.Register(felhasznalonev.getText().toString(),jelszo.getText().toString(),jelszoconf.getText().toString());
             }
         });
 

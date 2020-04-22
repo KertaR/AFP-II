@@ -22,6 +22,10 @@ public interface UserDao {
     List<User> getAll();
     @Query("SELECT username FROM users WHERE username = :username")
     public String getUsername(String username);
+    @Query("SELECT password FROM users WHERE username = :username")
+    public String getPassword(String username);
+    @Query("SELECT gold FROM users WHERE username = :username")
+    public int getGold(String username);
     @Query("SELECT * FROM users WHERE username = :username")
     public User[] getUser(String username);
 }

@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.lof.controllers.UserHandler;
 import com.example.lof.database.AppDatabase;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Elfogad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View elfogad) {
+                EditText felhasznalonev = findViewById(R.id.editText);
+                EditText jelszo = findViewById(R.id.editText2);
+                //if(UserHandler.Login(felhasznalonev.getText().toString(),jelszo.getText().toString()))
                 openElfogad();
             }
         });

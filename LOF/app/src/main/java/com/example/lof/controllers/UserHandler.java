@@ -10,13 +10,22 @@ import androidx.room.Room;
 import com.example.lof.database.AppDatabase;
 import com.example.lof.datastructures.User;
 
+import java.util.List;
+
 public class UserHandler {
     private String DB_NAME = "sakoshi";
-    private static AppDatabase database;
-    private String sessionid;
-    public String getSession(){
+
+    public static AppDatabase getDatabase() {
+        return database;
+    }
+
+    public static String getSessionid() {
         return sessionid;
     }
+
+    private static AppDatabase database;
+    private static String sessionid;
+
     private void setSession(String sessionid){
         this.sessionid = sessionid;
     }
@@ -35,17 +44,34 @@ public class UserHandler {
     public UserHandler(Context context) {
         database = Room.databaseBuilder(context, AppDatabase.class, DB_NAME).build();
     }
-    public void Register(String username, String password){
-        insert(username,password);
-    }
-    public void Login(){
+    public void Register(String username, String password, String passwordconf){
+        List<User> users = database.userDao().getAll();
+        boolean hasUser = false;
+        if(password.equals(passwordconf))
+        {
+            for (User user: users)
+            {
+                if (user.getUsername().equals(username)) {
+                    hasUser = true;
+                    break;
+                }
+            }
 
+            if(!hasUser)
+            {
+                insert(username,password);
+            }
+        }
     }
-    public void getData(){
-
+    public static boolean Login(String username,String password){
+        User[] users = database.userDao().getUser(username);
+        if(users.length == 1) {
+            return users[0].getPassword().equals(password);
+        }
+        return false;
     }
 
-    public void insert(String username, String password) {
+    private void insert(String username, String password) {
 
         User user = new User();
         user.setUsername(username);
@@ -53,15 +79,6 @@ public class UserHandler {
         user.setEmail(null);
         user.setProfilepicturepath(null);
 
-        insertUser(user);
-    }
-    private static void insertUser(final User user) {
-        new AsyncTask<Void, Void, Void>() {
-            @Override
-            protected Void doInBackground(Void... voids) {
-                database.userDao().insertUser(user);
-                return null;
-            }
-        }.execute();
+        database.userDao().insertUser(user);
     }
 }

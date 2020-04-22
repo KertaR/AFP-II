@@ -8,7 +8,7 @@ import androidx.room.RoomDatabase;
 
 import com.example.lof.datastructures.User;
 
-@Database(entities = {User.class}, version = 1)
+@Database(entities = {User.class}, version = 2)
 public abstract class AppDatabase extends RoomDatabase {
     public abstract UserDao userDao();
 }
