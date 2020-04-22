@@ -1,12 +1,14 @@
 package com.example.lof.datastructures;
 
 public class Character {
-    public Character(Skill[] skills, String name, String portraitpath, double healthpoints, double mana, double defence, double criticalhit, int cost) {
+    public Character(Skill[] skills, String name, String portraitpath, double healthpoints, double attackdamage, double mana, double manaregen, double defence, double criticalhit, int cost) {
         this.skills = skills;
         this.name = name;
         this.portraitpath = portraitpath;
         this.healthpoints = healthpoints;
+        this.attackdamage = attackdamage;
         this.mana = mana;
+        this.manaregen = manaregen;
         this.defence = defence;
         this.criticalhit = criticalhit;
         this.cost = cost;
@@ -16,7 +18,9 @@ public class Character {
     private String name;
     private String portraitpath;
     private double healthpoints;
+    private double attackdamage;
     private double mana;
+    private double manaregen;
     private double defence;
     private double criticalhit;
     private int cost;
@@ -53,12 +57,28 @@ public class Character {
         this.healthpoints = healthpoints;
     }
 
+    public double getAttackdamage() {
+        return attackdamage;
+    }
+
+    public void setAttackdamage(double attackdamage) {
+        this.attackdamage = attackdamage;
+    }
+
     public double getMana() {
         return mana;
     }
 
     public void setMana(double mana) {
         this.mana = mana;
+    }
+
+    public double getManaregen() {
+        return manaregen;
+    }
+
+    public void setManaregen(double manaregen) {
+        this.manaregen = manaregen;
     }
 
     public double getDefence() {
