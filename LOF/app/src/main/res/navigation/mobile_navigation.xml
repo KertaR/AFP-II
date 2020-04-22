@@ -7,8 +7,8 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.lof.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:name="com.example.lof.HomeFragment"
+        android:label="Kezdőlap"
         tools:layout="@layout/fragment_home">
 
         <action
@@ -18,11 +18,12 @@
     <fragment
         android:id="@+id/nav_home_second"
         android:name="com.example.lof.ui.home.HomeSecondFragment"
-        android:label="@string/home_second"
+        android:label="Kezdőlap"
         tools:layout="@layout/fragment_home_second">
         <action
             android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
-            app:destination="@id/nav_home" />
+            app:destination="@id/nav_home"
+            android:label="Kezdőlap"/>
 
         <argument
             android:name="myArg"
@@ -30,16 +31,16 @@
     </fragment>
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.lof.ui.gallery.GalleryFragment"
+        android:id="@+id/nav_profil"
+        android:name="com.example.lof.ProfilFragment"
         android:label="Profil"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_profil" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.lof.ui.slideshow.SlideshowFragment"
+        android:id="@+id/nav_bolt"
+        android:name="com.example.lof.BoltFragment"
         android:label="Bolt"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_bolt" />
     <fragment
         android:id="@+id/blankFragment"
         android:name="com.example.lof.BlankFragment"
