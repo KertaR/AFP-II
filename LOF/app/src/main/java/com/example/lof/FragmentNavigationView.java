@@ -3,6 +3,7 @@ package com.example.lof;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.TextView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -45,6 +46,9 @@ public class FragmentNavigationView extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
+
+        TextView Felhasznalonev = findViewById(R.id.textView17);
+        TextView Szint = findViewById(R.id.textView18);
     }
 
     @Override
