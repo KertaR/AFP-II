@@ -2,8 +2,8 @@ package com.example.lof.datastructures;
 
 public class Skin extends Character {
 
-    public Skin(Skill[] skills, String name, String portraitpath, double healthpoints, double mana, double defence, double criticalhit, int cost) {
-        super(skills, name, portraitpath, healthpoints, mana, defence, criticalhit, cost);
+    public Skin(Skill[] skills, String name, String portraitpath, double healthpoints, double attackdamage, double mana, double manaregen, double defence, double criticalhit, int cost) {
+        super(skills, name, portraitpath, healthpoints, attackdamage, mana, manaregen, defence, criticalhit, cost);
     }
 
     @Override
@@ -37,23 +37,37 @@ public class Skin extends Character {
     }
 
     @Override
-    public double getHealthpoints() {
-        return super.getHealthpoints();
+    public double getHealthpoints() { return super.getHealthpoints(); }
+
+    @Override
+    public void setHealthpoints(double healthpoints) { super.setHealthpoints(healthpoints); }
+
+    @Override
+    public double getAttackdamage() {
+        return super.getAttackdamage();
     }
 
     @Override
-    public void setHealthpoints(double healthpoints) {
-        super.setHealthpoints(healthpoints);
+    public void setAttackdamage(double attackdamage) {
+        super.setAttackdamage(attackdamage);
     }
 
     @Override
-    public double getMana() {
-        return super.getMana();
-    }
+    public double getMana() { return super.getMana(); }
 
     @Override
     public void setMana(double mana) {
         super.setMana(mana);
+    }
+
+    @Override
+    public double getManaregen() {
+        return super.getManaregen();
+    }
+
+    @Override
+    public void setManaregen(double manaregen) {
+        super.setManaregen(manaregen);
     }
 
     @Override
