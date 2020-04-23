@@ -24,7 +24,7 @@
             android:title="Játék" />
         <item
             android:id="@+id/nav_beallitasok"
-            android:incon="@drawable/karom"
+            android:icon="@drawable/karom"
             android:title="Beállítások" />
     </group>
 </menu>
