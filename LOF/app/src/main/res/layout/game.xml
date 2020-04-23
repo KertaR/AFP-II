@@ -13,8 +13,12 @@
         android:text="Bolt"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
         android:textSize="8sp"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="657dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.935" />
 
     <Button
         android:id="@+id/button23"
