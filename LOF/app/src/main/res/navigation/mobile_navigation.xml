@@ -48,7 +48,7 @@
         tools:layout="@layout/fragment_blank"/>
     <fragment
         android:id="@+id/blankFragment2"
-        android:name="com.example.lof.BlankFragment2"
+        android:name="com.example.lof.BeallitasokFragment"
         android:label="fragment_blank2"
         tools:layout="@layout/fragment_blank2" />
 </navigation>
