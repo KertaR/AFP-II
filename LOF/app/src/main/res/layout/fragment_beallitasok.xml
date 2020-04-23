@@ -1,7 +1,197 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BeallitasokFragment"
-    android:background="@drawable/beallitasok"/>
+    android:background="@drawable/beallitasok">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button24"
+            style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+            android:layout_width="83dp"
+            android:layout_height="27dp"
+            android:text="Mentés"
+            android:textAlignment="center"
+            android:textColor="#3C0505"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.309" />
+
+        <Button
+            android:id="@+id/button25"
+            style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+            android:layout_width="83dp"
+            android:layout_height="27dp"
+            android:text="Mentés"
+            android:textAlignment="center"
+            android:textColor="#3C0505"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.6" />
+
+        <Button
+            android:id="@+id/button26"
+            style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+            android:layout_width="83dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="2dp"
+            android:text="Mentés"
+            android:textAlignment="center"
+            android:textColor="#3C0505"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.789" />
+
+        <EditText
+            android:id="@+id/editText7"
+            style="@android:style/Widget.Holo.Light.AutoCompleteTextView"
+            android:layout_width="167dp"
+            android:layout_height="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="aktuális felhasználónév"
+            android:textAlignment="center"
+            android:textColor="#2E0303"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.148" />
+
+        <EditText
+            android:id="@+id/editText9"
+            style="@android:style/Widget.Holo.Light.AutoCompleteTextView"
+            android:layout_width="167dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="új felhasználónév"
+            android:textAlignment="center"
+            android:textColor="#2E0303"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.28" />
+
+        <EditText
+            android:id="@+id/editText8"
+            style="@android:style/Widget.Holo.Light.AutoCompleteTextView"
+            android:layout_width="167dp"
+            android:layout_height="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="új felhasználónév"
+            android:textAlignment="center"
+            android:textColor="#2E0303"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.211" />
+
+        <EditText
+            android:id="@+id/editText10"
+            style="@android:style/Widget.Holo.Light.AutoCompleteTextView"
+            android:layout_width="167dp"
+            android:layout_height="32dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="aktuális jelszó"
+            android:textAlignment="center"
+            android:textColor="#2E0303"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.45" />
+
+        <EditText
+            android:id="@+id/editText11"
+            style="@android:style/Widget.Holo.Light.AutoCompleteTextView"
+            android:layout_width="167dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="új jelszó"
+            android:textAlignment="center"
+            android:textColor="#2E0303"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.499" />
+
+        <EditText
+            android:id="@+id/editText12"
+            style="@android:style/Widget.Holo.Light.AutoCompleteTextView"
+            android:layout_width="167dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="új jelszó ismétlése"
+            android:textAlignment="center"
+            android:textColor="#2E0303"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.559" />
+
+        <EditText
+            android:id="@+id/editText13"
+            style="@android:style/Widget.Holo.Light.AutoCompleteTextView"
+            android:layout_width="171dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="e-mail cím"
+            android:textAlignment="center"
+            android:textColor="#2E0303"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.752" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
