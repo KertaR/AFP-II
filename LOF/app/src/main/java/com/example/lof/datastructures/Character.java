@@ -1,7 +1,8 @@
 package com.example.lof.datastructures;
 
 public class Character {
-    public Character(String name, String portraitpath, double healthpoints, double attackdamage, double mana, double manaregen, double defence, double criticalhit, int cost) {
+    public Character(Skill[] skills, String name, String portraitpath, double healthpoints, double attackdamage, double mana, double manaregen, double defence, double criticalhit, int cost) {
+        this.skills = skills;
         this.name = name;
         this.portraitpath = portraitpath;
         this.healthpoints = healthpoints;
@@ -13,6 +14,7 @@ public class Character {
         this.cost = cost;
     }
 
+    private Skill[] skills = new Skill[4];
     private String name;
     private String portraitpath;
     private double healthpoints;
@@ -23,6 +25,13 @@ public class Character {
     private double criticalhit;
     private int cost;
 
+    public Skill[] getSkills() {
+        return skills;
+    }
+
+    public void setSkills(Skill[] skills) {
+        this.skills = skills;
+    }
 
     public String getName() {
         return name;
