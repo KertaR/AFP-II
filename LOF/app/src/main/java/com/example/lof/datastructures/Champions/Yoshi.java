@@ -9,22 +9,22 @@ public class Yoshi extends Character implements Skill{
     }
 
     @Override
-    public void PrimarySkill() {
+    public void PrimarySkill(Character sajat, Character ellenfel) {
 
     }
 
     @Override
-    public void SecondarySkill() {
+    public void SecondarySkill(Character sajat, Character ellenfel) {
 
     }
 
     @Override
-    public void TertiarySkill() {
+    public void TertiarySkill(Character sajat, Character ellenfel) {
 
     }
 
     @Override
-    public void QuaternarySkill() {
+    public void QuaternarySkill(Character sajat, Character ellenfel) {
 
     }
 }

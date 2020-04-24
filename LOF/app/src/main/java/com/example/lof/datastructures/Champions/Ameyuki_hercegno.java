@@ -9,22 +9,31 @@ public class Ameyuki_hercegno extends Character implements Skill {
     }
 
     @Override
-    public void PrimarySkill() {
+    public void PrimarySkill(Character sajat, Character ellenfel) {
+        double SMana = sajat.getMana();
+        if(SMana >= 120){
+            SMana -= 120;
+            sajat.setMana(SMana);
+        }
+        double EEletero = ellenfel.getHealthpoints();
+        if(EEletero >= 75){
+            EEletero -= 75;
+            ellenfel.setHealthpoints(EEletero);
+        }
+    }
+
+    @Override
+    public void SecondarySkill(Character sajat, Character ellenfel) {
 
     }
 
     @Override
-    public void SecondarySkill() {
+    public void TertiarySkill(Character sajat, Character ellenfel) {
 
     }
 
     @Override
-    public void TertiarySkill() {
-
-    }
-
-    @Override
-    public void QuaternarySkill() {
+    public void QuaternarySkill(Character sajat, Character ellenfel) {
 
     }
 }
