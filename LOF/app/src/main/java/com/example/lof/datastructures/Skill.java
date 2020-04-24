@@ -1,4 +1,8 @@
 package com.example.lof.datastructures;
 
-public class Skill {
+interface Skill {
+    void PrimarySkill();
+    void SecondarySkill();
+    void TertiarySkill();
+    void QuaternarySkill();
 }
