@@ -19,6 +19,9 @@ public class Ameyuki_hercegno extends Character implements Skill {
                 EEletero -= 75;
                 ellenfel.setHealthpoints(EEletero);
             }
+            else{
+                // az ellenfél meghal
+            }
         }
     }
 
