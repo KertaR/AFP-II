@@ -14,26 +14,42 @@ public class Ameyuki_hercegno extends Character implements Skill {
         if(SMana >= 120){
             SMana -= 120;
             sajat.setMana(SMana);
-        }
-        double EEletero = ellenfel.getHealthpoints();
-        if(EEletero >= 75){
-            EEletero -= 75;
-            ellenfel.setHealthpoints(EEletero);
+            double EEletero = ellenfel.getHealthpoints();
+            if(EEletero >= 75){
+                EEletero -= 75;
+                ellenfel.setHealthpoints(EEletero);
+            }
         }
     }
 
     @Override
     public void SecondarySkill(Character sajat, Character ellenfel) {
-
+        double SMana = sajat.getMana();
+        if(SMana >= 60){
+            SMana -= 60;
+            sajat.setMana(SMana);
+            double SEletero = sajat.getHealthpoints();
+            SEletero += 50;
+            sajat.setHealthpoints(SEletero);
+        }
     }
 
     @Override
     public void TertiarySkill(Character sajat, Character ellenfel) {
-
+        double SMana = sajat.getMana();
+        if(SMana >= 100){
+            SMana += 20;
+            sajat.setMana(SMana);
+        }
     }
 
     @Override
     public void QuaternarySkill(Character sajat, Character ellenfel) {
-
+        double SMana = sajat.getMana();
+        if(SMana >= 180){
+            SMana -= 180;
+            sajat.setMana(SMana);
+            // visszaveri a sebzést
+        }
     }
 }
