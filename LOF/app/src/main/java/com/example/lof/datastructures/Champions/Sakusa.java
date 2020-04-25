@@ -8,7 +8,7 @@ import java.util.Random;
 
 public class Sakusa extends Character implements Skill, Skin {
     public Sakusa() {
-        super("Sakusa", "ms", 380, 75, 280, 35, 10, 25, 1200);
+        super("Sakusa", "ms", 380, 75, 280, 35, 1.25, 25, 1200);
     }
 
     private boolean skillUsed = false;
@@ -20,12 +20,13 @@ public class Sakusa extends Character implements Skill, Skin {
             SMana -= 55;
             this.setMana(SMana);
             double EHealth = enemy.getHealthpoints();
+            double EDefence = enemy.getDefence();
             Random rnd = new Random();
             for (int i = 0; i < 4; i++){
                 int EAttackDamage = rnd.nextInt(5);
                 if(EAttackDamage == 0){
-                    if(EHealth > 45){
-                        EHealth -= 45;
+                    if(EHealth > (45/EDefence)){
+                        EHealth -= (45/EDefence);
                     }
                     else{
                         // az ellenfél meghal
@@ -38,7 +39,7 @@ public class Sakusa extends Character implements Skill, Skin {
     @Override
     public void SecondarySkill(Character enemy) {
         double SDefence = this.getDefence();
-        SDefence += 40;
+        SDefence += 4;
         this.setDefence(SDefence);
         skillUsed = true;
     }
@@ -68,7 +69,7 @@ public class Sakusa extends Character implements Skill, Skin {
             SAttackDamage += 25;
             this.setAttackdamage(SAttackDamage);
             double SDefence = this.getDefence();
-            SDefence += 10;
+            SDefence += 1.2;
             this.setDefence(SDefence);
         }
     }
@@ -77,7 +78,7 @@ public class Sakusa extends Character implements Skill, Skin {
     public void EndRound() {
         if(skillUsed == true){
             double SDefence = this.getDefence();
-            SDefence -= 40;
+            SDefence -= 4;
             this.setDefence(SDefence);
             skillUsed = false;
         }

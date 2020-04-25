@@ -98,6 +98,8 @@ public class Character {
     public void Attack(Character own, Character enemy) {
         double SAttackDamage = own.getAttackdamage();
         double EHealth = enemy.getHealthpoints();
+        double EDefence = enemy.getDefence();
+        SAttackDamage /= EDefence;
         if(EHealth > SAttackDamage){
             EHealth -= SAttackDamage;
             enemy.setHealthpoints(EHealth);

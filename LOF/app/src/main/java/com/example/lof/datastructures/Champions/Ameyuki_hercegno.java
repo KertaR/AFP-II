@@ -6,7 +6,7 @@ import com.example.lof.datastructures.Skin;
 
 public class Ameyuki_hercegno extends Character implements Skill, Skin {
     public Ameyuki_hercegno() {
-        super("Ameyuki hercegnő", "ms", 520, 40, 240, 45, 15, 30, 800);
+        super("Ameyuki hercegnő", "ms", 520, 40, 240, 45, 1.5, 30, 800);
     }
 
     @Override
@@ -16,8 +16,9 @@ public class Ameyuki_hercegno extends Character implements Skill, Skin {
             SMana -= 120;
             this.setMana(SMana);
             double EHealth = enemy.getHealthpoints();
-            if(EHealth > 75){
-                EHealth -= 75;
+            double EDefence = enemy.getDefence();
+            if(EHealth > (75/EDefence)){
+                EHealth -= (75/EDefence);
                 enemy.setHealthpoints(EHealth);
             }
             else{
@@ -55,7 +56,8 @@ public class Ameyuki_hercegno extends Character implements Skill, Skin {
             this.setMana(SMana);
             double SAttackDamage = this.getAttackdamage();
             double EAttackDamage = enemy.getAttackdamage();
-            double OAttackDamage = SAttackDamage + EAttackDamage;
+            double EDefence = enemy.getDefence();
+            double OAttackDamage = (SAttackDamage + EAttackDamage) / EDefence;
             double EHealth = enemy.getHealthpoints();
             if(EHealth > OAttackDamage){
                 EHealth -= OAttackDamage;
