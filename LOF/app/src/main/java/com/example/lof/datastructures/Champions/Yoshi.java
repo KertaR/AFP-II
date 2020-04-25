@@ -6,7 +6,7 @@ import com.example.lof.datastructures.Skin;
 
 public class Yoshi extends Character implements Skill, Skin{
     public Yoshi() {
-        super("Yoshi", "ms", 680, 55, 225, 50, 120, 50, 1150);
+        super("Yoshi", "ms", 680, 55, 225, 50, 25, 50, 1150);
     }
 
     @Override
@@ -28,7 +28,7 @@ public class Yoshi extends Character implements Skill, Skin{
             SMana -= 130;
             own.setMana(SMana);
             double SDefence = own.getDefence();
-            SDefence += 40;
+            SDefence += 15;
             own.setDefence(SDefence);
         }
     }
@@ -60,6 +60,13 @@ public class Yoshi extends Character implements Skill, Skin{
             SHealth += 90;
             own.setHealthpoints(SHealth);
         }
+    }
+
+    @Override
+    public void EndRound() {
+        double SMana = this.getMana();
+        SMana += this.getManaregen();
+        this.setMana(SMana);
     }
 
     @Override

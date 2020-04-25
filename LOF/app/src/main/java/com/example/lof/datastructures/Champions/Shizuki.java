@@ -6,7 +6,7 @@ import com.example.lof.datastructures.Skin;
 
 public class Shizuki extends Character implements Skill, Skin{
     public Shizuki() {
-        super("Shizuki", "ms", 470, 25, 320, 15, 105, 40, 1050);
+        super("Shizuki", "ms", 470, 35, 320, 15, 30, 40, 1050);
     }
 
     @Override
@@ -62,9 +62,16 @@ public class Shizuki extends Character implements Skill, Skin{
             SMana -= 65;
             own.setMana(SMana);
             double SDefence = own.getDefence();
-            SDefence += 35;
+            SDefence += 20;
             own.setDefence(SDefence);
         }
+    }
+
+    @Override
+    public void EndRound() {
+        double SMana = this.getMana();
+        SMana += this.getManaregen();
+        this.setMana(SMana);
     }
 
     @Override

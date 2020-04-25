@@ -8,8 +8,10 @@ import java.util.Random;
 
 public class Sakusa extends Character implements Skill, Skin {
     public Sakusa() {
-        super("Sakusa", "ms", 380, 75, 280, 35, 65, 25, 1200);
+        super("Sakusa", "ms", 380, 75, 280, 35, 10, 25, 1200);
     }
+
+    private boolean skillUsed = false;
 
     @Override
     public void PrimarySkill(Character own, Character enemy) {
@@ -35,9 +37,10 @@ public class Sakusa extends Character implements Skill, Skin {
 
     @Override
     public void SecondarySkill(Character own, Character enemy) {
-        double SHealth = own.getHealthpoints();
-        SHealth += 50;
-        own.setHealthpoints(SHealth);
+        double SDefence = own.getDefence();
+        SDefence += 150;
+        own.setDefence(SDefence);
+        skillUsed = true;
     }
 
     @Override
@@ -62,12 +65,25 @@ public class Sakusa extends Character implements Skill, Skin {
             SHealth += 40;
             own.setHealthpoints(SHealth);
             double SAttackDamage = own.getAttackdamage();
-            SAttackDamage += 15;
+            SAttackDamage += 25;
             own.setAttackdamage(SAttackDamage);
             double SDefence = own.getDefence();
-            SDefence += 20;
+            SDefence += 10;
             own.setDefence(SDefence);
         }
+    }
+
+    @Override
+    public void EndRound() {
+        if(skillUsed == true){
+            double SDefence = this.getDefence();
+            SDefence -= 150;
+            this.setDefence(SDefence);
+            skillUsed = false;
+        }
+        double SMana = this.getMana();
+        SMana += this.getManaregen();
+        this.setMana(SMana);
     }
 
     @Override

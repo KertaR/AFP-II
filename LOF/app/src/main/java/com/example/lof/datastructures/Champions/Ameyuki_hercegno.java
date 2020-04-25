@@ -6,7 +6,7 @@ import com.example.lof.datastructures.Skin;
 
 public class Ameyuki_hercegno extends Character implements Skill, Skin {
     public Ameyuki_hercegno() {
-        super("Ameyuki hercegnő", "ms", 520, 40, 240, 45, 80, 30, 800);
+        super("Ameyuki hercegnő", "ms", 520, 40, 240, 45, 15, 30, 800);
     }
 
     @Override
@@ -66,6 +66,13 @@ public class Ameyuki_hercegno extends Character implements Skill, Skin {
             }
 
         }
+    }
+
+    @Override
+    public void EndRound() {
+        double SMana = this.getMana();
+        SMana += this.getManaregen();
+        this.setMana(SMana);
     }
 
     @Override

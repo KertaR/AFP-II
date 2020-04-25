@@ -5,4 +5,6 @@ public interface Skill {
     void SecondarySkill(Character own, Character enemy);
     void TertiarySkill(Character own, Character enemy);
     void QuaternarySkill(Character own, Character enemy);
+
+    void EndRound();
 }
