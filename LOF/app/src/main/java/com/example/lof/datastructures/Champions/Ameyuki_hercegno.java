@@ -9,15 +9,15 @@ public class Ameyuki_hercegno extends Character implements Skill {
     }
 
     @Override
-    public void PrimarySkill(Character sajat, Character ellenfel) {
-        double SMana = sajat.getMana();
+    public void PrimarySkill(Character own, Character enemy) {
+        double SMana = own.getMana();
         if(SMana >= 120){
             SMana -= 120;
-            sajat.setMana(SMana);
-            double EEletero = ellenfel.getHealthpoints();
-            if(EEletero >= 75){
-                EEletero -= 75;
-                ellenfel.setHealthpoints(EEletero);
+            own.setMana(SMana);
+            double EHealth = enemy.getHealthpoints();
+            if(EHealth > 75){
+                EHealth -= 75;
+                enemy.setHealthpoints(EHealth);
             }
             else{
                 // az ellenfél meghal
@@ -26,33 +26,44 @@ public class Ameyuki_hercegno extends Character implements Skill {
     }
 
     @Override
-    public void SecondarySkill(Character sajat, Character ellenfel) {
-        double SMana = sajat.getMana();
+    public void SecondarySkill(Character own, Character enemy) {
+        double SMana = own.getMana();
         if(SMana >= 60){
             SMana -= 60;
-            sajat.setMana(SMana);
-            double SEletero = sajat.getHealthpoints();
-            SEletero += 50;
-            sajat.setHealthpoints(SEletero);
+            own.setMana(SMana);
+            double SHealth = own.getHealthpoints();
+            SHealth += 50;
+            own.setHealthpoints(SHealth);
         }
     }
 
     @Override
-    public void TertiarySkill(Character sajat, Character ellenfel) {
-        double SMana = sajat.getMana();
+    public void TertiarySkill(Character own, Character enemy) {
+        double SMana = own.getMana();
         if(SMana >= 100){
             SMana += 20;
-            sajat.setMana(SMana);
+            own.setMana(SMana);
         }
     }
 
     @Override
-    public void QuaternarySkill(Character sajat, Character ellenfel) {
-        double SMana = sajat.getMana();
+    public void QuaternarySkill(Character own, Character enemy) {
+        double SMana = own.getMana();
         if(SMana >= 180){
             SMana -= 180;
-            sajat.setMana(SMana);
-            // visszaveri a sebzést
+            own.setMana(SMana);
+            double SAttackDamage = own.getAttackdamage();
+            double EAttackDamage = enemy.getAttackdamage();
+            double OAttackDamage = SAttackDamage + EAttackDamage;
+            double EHealth = enemy.getHealthpoints();
+            if(EHealth > OAttackDamage){
+                EHealth -= OAttackDamage;
+                enemy.setHealthpoints(EHealth);
+            }
+            else{
+                // az ellenfél meghal
+            }
+
         }
     }
 }

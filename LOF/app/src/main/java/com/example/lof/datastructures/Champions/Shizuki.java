@@ -9,22 +9,22 @@ public class Shizuki extends Character implements Skill{
     }
 
     @Override
-    public void PrimarySkill(Character sajat, Character ellenfel) {
+    public void PrimarySkill(Character own, Character enemy) {
 
     }
 
     @Override
-    public void SecondarySkill(Character sajat, Character ellenfel) {
+    public void SecondarySkill(Character own, Character enemy) {
 
     }
 
     @Override
-    public void TertiarySkill(Character sajat, Character ellenfel) {
+    public void TertiarySkill(Character own, Character enemy) {
 
     }
 
     @Override
-    public void QuaternarySkill(Character sajat, Character ellenfel) {
+    public void QuaternarySkill(Character own, Character enemy) {
 
     }
 }
