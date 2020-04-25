@@ -95,4 +95,16 @@ public class Character {
         this.cost = cost;
     }
 
+    public void Attack(Character own, Character enemy) {
+        double SAttackDamage = own.getAttackdamage();
+        double EHealth = enemy.getHealthpoints();
+        if(EHealth > SAttackDamage){
+            EHealth -= SAttackDamage;
+            enemy.setHealthpoints(EHealth);
+        }
+        else{
+            // az ellenfél meghal
+        }
+    }
+
 }

@@ -10,35 +10,35 @@ public class Yoshi extends Character implements Skill, Skin{
     }
 
     @Override
-    public void PrimarySkill(Character own, Character enemy) {
-        double SMana = own.getMana();
+    public void PrimarySkill(Character enemy) {
+        double SMana = this.getMana();
         if(SMana >= 105){
             SMana -= 105;
-            own.setMana(SMana);
-            double SAttackDamage = own.getAttackdamage();
+            this.setMana(SMana);
+            double SAttackDamage = this.getAttackdamage();
             SAttackDamage += 20;
-            own.setAttackdamage(SAttackDamage);
+            this.setAttackdamage(SAttackDamage);
         }
     }
 
     @Override
-    public void SecondarySkill(Character own, Character enemy) {
-        double SMana = own.getMana();
+    public void SecondarySkill(Character enemy) {
+        double SMana = this.getMana();
         if(SMana >= 130) {
             SMana -= 130;
-            own.setMana(SMana);
-            double SDefence = own.getDefence();
+            this.setMana(SMana);
+            double SDefence = this.getDefence();
             SDefence += 15;
-            own.setDefence(SDefence);
+            this.setDefence(SDefence);
         }
     }
 
     @Override
-    public void TertiarySkill(Character own, Character enemy) {
-        double SMana = own.getMana();
+    public void TertiarySkill(Character enemy) {
+        double SMana = this.getMana();
         if(SMana >= 70){
             SMana -= 70;
-            own.setMana(SMana);
+            this.setMana(SMana);
             double EHealth = enemy.getHealthpoints();
             if(EHealth > 115){
                 EHealth -= 115;
@@ -51,14 +51,14 @@ public class Yoshi extends Character implements Skill, Skin{
     }
 
     @Override
-    public void QuaternarySkill(Character own, Character enemy) {
-        double SMana = own.getMana();
+    public void QuaternarySkill(Character enemy) {
+        double SMana = this.getMana();
         if(SMana >= 40){
             SMana -= 40;
-            own.setMana(SMana);
-            double SHealth = own.getHealthpoints();
+            this.setMana(SMana);
+            double SHealth = this.getHealthpoints();
             SHealth += 90;
-            own.setHealthpoints(SHealth);
+            this.setHealthpoints(SHealth);
         }
     }
 

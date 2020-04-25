@@ -14,11 +14,11 @@ public class Sakusa extends Character implements Skill, Skin {
     private boolean skillUsed = false;
 
     @Override
-    public void PrimarySkill(Character own, Character enemy) {
-        double SMana = own.getMana();
+    public void PrimarySkill(Character enemy) {
+        double SMana = this.getMana();
         if(SMana >= 55){
             SMana -= 55;
-            own.setMana(SMana);
+            this.setMana(SMana);
             double EHealth = enemy.getHealthpoints();
             Random rnd = new Random();
             for (int i = 0; i < 4; i++){
@@ -36,40 +36,40 @@ public class Sakusa extends Character implements Skill, Skin {
     }
 
     @Override
-    public void SecondarySkill(Character own, Character enemy) {
-        double SDefence = own.getDefence();
-        SDefence += 150;
-        own.setDefence(SDefence);
+    public void SecondarySkill(Character enemy) {
+        double SDefence = this.getDefence();
+        SDefence += 40;
+        this.setDefence(SDefence);
         skillUsed = true;
     }
 
     @Override
-    public void TertiarySkill(Character own, Character enemy) {
-        double SHealth = own.getHealthpoints();
+    public void TertiarySkill(Character enemy) {
+        double SHealth = this.getHealthpoints();
         if(SHealth >= 40) {
             SHealth -= 40;
-            own.setHealthpoints(SHealth);
-            double SMana = own.getMana();
+            this.setHealthpoints(SHealth);
+            double SMana = this.getMana();
             SMana += 80;
-            own.setMana(SMana);
+            this.setMana(SMana);
         }
     }
 
     @Override
-    public void QuaternarySkill(Character own, Character enemy) {
-        double SMana = own.getMana();
+    public void QuaternarySkill(Character enemy) {
+        double SMana = this.getMana();
         if(SMana >= 160){
             SMana -= 140;
-            own.setMana(SMana);
-            double SHealth = own.getHealthpoints();
+            this.setMana(SMana);
+            double SHealth = this.getHealthpoints();
             SHealth += 40;
-            own.setHealthpoints(SHealth);
-            double SAttackDamage = own.getAttackdamage();
+            this.setHealthpoints(SHealth);
+            double SAttackDamage = this.getAttackdamage();
             SAttackDamage += 25;
-            own.setAttackdamage(SAttackDamage);
-            double SDefence = own.getDefence();
+            this.setAttackdamage(SAttackDamage);
+            double SDefence = this.getDefence();
             SDefence += 10;
-            own.setDefence(SDefence);
+            this.setDefence(SDefence);
         }
     }
 
@@ -77,7 +77,7 @@ public class Sakusa extends Character implements Skill, Skin {
     public void EndRound() {
         if(skillUsed == true){
             double SDefence = this.getDefence();
-            SDefence -= 150;
+            SDefence -= 40;
             this.setDefence(SDefence);
             skillUsed = false;
         }

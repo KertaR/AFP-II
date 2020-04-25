@@ -10,11 +10,11 @@ public class Shizuki extends Character implements Skill, Skin{
     }
 
     @Override
-    public void PrimarySkill(Character own, Character enemy) {
-        double SMana = own.getMana();
+    public void PrimarySkill(Character enemy) {
+        double SMana = this.getMana();
         if(SMana >= 50){
             SMana -= 50;
-            own.setMana(SMana);
+            this.setMana(SMana);
             double EHealth = enemy.getHealthpoints();
             if(EHealth > 80){
                 EHealth -= 80;
@@ -27,23 +27,23 @@ public class Shizuki extends Character implements Skill, Skin{
     }
 
     @Override
-    public void SecondarySkill(Character own, Character enemy) {
-        double SMana = own.getMana();
+    public void SecondarySkill(Character enemy) {
+        double SMana = this.getMana();
         if(SMana >= 80){
             SMana += 35;
-            own.setMana(SMana);
-            double SManaregen = own.getManaregen();
+            this.setMana(SMana);
+            double SManaregen = this.getManaregen();
             SManaregen += 5;
-            own.setManaregen(SManaregen);
+            this.setManaregen(SManaregen);
         }
     }
 
     @Override
-    public void TertiarySkill(Character own, Character enemy) {
-        double SMana = own.getMana();
+    public void TertiarySkill(Character enemy) {
+        double SMana = this.getMana();
         if(SMana >= 170){
             SMana -= 170;
-            own.setMana(SMana);
+            this.setMana(SMana);
             double EHealth = enemy.getHealthpoints();
             if(EHealth > 155){
                 EHealth -= 155;
@@ -56,14 +56,14 @@ public class Shizuki extends Character implements Skill, Skin{
     }
 
     @Override
-    public void QuaternarySkill(Character own, Character enemy) {
-        double SMana = own.getMana();
+    public void QuaternarySkill(Character enemy) {
+        double SMana = this.getMana();
         if(SMana >= 65){
             SMana -= 65;
-            own.setMana(SMana);
-            double SDefence = own.getDefence();
+            this.setMana(SMana);
+            double SDefence = this.getDefence();
             SDefence += 20;
-            own.setDefence(SDefence);
+            this.setDefence(SDefence);
         }
     }
 

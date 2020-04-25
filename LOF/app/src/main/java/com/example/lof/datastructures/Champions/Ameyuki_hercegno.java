@@ -10,11 +10,11 @@ public class Ameyuki_hercegno extends Character implements Skill, Skin {
     }
 
     @Override
-    public void PrimarySkill(Character own, Character enemy) {
-        double SMana = own.getMana();
+    public void PrimarySkill(Character enemy) {
+        double SMana = this.getMana();
         if(SMana >= 120){
             SMana -= 120;
-            own.setMana(SMana);
+            this.setMana(SMana);
             double EHealth = enemy.getHealthpoints();
             if(EHealth > 75){
                 EHealth -= 75;
@@ -27,33 +27,33 @@ public class Ameyuki_hercegno extends Character implements Skill, Skin {
     }
 
     @Override
-    public void SecondarySkill(Character own, Character enemy) {
-        double SMana = own.getMana();
+    public void SecondarySkill(Character enemy) {
+        double SMana = this.getMana();
         if(SMana >= 60){
             SMana -= 60;
-            own.setMana(SMana);
-            double SHealth = own.getHealthpoints();
+            this.setMana(SMana);
+            double SHealth = this.getHealthpoints();
             SHealth += 50;
-            own.setHealthpoints(SHealth);
+            this.setHealthpoints(SHealth);
         }
     }
 
     @Override
-    public void TertiarySkill(Character own, Character enemy) {
-        double SMana = own.getMana();
+    public void TertiarySkill(Character enemy) {
+        double SMana = this.getMana();
         if(SMana >= 100){
             SMana += 20;
-            own.setMana(SMana);
+            this.setMana(SMana);
         }
     }
 
     @Override
-    public void QuaternarySkill(Character own, Character enemy) {
-        double SMana = own.getMana();
+    public void QuaternarySkill(Character enemy) {
+        double SMana = this.getMana();
         if(SMana >= 180){
             SMana -= 180;
-            own.setMana(SMana);
-            double SAttackDamage = own.getAttackdamage();
+            this.setMana(SMana);
+            double SAttackDamage = this.getAttackdamage();
             double EAttackDamage = enemy.getAttackdamage();
             double OAttackDamage = SAttackDamage + EAttackDamage;
             double EHealth = enemy.getHealthpoints();
