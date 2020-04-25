@@ -7,8 +7,8 @@ import com.example.lof.datastructures.Skin;
 import java.util.Random;
 
 public class Sakusa extends Character implements Skill, Skin {
-    public Sakusa(Skill[] skills, String name, String portraitpath, double healthpoints, double attackdamage, double mana, double manaregen, double defence, double criticalhit, int cost) {
-        super(skills, name, portraitpath, healthpoints, attackdamage, mana, manaregen, defence, criticalhit, cost);
+    public Sakusa() {
+        super("Sakusa", "ms", 380, 75, 280, 35, 65, 25, 1200);
     }
 
     @Override

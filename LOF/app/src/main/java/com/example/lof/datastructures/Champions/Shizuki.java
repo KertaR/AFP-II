@@ -5,8 +5,8 @@ import com.example.lof.datastructures.Skill;
 import com.example.lof.datastructures.Skin;
 
 public class Shizuki extends Character implements Skill, Skin{
-    public Shizuki(Skill[] skills, String name, String portraitpath, double healthpoints, double attackdamage, double mana, double manaregen, double defence, double criticalhit, int cost) {
-        super(skills, name, portraitpath, healthpoints, attackdamage, mana, manaregen, defence, criticalhit, cost);
+    public Shizuki() {
+        super("Shizuki", "ms", 470, 25, 320, 15, 105, 40, 1050);
     }
 
     @Override

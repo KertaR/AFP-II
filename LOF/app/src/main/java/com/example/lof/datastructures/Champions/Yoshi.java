@@ -5,8 +5,8 @@ import com.example.lof.datastructures.Skill;
 import com.example.lof.datastructures.Skin;
 
 public class Yoshi extends Character implements Skill, Skin{
-    public Yoshi(Skill[] skills, String name, String portraitpath, double healthpoints, double attackdamage, double mana, double manaregen, double defence, double criticalhit, int cost) {
-        super(skills, name, portraitpath, healthpoints, attackdamage, mana, manaregen, defence, criticalhit, cost);
+    public Yoshi() {
+        super("Yoshi", "ms", 680, 55, 225, 50, 120, 50, 1150);
     }
 
     @Override

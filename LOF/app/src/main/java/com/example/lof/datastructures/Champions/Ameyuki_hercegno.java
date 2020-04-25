@@ -5,8 +5,8 @@ import com.example.lof.datastructures.Skill;
 import com.example.lof.datastructures.Skin;
 
 public class Ameyuki_hercegno extends Character implements Skill, Skin {
-    public Ameyuki_hercegno(Skill[] skills, String name, String portraitpath, double healthpoints, double attackdamage, double mana, double manaregen, double defence, double criticalhit, int cost) {
-        super(skills, name, portraitpath, healthpoints, attackdamage, mana, manaregen, defence, criticalhit, cost);
+    public Ameyuki_hercegno() {
+        super("Ameyuki hercegnő", "ms", 520, 40, 240, 45, 80, 30, 800);
     }
 
     @Override
