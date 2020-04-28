@@ -1,5 +1,7 @@
 package com.example.lof.datastructures;
 
+import java.util.Random;
+
 public class Character {
     public Character(String name, String portraitpath, double healthpoints, double attackdamage, double mana, double manaregen, double defence, double criticalhit, int cost) {
         this.name = name;
@@ -97,6 +99,12 @@ public class Character {
 
     public void Attack(Character own, Character enemy) {
         double SAttackDamage = own.getAttackdamage();
+        Random rnd = new Random();
+        int random = rnd.nextInt(4);
+        if(random == 0){
+            double SCriticalhit = own.getCriticalhit();
+            SAttackDamage *= ((SCriticalhit/100)+1);
+        }
         double EHealth = enemy.getHealthpoints();
         double EDefence = enemy.getDefence();
         SAttackDamage /= EDefence;
