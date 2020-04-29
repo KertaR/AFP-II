@@ -9,6 +9,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
+import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -49,6 +50,10 @@ public class FragmentNavigationView extends AppCompatActivity {
 
         TextView Felhasznalonev = findViewById(R.id.textView17);
         TextView Szint = findViewById(R.id.textView18);
+
+        /**FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.add(R.id.nav_bolt, new BoltFragment());
+        fragmentTransaction.commit();*/
     }
 
     @Override

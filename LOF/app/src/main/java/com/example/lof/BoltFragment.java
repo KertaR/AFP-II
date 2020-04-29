@@ -4,9 +4,11 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 public class BoltFragment extends Fragment {
 
@@ -37,8 +39,17 @@ public class BoltFragment extends Fragment {
     }
 
     @Override
-
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
-        return inflater.inflate(R.layout.fragment_bolt,container,false);}
-
+        View view = inflater.inflate(R.layout.fragment_bolt,container,false);
+        /**Button Skin =(Button) view.findViewById(R.id.button17);
+        Skin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentTransaction fr=getFragmentManager().beginTransaction();
+                fr.replace(R.id.fragment_bolt2, new Bolt2Fragment());
+                fr.commit();
+            }
+        });*/
+        return view;
+    }
 }

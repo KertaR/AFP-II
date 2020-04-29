@@ -54,6 +54,6 @@
     <fragment
         android:id="@+id/fragment_bolt2"
         android:name="com.example.lof.Bolt2Fragment"
-        android:label="fragment_bolt2"
+        android:label="Skinek"
         tools:layout="@layout/fragment_bolt2" />
 </navigation>
