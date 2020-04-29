@@ -13,13 +13,14 @@ import android.widget.Toast;
 
 import com.example.lof.controllers.UserHandler;
 import com.example.lof.database.AppDatabase;
+import com.example.lof.datastructures.User;
 
 public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        UserHandler.setUserHandler(getApplicationContext());
         Button Elfogad = findViewById(R.id.button);
         Elfogad.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,8 +34,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
-
         Button Regisztráció = findViewById(R.id.button7);
         Regisztráció.setOnClickListener(new View.OnClickListener() {
             @Override
