@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View elfogad) {
                 EditText felhasznalonev = findViewById(R.id.editText);
                 EditText jelszo = findViewById(R.id.editText2);
-                //if(UserHandler.Login(felhasznalonev.getText().toString(),jelszo.getText().toString()))
+                if(UserHandler.Login(felhasznalonev.getText().toString(),jelszo.getText().toString()))
                 openElfogad();
             }
         });

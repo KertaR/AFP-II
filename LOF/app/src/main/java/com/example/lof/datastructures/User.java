@@ -16,6 +16,7 @@ public class User{
     @PrimaryKey
     @NotNull
     private String username;
+    @NotNull
     private String password;
     private String email;
     private String profilepicturepath;
@@ -23,16 +24,18 @@ public class User{
     private int gold;
 
     //Properties
+    @NotNull
     public String getUsername() {
         return username;
     }
-    public void setUsername(String username) {
+    public void setUsername(@NotNull String username) {
         this.username = username;
     }
+    @NotNull
     public String getPassword() {
         return password;
     }
-    public void setPassword(String password) {
+    public void setPassword(@NotNull String password) {
         this.password = password;
     }
     public String getEmail() {

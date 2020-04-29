@@ -42,7 +42,7 @@ public class UserHandler {
 
      */
     public UserHandler(Context context) {
-        database = Room.databaseBuilder(context, AppDatabase.class, DB_NAME).build();
+        database = Room.databaseBuilder(context, AppDatabase.class, DB_NAME).fallbackToDestructiveMigration().allowMainThreadQueries().build();
     }
     public void Register(String username, String password, String passwordconf){
         List<User> users = database.userDao().getAll();
