@@ -48,25 +48,27 @@ public class UserHandler {
     public static void Register(Context context,String username, String password, String passwordconf){
         List<User> users = database.userDao().getAll();
         boolean hasUser = false;
-        if(password.equals(passwordconf))
-        {
-            for (User user: users)
-            {
-                if (user.getUsername().equals(username)) {
-                    hasUser = true;
-                    Toast.makeText(context,"Ezzel a névvel már regisztráltak!", Toast.LENGTH_SHORT).show();
-                    break;
+        if(username.length() < 4) Toast.makeText(context,"A felhasználó névnek legalább 4 betűből kell állnia!", Toast.LENGTH_SHORT).show();
+        else{
+            if(password.length() < 4) Toast.makeText(context,"A jelszónak legalább 4 betűből kell állnia!", Toast.LENGTH_SHORT).show();
+            else {
+                if (password.equals(passwordconf)) {
+                    for (User user : users) {
+                        if (user.getUsername().equals(username)) {
+                            hasUser = true;
+                            Toast.makeText(context, "Ezzel a névvel már regisztráltak!", Toast.LENGTH_SHORT).show();
+                            break;
+                        }
+                    }
+
+                    if (!hasUser) {
+                        insert(username, password);
+                        Toast.makeText(context, "Sikeres Regiszráció!", Toast.LENGTH_SHORT).show();
+                    }
+                } else {
+                    Toast.makeText(context, "A két jelszó nem egyezik meg.", Toast.LENGTH_SHORT).show();
                 }
             }
-
-            if(!hasUser)
-            {
-                insert(username,password);
-                Toast.makeText(context,"Sikeres Regiszráció!", Toast.LENGTH_SHORT).show();
-            }
-        }
-        else{
-            Toast.makeText(context,"A két jelszó nem egyezik meg.", Toast.LENGTH_SHORT).show();
         }
     }
     public static boolean Login(String username,String password){
