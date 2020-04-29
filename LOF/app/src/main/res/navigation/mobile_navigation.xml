@@ -53,7 +53,7 @@
         tools:layout="@layout/fragment_beallitasok" />
     <fragment
         android:id="@+id/fragment_bolt2"
-        android:name="com.example.lof.fragment_bolt2"
+        android:name="com.example.lof.Bolt2Fragment"
         android:label="fragment_bolt2"
         tools:layout="@layout/fragment_bolt2" />
 </navigation>
