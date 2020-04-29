@@ -23,7 +23,7 @@ public class RegistrationActivity extends AppCompatActivity{
                 EditText felhasznalonev = (EditText) findViewById(R.id.editText5);
                 EditText jelszo = (EditText) findViewById(R.id.editText3);
                 EditText jelszoconf = (EditText) findViewById(R.id.editText4);
-                uh.Register(felhasznalonev.getText().toString(),jelszo.getText().toString(),jelszoconf.getText().toString());
+                uh.Register(getApplicationContext(),felhasznalonev.getText().toString(),jelszo.getText().toString(),jelszoconf.getText().toString());
             }
         });
 

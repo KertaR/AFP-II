@@ -4,6 +4,7 @@ package com.example.lof.controllers;
 
 import android.content.Context;
 import android.os.AsyncTask;
+import android.widget.Toast;
 
 import androidx.room.Room;
 
@@ -44,7 +45,7 @@ public class UserHandler {
     public UserHandler(Context context) {
         database = Room.databaseBuilder(context, AppDatabase.class, DB_NAME).fallbackToDestructiveMigration().allowMainThreadQueries().build();
     }
-    public void Register(String username, String password, String passwordconf){
+    public void Register(Context context,String username, String password, String passwordconf){
         List<User> users = database.userDao().getAll();
         boolean hasUser = false;
         if(password.equals(passwordconf))
@@ -53,6 +54,7 @@ public class UserHandler {
             {
                 if (user.getUsername().equals(username)) {
                     hasUser = true;
+                    Toast.makeText(context,"Ezzel a névvel már regisztráltak!", Toast.LENGTH_SHORT).show();
                     break;
                 }
             }
@@ -60,7 +62,11 @@ public class UserHandler {
             if(!hasUser)
             {
                 insert(username,password);
+                Toast.makeText(context,"Sikeres Regiszráció!", Toast.LENGTH_SHORT).show();
             }
+        }
+        else{
+            Toast.makeText(context,"A két jelszó nem egyezik meg.", Toast.LENGTH_SHORT).show();
         }
     }
     public static boolean Login(String username,String password){
