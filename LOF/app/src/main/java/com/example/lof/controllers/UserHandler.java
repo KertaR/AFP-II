@@ -14,7 +14,7 @@ import com.example.lof.datastructures.User;
 import java.util.List;
 
 public class UserHandler {
-    private String DB_NAME = "sakoshi";
+    private static String DB_NAME = "sakoshi";
 
     public static AppDatabase getDatabase() {
         return database;
@@ -24,7 +24,7 @@ public class UserHandler {
         return sessionid;
     }
 
-    private static AppDatabase database;
+    public static AppDatabase database;
     private static String sessionid;
 
     private void setSession(String sessionid){
@@ -42,10 +42,10 @@ public class UserHandler {
 
 
      */
-    public UserHandler(Context context) {
+    public static void setUserHandler(Context context) {
         database = Room.databaseBuilder(context, AppDatabase.class, DB_NAME).fallbackToDestructiveMigration().allowMainThreadQueries().build();
     }
-    public void Register(Context context,String username, String password, String passwordconf){
+    public static void Register(Context context,String username, String password, String passwordconf){
         List<User> users = database.userDao().getAll();
         boolean hasUser = false;
         if(password.equals(passwordconf))
@@ -77,7 +77,7 @@ public class UserHandler {
         return false;
     }
 
-    private void insert(String username, String password) {
+    private static void insert(String username, String password) {
 
         User user = new User();
         user.setUsername(username);
