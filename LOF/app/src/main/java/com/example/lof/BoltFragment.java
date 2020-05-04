@@ -1,5 +1,6 @@
 package com.example.lof;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -41,15 +42,18 @@ public class BoltFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         View view = inflater.inflate(R.layout.fragment_bolt,container,false);
-        /**Button Skin =(Button) view.findViewById(R.id.button17);
-        Skin.setOnClickListener(new View.OnClickListener() {
+        Button skin = (Button)view.findViewById(R.id.button17);
+        skin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FragmentTransaction fr=getFragmentManager().beginTransaction();
-                fr.replace(R.id.fragment_bolt2, new Bolt2Fragment());
-                fr.commit();
+                openSkin();
             }
-        });*/
+        });
         return view;
+    }
+
+    public void openSkin(){
+        Intent skins = new Intent(getContext(),Bolt2Fragment.class);
+        startActivity(skins);
     }
 }
