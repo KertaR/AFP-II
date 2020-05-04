@@ -1,8 +1,10 @@
 package com.example.lof;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -47,9 +49,6 @@ public class FragmentNavigationView extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
-
-        TextView Felhasznalonev = findViewById(R.id.textView17);
-        TextView Szint = findViewById(R.id.textView18);
 
         /**FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         fragmentTransaction.add(R.id.nav_bolt, new BoltFragment());
