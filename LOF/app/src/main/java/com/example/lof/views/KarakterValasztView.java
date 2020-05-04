@@ -15,24 +15,28 @@ import com.example.lof.datastructures.Champions.Shizuki;
 import com.example.lof.datastructures.Champions.Yoshi;
 import com.example.lof.datastructures.Character;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class KarakterValasztView {
-    List<Character> karakterek;
-    public void Listakezeles(){
-        karakterek.add(new Ameyuki_hercegno());
-        karakterek.add(new Sakusa());
-        karakterek.add(new Shizuki());
-        karakterek.add(new Yoshi());
+    private static List<Character> karakterek = new ArrayList<>();
+    private static void Listakezeles(){
+        if(karakterek!=null){
+            karakterek.add(new Ameyuki_hercegno());
+            karakterek.add(new Sakusa());
+            karakterek.add(new Shizuki());
+            karakterek.add(new Yoshi());
+        }
     }
-    public ImageButton GombKeszit(Context context,Character character){
+    private static ImageButton GombKeszit(Context context,Character character){
         ImageButton btn = new ImageButton(context);
-        btn.setImageDrawable(context.getResources().getDrawable(R.drawable.bolt));
+        btn.setImageDrawable(context.getResources().getDrawable(R.drawable.kep));
         btn.setLayoutParams(new LinearLayout.LayoutParams(75, 75));
         return btn;
     }
-    public void TablaFeltolt(TableLayout table)
+    public static void TablaFeltolt(TableLayout table)
     {
+        Listakezeles();
         TableRow sor = new TableRow(table.getContext());
         sor.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.FILL_PARENT, TableRow.LayoutParams.WRAP_CONTENT));
         int sorhossz = 0;

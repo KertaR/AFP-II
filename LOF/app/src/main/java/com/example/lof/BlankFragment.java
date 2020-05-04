@@ -73,7 +73,7 @@ public class BlankFragment extends Fragment {
     }
 
     public void openMeccs(){
-        Intent game = new Intent(getContext(),GameActivity.class);
+        Intent game = new Intent(getContext(),KarakterValasztasActivity.class);
         startActivity(game);
     }
 }
