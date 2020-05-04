@@ -24,7 +24,7 @@ public class KarakterValasztasActivity extends AppCompatActivity {
     ImageButton btn_ameyuki = findViewById(R.id.btn_ameyuki);
     ImageButton btn_shizuki = findViewById(R.id.btn_shizuki);
     ImageButton btn_sakusa = findViewById(R.id.btn_sakusa);
-
+    Button btn_meccsinditas = findViewById(R.id.meccsinditas);
     String kivalasztottkarakter;
 
     @Override
@@ -36,7 +36,33 @@ public class KarakterValasztasActivity extends AppCompatActivity {
         btn_yoshi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View registration) {
-
+                kivalasztottkarakter = "Yoshi";
+            }
+        });
+        btn_ameyuki.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View registration) {
+                kivalasztottkarakter = "Ameyuki";
+            }
+        });
+        btn_shizuki.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View registration) {
+                kivalasztottkarakter = "Shizuki";
+            }
+        });
+        btn_sakusa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View registration) {
+                kivalasztottkarakter = "Sakusa";
+            }
+        });
+        btn_meccsinditas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View game) {
+                Intent start = new Intent(getApplicationContext(), GameActivity.class);
+                start.putExtra("karakter",kivalasztottkarakter);
+                startActivity(start);
             }
         });
     }

@@ -13,6 +13,9 @@ public class GameActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.game);
+        Intent intent = getIntent();
+        String karakternev = intent.getStringExtra("karakter");
+
         Button bolt = findViewById(R.id.button27);
         bolt.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -21,5 +24,7 @@ public class GameActivity extends AppCompatActivity {
             }
         });
     }
-
+    private void JatekInicalizalasa(){
+        
+    }
 }
