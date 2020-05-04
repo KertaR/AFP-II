@@ -22,6 +22,7 @@ public class GameActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.game);
         Intent intent = getIntent();
+        boolean korvege = false;
         String karakternev = intent.getStringExtra("karakter");
         JatekInicalizalasa(karakternev);
         Button bolt = findViewById(R.id.button27);
@@ -53,12 +54,5 @@ public class GameActivity extends AppCompatActivity {
         else if(random > 50 && random <= 75 ) enemy = new Sakusa();
         else if(random > 75 && random <= 100 ) enemy = new Shizuki();
 
-    }
-    private void Csata()
-    {
-        boolean tevagy = true;
-        Random rnd = new Random();
-        int random = rnd.nextInt(1);
-        if (random == 0)  tevagy = !tevagy;
     }
 }
