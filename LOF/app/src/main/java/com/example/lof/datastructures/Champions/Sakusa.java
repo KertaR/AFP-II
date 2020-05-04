@@ -60,7 +60,7 @@ public class Sakusa extends Character implements Skill, Skin {
     public void QuaternarySkill(Character enemy) {
         double SMana = this.getMana();
         if(SMana >= 160){
-            SMana -= 140;
+            SMana -= 160;
             this.setMana(SMana);
             double SHealth = this.getHealthpoints();
             SHealth += 40;
@@ -85,6 +85,28 @@ public class Sakusa extends Character implements Skill, Skin {
         double SMana = this.getMana();
         SMana += this.getManaregen();
         this.setMana(SMana);
+    }
+
+    @Override
+    public void Bot(Character own, Character enemy) {
+        double EHealth = enemy.getHealthpoints();
+        double SHealth = this.getHealthpoints();
+        double SMana = this.getMana();
+        if(SHealth > 200 && SMana >= 55){
+            PrimarySkill(enemy);
+        }
+        else if(SHealth >= 280 && SMana <= 250){
+            TertiarySkill(enemy);
+        }
+        else if(SHealth <= 100){
+            SecondarySkill(enemy);
+        }
+        else if( SMana >= 160){
+            QuaternarySkill(enemy);
+        }
+        else{
+            Attack(own, enemy);
+        }
     }
 
     @Override

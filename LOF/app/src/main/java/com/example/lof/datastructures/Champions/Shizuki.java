@@ -77,6 +77,28 @@ public class Shizuki extends Character implements Skill, Skin{
     }
 
     @Override
+    public void Bot(Character own, Character enemy) {
+        double EHealth = enemy.getHealthpoints();
+        double SHealth = this.getHealthpoints();
+        double SMana = this.getMana();
+        if(SHealth > 140 && SMana >= 170){
+            TertiarySkill(enemy);
+        }
+        else if(EHealth < 75 && SMana >= 50){
+            PrimarySkill(enemy);
+        }
+        else if(SHealth < 100 && SMana <= 65){
+            QuaternarySkill(enemy);
+        }
+        else if(SHealth > 400){
+            SecondarySkill(enemy);
+        }
+        else{
+            Attack(own, enemy);
+        }
+    }
+
+    @Override
     public void SetPortraitPath(String portraitpath) {
         String portrait = portraitpath;
         this.setPortraitpath(portrait);

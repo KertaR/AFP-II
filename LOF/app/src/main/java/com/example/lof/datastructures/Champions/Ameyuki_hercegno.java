@@ -4,6 +4,8 @@ import com.example.lof.datastructures.Character;
 import com.example.lof.datastructures.Skill;
 import com.example.lof.datastructures.Skin;
 
+import java.util.Random;
+
 public class Ameyuki_hercegno extends Character implements Skill, Skin {
     public Ameyuki_hercegno() {
         super("Ameyuki hercegnő", "ms", 520, 40, 240, 45, 1.5, 30, 800);
@@ -57,7 +59,7 @@ public class Ameyuki_hercegno extends Character implements Skill, Skin {
             double SAttackDamage = this.getAttackdamage();
             double EAttackDamage = enemy.getAttackdamage();
             double EDefence = enemy.getDefence();
-            double OAttackDamage = (SAttackDamage + EAttackDamage) / EDefence;
+            double OAttackDamage = (SAttackDamage + EAttackDamage + 100) / EDefence;
             double EHealth = enemy.getHealthpoints();
             if(EHealth > OAttackDamage){
                 EHealth -= OAttackDamage;
@@ -78,8 +80,44 @@ public class Ameyuki_hercegno extends Character implements Skill, Skin {
     }
 
     @Override
+    public void Bot(Character own, Character enemy) {
+        double EHealth = enemy.getHealthpoints();
+        double SHealth = this.getHealthpoints();
+        double SMana = this.getMana();
+        if(SHealth > 150 && SMana >= 180){
+            QuaternarySkill(enemy);
+        }
+        else if(EHealth < 100 && SMana >= 120){
+            PrimarySkill(enemy);
+        }
+        else if(EHealth < 50 && SMana <= 120){
+            Attack(own, enemy);
+        }
+        else if(SHealth < 100 && SMana <= 60){
+            SecondarySkill(enemy);
+        }
+        else{
+            Random rnd = new Random();
+            int random = rnd.nextInt(10);
+            if(random <= 7){
+                Attack(own, enemy);
+            }
+            else{
+                if(SMana >= 100){
+                    TertiarySkill(enemy);
+                }
+                else{
+                    Attack(own, enemy);
+                }
+            }
+        }
+    }
+
+    @Override
     public void SetPortraitPath(String portraitpath) {
         String portrait = portraitpath;
         this.setPortraitpath(portrait);
     }
+
+
 }

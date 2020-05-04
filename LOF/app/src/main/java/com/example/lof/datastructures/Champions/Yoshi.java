@@ -70,6 +70,28 @@ public class Yoshi extends Character implements Skill, Skin{
     }
 
     @Override
+    public void Bot(Character own, Character enemy) {
+        double EHealth = enemy.getHealthpoints();
+        double SHealth = this.getHealthpoints();
+        double SMana = this.getMana();
+        if(SHealth > 105 && SMana >= 70){
+            TertiarySkill(enemy);
+        }
+        else if( SHealth <= 100 && SMana >= 40){
+            QuaternarySkill(enemy);
+        }
+        else if( EHealth <= 150 && SMana >= 130){
+            SecondarySkill(enemy);
+        }
+        else if( EHealth >= 400 && SMana >= 105){
+            PrimarySkill(enemy);
+        }
+        else{
+            Attack(own, enemy);
+        }
+    }
+
+    @Override
     public void SetPortraitPath(String portraitpath) {
         String portrait = portraitpath;
         this.setPortraitpath(portrait);
