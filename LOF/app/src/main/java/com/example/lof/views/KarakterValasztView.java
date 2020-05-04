@@ -1,8 +1,6 @@
 package com.example.lof.views;
 
 import android.content.Context;
-import android.text.Layout;
-import android.view.View;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TableLayout;
