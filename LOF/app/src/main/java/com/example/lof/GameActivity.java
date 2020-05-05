@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.lof.controllers.Csata;
 import com.example.lof.datastructures.Champions.Ameyuki_hercegno;
 import com.example.lof.datastructures.Champions.Sakusa;
 import com.example.lof.datastructures.Champions.Shizuki;
@@ -17,6 +18,7 @@ import java.util.Random;
 
 public class GameActivity extends AppCompatActivity {
     Character player,enemy;
+    boolean kiaz;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +26,7 @@ public class GameActivity extends AppCompatActivity {
         Intent intent = getIntent();
         boolean korvege = false;
         String karakternev = intent.getStringExtra("karakter");
+        kiaz = Csata.Sorsol();
         JatekInicalizalasa(karakternev);
         Button bolt = findViewById(R.id.button27);
         bolt.setOnClickListener(new View.OnClickListener() {
@@ -37,14 +40,29 @@ public class GameActivity extends AppCompatActivity {
     private void JatekInicalizalasa(String karakternev){
         Character character = null;
         switch (karakternev){
-            case "Ameyuki": character = new Ameyuki_hercegno();
+            case "Ameyuki":
+            {
+                character = null;
+                character = new Ameyuki_hercegno();
+            }
             break;
-            case "Yoshi": character = new Yoshi();
-                break;
-            case "Sakusa": character = new Sakusa();
-                break;
-            case "Shizuki": character = new Shizuki();
-                break;
+            case "Yoshi":
+            {
+                character = null;
+                character = new Yoshi();
+            }
+            break;
+            case "Sakusa":
+            {
+                character = null;
+                character = new Sakusa();
+            }
+            break;
+            case "Shizuki": {
+                character = null;
+                character = new Shizuki();
+            }
+            break;
         }
         player = character;
         Random rnd = new Random();
