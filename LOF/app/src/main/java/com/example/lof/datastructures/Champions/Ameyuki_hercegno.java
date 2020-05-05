@@ -11,7 +11,7 @@ import com.example.lof.datastructures.Skin;
 
 import java.util.Random;
 
-public class Ameyuki_hercegno extends Character implements Skill, Skin {
+public class Ameyuki_hercegno extends Character implements Skin {
     public Ameyuki_hercegno() {
         super("Ameyuki hercegnő", "ms", 520, 40, 240, 45, 1.5, 30, 800);
     }

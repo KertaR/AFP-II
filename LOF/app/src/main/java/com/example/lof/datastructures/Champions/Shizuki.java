@@ -4,7 +4,7 @@ import com.example.lof.datastructures.Character;
 import com.example.lof.datastructures.Skill;
 import com.example.lof.datastructures.Skin;
 
-public class Shizuki extends Character implements Skill, Skin{
+public class Shizuki extends Character implements Skin{
     public Shizuki() {
         super("Shizuki", "ms", 470, 35, 320, 15, 3, 40, 1050);
     }

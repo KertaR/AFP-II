@@ -56,7 +56,7 @@ public class GameActivity extends AppCompatActivity {
         skill3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View skill3) {
-                player.TertiarySkillSkill(enemy);
+                player.TertiarySkill(enemy);
             }
         });
         skill4.setOnClickListener(new View.OnClickListener() {

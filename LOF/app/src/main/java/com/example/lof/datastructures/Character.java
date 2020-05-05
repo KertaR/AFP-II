@@ -97,7 +97,12 @@ public abstract class Character {
         this.cost = cost;
     }
 
-    public void Bot(Character own, Character enemy){}
+    public abstract void PrimarySkill(Character enemy);
+    public abstract void SecondarySkill(Character enemy);
+    public abstract void TertiarySkill(Character enemy);
+    public abstract void QuaternarySkill(Character enemy);
+    public abstract void EndRound();
+    public abstract void Bot(Character own, Character enemy);
 
     public void Attack(Character own, Character enemy) {
         double SAttackDamage = own.getAttackdamage();

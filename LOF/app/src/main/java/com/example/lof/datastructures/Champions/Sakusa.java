@@ -6,7 +6,7 @@ import com.example.lof.datastructures.Skin;
 
 import java.util.Random;
 
-public class Sakusa extends Character implements Skill, Skin {
+public class Sakusa extends Character implements Skin {
     public Sakusa() {
         super("Sakusa", "ms", 380, 75, 280, 35, 1.25, 25, 1200);
     }

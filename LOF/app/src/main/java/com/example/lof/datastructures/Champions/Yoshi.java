@@ -4,7 +4,7 @@ import com.example.lof.datastructures.Character;
 import com.example.lof.datastructures.Skill;
 import com.example.lof.datastructures.Skin;
 
-public class Yoshi extends Character implements Skill, Skin{
+public class Yoshi extends Character implements Skin{
     public Yoshi() {
         super("Yoshi", "ms", 680, 55, 225, 50, 1.8, 50, 1150);
     }
