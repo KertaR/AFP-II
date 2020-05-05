@@ -7,6 +7,7 @@ import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.example.lof.controllers.Csata;
 import com.example.lof.datastructures.Champions.Ameyuki_hercegno;
@@ -29,11 +30,39 @@ public class GameActivity extends AppCompatActivity {
         String karakternev = intent.getStringExtra("karakter");
         kiaz = Csata.Sorsol();
         JatekInicalizalasa(karakternev);
-        ImageButton = findViewById(R.id.button27);
-        bolt.setOnClickListener(new View.OnClickListener() {
+        ImageButton attack = findViewById(R.id.btn_attack);
+        ImageButton skill1 = findViewById(R.id.btn_skill1);
+        ImageButton skill2 = findViewById(R.id.btn_skill2);
+        ImageButton skill3 = findViewById(R.id.btn_skill3);
+        ImageButton skill4 = findViewById(R.id.btn_skill4);
+        attack.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View bolt) {
-                startActivity(new Intent(GameActivity.this,PopGame.class));
+            public void onClick(View attack) {
+                player.Attack(player,enemy);
+            }
+        });
+        skill1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View skill1) {
+                player.PrimarySkill(enemy);
+            }
+        });
+        skill2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View skill2) {
+                player.SecondarySkill(enemy);
+            }
+        });
+        skill3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View skill3) {
+                player.TertiarySkillSkill(enemy);
+            }
+        });
+        skill4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View skill4) {
+                player.QuaternarySkill(enemy);
             }
         });
 

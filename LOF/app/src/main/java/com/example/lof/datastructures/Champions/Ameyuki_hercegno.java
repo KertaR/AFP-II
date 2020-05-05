@@ -1,5 +1,10 @@
 package com.example.lof.datastructures.Champions;
 
+import android.graphics.drawable.Drawable;
+import android.media.Image;
+import android.view.View;
+
+import com.example.lof.R;
 import com.example.lof.datastructures.Character;
 import com.example.lof.datastructures.Skill;
 import com.example.lof.datastructures.Skin;
@@ -10,7 +15,6 @@ public class Ameyuki_hercegno extends Character implements Skill, Skin {
     public Ameyuki_hercegno() {
         super("Ameyuki hercegnő", "ms", 520, 40, 240, 45, 1.5, 30, 800);
     }
-
     @Override
     public void PrimarySkill(Character enemy) {
         double SMana = this.getMana();
