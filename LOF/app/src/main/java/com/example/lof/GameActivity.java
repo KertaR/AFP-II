@@ -3,6 +3,7 @@ package com.example.lof;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -28,7 +29,7 @@ public class GameActivity extends AppCompatActivity {
         String karakternev = intent.getStringExtra("karakter");
         kiaz = Csata.Sorsol();
         JatekInicalizalasa(karakternev);
-        Button bolt = findViewById(R.id.button27);
+        ImageButton = findViewById(R.id.button27);
         bolt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View bolt) {

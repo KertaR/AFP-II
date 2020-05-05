@@ -22,7 +22,7 @@ public class Csata {
         if (random == 0)  tevagy = !tevagy;
         return tevagy;
     }
-    public static void KorCsata(Character enemy, Character player){
+    public static void KorCsata(Character player, Character enemy){
         if(!tevagy){
             enemy.Bot(player,enemy);
             tevagy = true;
