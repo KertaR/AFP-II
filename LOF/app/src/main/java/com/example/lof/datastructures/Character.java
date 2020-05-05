@@ -2,7 +2,7 @@ package com.example.lof.datastructures;
 
 import java.util.Random;
 
-public class Character {
+public abstract class Character {
     public Character(String name, String portraitpath, double healthpoints, double attackdamage, double mana, double manaregen, double defence, double criticalhit, int cost) {
         this.name = name;
         this.portraitpath = portraitpath;
@@ -96,6 +96,8 @@ public class Character {
     public void setCost(int cost) {
         this.cost = cost;
     }
+
+    public void Bot(Character own, Character enemy){}
 
     public void Attack(Character own, Character enemy) {
         double SAttackDamage = own.getAttackdamage();

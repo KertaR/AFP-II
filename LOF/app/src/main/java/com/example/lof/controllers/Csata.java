@@ -23,6 +23,8 @@ public class Csata {
         return tevagy;
     }
     public static void KorCsata(Character enemy, Character player){
-
+        if(!tevagy){
+            enemy.Bot(player,enemy);
+        }
     }
 }

@@ -6,5 +6,4 @@ public interface Skill {
     void TertiarySkill(Character enemy);
     void QuaternarySkill(Character enemy);
     void EndRound();
-    void Bot(Character own, Character enemy);
 }
