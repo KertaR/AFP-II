@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TableLayout;
+import android.widget.Toast;
 
 import com.example.lof.datastructures.Champions.Ameyuki_hercegno;
 import com.example.lof.datastructures.Champions.Sakusa;
@@ -67,9 +68,12 @@ public class KarakterValasztasActivity extends AppCompatActivity {
         btn_meccsinditas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View game) {
-                Intent start = new Intent(getApplicationContext(), GameActivity.class);
-                start.putExtra("karakter",kivalasztottkarakter);
-                startActivity(start);
+                if(!kivalasztottkarakter.isEmpty()) {
+                    Intent start = new Intent(getApplicationContext(), GameActivity.class);
+                    start.putExtra("karakter", kivalasztottkarakter);
+                    startActivity(start);
+                }
+                else Toast.makeText(getApplicationContext(), "Kérlek válassz egy karaktert!", Toast.LENGTH_SHORT).show();
             }
         });
     }
