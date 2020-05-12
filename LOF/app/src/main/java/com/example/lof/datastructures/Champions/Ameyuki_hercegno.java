@@ -23,13 +23,8 @@ public class Ameyuki_hercegno extends Character implements Skin {
             this.setMana(SMana);
             double EHealth = enemy.getHealthpoints();
             double EDefence = enemy.getDefence();
-            if(EHealth > (75/EDefence)){
-                EHealth -= (75/EDefence);
-                enemy.setHealthpoints(EHealth);
-            }
-            else{
-                // az ellenfél meghal
-            }
+            EHealth -= (75/EDefence);
+            enemy.setHealthpoints(EHealth);
         }
     }
 
@@ -65,13 +60,8 @@ public class Ameyuki_hercegno extends Character implements Skin {
             double EDefence = enemy.getDefence();
             double OAttackDamage = (SAttackDamage + EAttackDamage + 100) / EDefence;
             double EHealth = enemy.getHealthpoints();
-            if(EHealth > OAttackDamage){
-                EHealth -= OAttackDamage;
-                enemy.setHealthpoints(EHealth);
-            }
-            else{
-                // az ellenfél meghal
-            }
+            EHealth -= OAttackDamage;
+            enemy.setHealthpoints(EHealth);
 
         }
     }

@@ -17,13 +17,8 @@ public class Shizuki extends Character implements Skin{
             this.setMana(SMana);
             double EHealth = enemy.getHealthpoints();
             double EDefence = enemy.getDefence();
-            if(EHealth > (80/EDefence)){
-                EHealth -= (80/EDefence);
-                enemy.setHealthpoints(EHealth);
-            }
-            else{
-                // az ellenfél meghal
-            }
+            EHealth -= (80/EDefence);
+            enemy.setHealthpoints(EHealth);
         }
     }
 
@@ -47,13 +42,8 @@ public class Shizuki extends Character implements Skin{
             this.setMana(SMana);
             double EHealth = enemy.getHealthpoints();
             double EDefence = enemy.getDefence();
-            if(EHealth > (155/EDefence)){
-                EHealth -= (155/EDefence);
-                enemy.setHealthpoints(EHealth);
-            }
-            else{
-                // az ellenfél meghal
-            }
+            EHealth -= (155/EDefence);
+            enemy.setHealthpoints(EHealth);
         }
     }
 

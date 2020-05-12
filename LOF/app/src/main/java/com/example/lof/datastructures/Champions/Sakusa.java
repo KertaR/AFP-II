@@ -25,12 +25,8 @@ public class Sakusa extends Character implements Skin {
             for (int i = 0; i < 4; i++){
                 int EAttackDamage = rnd.nextInt(5);
                 if(EAttackDamage == 0){
-                    if(EHealth > (45/EDefence)){
-                        EHealth -= (45/EDefence);
-                    }
-                    else{
-                        // az ellenfél meghal
-                    }
+                    EHealth -= (45/EDefence);
+                    enemy.setHealthpoints(EHealth);
                 }
             }
         }

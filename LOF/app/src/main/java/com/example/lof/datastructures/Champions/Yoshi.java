@@ -40,13 +40,8 @@ public class Yoshi extends Character implements Skin{
             SMana -= 70;
             this.setMana(SMana);
             double EHealth = enemy.getHealthpoints();
-            if(EHealth > 115){
-                EHealth -= 115;
-                enemy.setHealthpoints(EHealth);
-            }
-            else{
-                // az ellenfél meghal
-            }
+            EHealth -= 115;
+            enemy.setHealthpoints(EHealth);
         }
     }
 
