@@ -65,7 +65,12 @@ public class Yoshi extends Character implements Skin{
     @Override
     public void EndRound() {
         double SMana = this.getMana();
-        SMana += this.getManaregen();
+        if((SMana + this.getManaregen()) <= 225){
+            SMana += this.getManaregen();
+        }
+        else{
+            SMana = 225;
+        }
         this.setMana(SMana);
     }
 

@@ -67,7 +67,12 @@ public class Shizuki extends Character implements Skin{
     @Override
     public void EndRound() {
         double SMana = this.getMana();
-        SMana += this.getManaregen();
+        if((SMana + this.getManaregen()) <= 320){
+            SMana += this.getManaregen();
+        }
+        else{
+            SMana = 320;
+        }
         this.setMana(SMana);
     }
 

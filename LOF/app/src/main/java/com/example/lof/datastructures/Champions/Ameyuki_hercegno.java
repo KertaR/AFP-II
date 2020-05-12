@@ -79,7 +79,12 @@ public class Ameyuki_hercegno extends Character implements Skin {
     @Override
     public void EndRound() {
         double SMana = this.getMana();
-        SMana += this.getManaregen();
+        if((SMana + this.getManaregen()) <= 240){
+            SMana += this.getManaregen();
+        }
+        else{
+            SMana = 240;
+        }
         this.setMana(SMana);
     }
 

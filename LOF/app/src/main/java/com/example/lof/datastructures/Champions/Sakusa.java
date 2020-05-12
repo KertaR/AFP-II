@@ -89,7 +89,12 @@ public class Sakusa extends Character implements Skin {
             skillUsed = false;
         }
         double SMana = this.getMana();
-        SMana += this.getManaregen();
+        if((SMana + this.getManaregen()) <= 280){
+            SMana += this.getManaregen();
+        }
+        else{
+            SMana = 280;
+        }
         this.setMana(SMana);
     }
 
