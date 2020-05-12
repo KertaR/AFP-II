@@ -52,7 +52,12 @@ public class Yoshi extends Character implements Skin{
             SMana -= 40;
             this.setMana(SMana);
             double SHealth = this.getHealthpoints();
-            SHealth += 90;
+            if((SHealth +90) <= 680){
+                SHealth += 90;
+            }
+            else{
+                SHealth = 680;
+            }
             this.setHealthpoints(SHealth);
         }
     }

@@ -35,7 +35,12 @@ public class Ameyuki_hercegno extends Character implements Skin {
             SMana -= 60;
             this.setMana(SMana);
             double SHealth = this.getHealthpoints();
-            SHealth += 50;
+            if((SHealth + 50) <= 520){
+                SHealth += 50;
+            }
+            else{
+                SHealth = 520;
+            }
             this.setHealthpoints(SHealth);
         }
     }
@@ -44,7 +49,12 @@ public class Ameyuki_hercegno extends Character implements Skin {
     public void TertiarySkill(Character enemy) {
         double SMana = this.getMana();
         if(SMana >= 100){
-            SMana += 20;
+            if((SMana + 20) <= 240){
+                SMana += 20;
+            }
+            else{
+                SMana = 240;
+            }
             this.setMana(SMana);
         }
     }

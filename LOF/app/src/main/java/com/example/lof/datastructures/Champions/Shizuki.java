@@ -26,7 +26,12 @@ public class Shizuki extends Character implements Skin{
     public void SecondarySkill(Character enemy) {
         double SMana = this.getMana();
         if(SMana >= 80){
-            SMana += 35;
+            if((SMana + 35) <= 320){
+                SMana += 35;
+            }
+            else{
+                SMana = 320;
+            }
             this.setMana(SMana);
             double SManaregen = this.getManaregen();
             SManaregen += 5;

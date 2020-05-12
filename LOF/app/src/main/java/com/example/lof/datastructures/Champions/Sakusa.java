@@ -47,7 +47,12 @@ public class Sakusa extends Character implements Skin {
             SHealth -= 40;
             this.setHealthpoints(SHealth);
             double SMana = this.getMana();
-            SMana += 80;
+            if((SMana + 80) <= 280){
+                SMana += 80;
+            }
+            else{
+                SMana = 280;
+            }
             this.setMana(SMana);
         }
     }
@@ -59,7 +64,12 @@ public class Sakusa extends Character implements Skin {
             SMana -= 160;
             this.setMana(SMana);
             double SHealth = this.getHealthpoints();
-            SHealth += 40;
+            if((SHealth + 40) <= 380){
+                SHealth += 40;
+            }
+            else{
+                SHealth = 380;
+            }
             this.setHealthpoints(SHealth);
             double SAttackDamage = this.getAttackdamage();
             SAttackDamage += 25;
