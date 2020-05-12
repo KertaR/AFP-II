@@ -165,10 +165,10 @@ public class GameActivity extends AppCompatActivity {
     }
     public void CurrentStatus()
     {
-        selfgold.setText(String.valueOf(gold));
-        selfhealth.setText(String.valueOf((int)player.getHealthpoints()));
-        selfmana.setText(String.valueOf((int)player.getMana()));
-        enemyhealth.setText(String.valueOf((int)enemy.getHealthpoints()));
-        enemymana.setText(String.valueOf((int)enemy.getMana()));
+        selfgold.setText("Gold: " + String.valueOf(gold));
+        selfhealth.setText("HP: " + String.valueOf((int)player.getHealthpoints()));
+        selfmana.setText("Mana:" +String.valueOf((int)player.getMana()));
+        enemyhealth.setText("HP: " + String.valueOf((int)enemy.getHealthpoints()));
+        enemymana.setText("Mana:" +String.valueOf((int)enemy.getMana()));
     }
 }

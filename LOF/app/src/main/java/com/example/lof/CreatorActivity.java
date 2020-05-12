@@ -12,8 +12,8 @@ public class CreatorActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_creator);
 
-        Button Felhasználási_feltetelek = findViewById(R.id.button9);
-        Felhasználási_feltetelek.setOnClickListener(new View.OnClickListener() {
+        Button Felhasznalasi_feltetelek = findViewById(R.id.button9);
+        Felhasznalasi_feltetelek.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 setContentView(R.layout.activity_terms_of_use);

@@ -52,7 +52,7 @@ public class BoltFragment extends Fragment {
         return view;
     }
 
-    public void openSkin(){
+    private void openSkin(){
         Intent skins = new Intent(getContext(),Bolt2Fragment.class);
         startActivity(skins);
     }

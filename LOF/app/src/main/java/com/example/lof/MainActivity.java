@@ -36,24 +36,24 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        Button Regisztráció = findViewById(R.id.button7);
-        Regisztráció.setOnClickListener(new View.OnClickListener() {
+        Button Regisztracio = findViewById(R.id.button7);
+        Regisztracio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View registration) {
                 openRegistrationActivity();
             }
         });
 
-        Button Felhasznalai_feltetelek = findViewById(R.id.button9);
-        Felhasznalai_feltetelek.setOnClickListener(new View.OnClickListener() {
+        Button Felhasznalasi_feltetelek = findViewById(R.id.button9);
+        Felhasznalasi_feltetelek.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View termsofuse) {
                 openTermsOfUseActivity();
             }
         });
 
-        Button Az_alkotókról = findViewById(R.id.button10);
-        Az_alkotókról.setOnClickListener(new View.OnClickListener() {
+        Button Az_alkotokrol = findViewById(R.id.button10);
+        Az_alkotokrol.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View creator) {
                 openCreatorActivity();
