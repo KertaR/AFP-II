@@ -141,7 +141,7 @@
             style="@android:style/Widget.Holo.Light.TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sakusa"
+            android:text="Ameyuki"
             android:textAlignment="center"
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -156,7 +156,7 @@
             style="@android:style/Widget.Holo.Light.TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sakusa"
+            android:text="Shizuki"
             android:textAlignment="center"
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -171,7 +171,7 @@
             style="@android:style/Widget.Holo.Light.TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sakusa"
+            android:text="Yoshi"
             android:textAlignment="center"
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -186,7 +186,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:text="6300 Gold"
+            android:text="4800 Gold"
             android:textAlignment="center"
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -231,7 +231,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:text="6300 Gold"
+            android:text="4800 Gold"
             android:textAlignment="center"
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -240,6 +240,55 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.629" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="151dp"
+            android:layout_height="117dp"
+            android:src="@drawable/ameyuki_profil"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.196"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.187" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="117dp"
+            android:layout_height="120dp"
+            android:src="@drawable/sakusa"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.772"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.188" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="115dp"
+            android:layout_height="117dp"
+            android:src="@drawable/shizuki_profil"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.239"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.508" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="117dp"
+            android:layout_height="155dp"
+            android:src="@drawable/yoshi_profil"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.772"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.508" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
