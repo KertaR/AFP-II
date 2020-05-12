@@ -6,10 +6,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
+
+import com.example.lof.controllers.UserHandler;
 
 public class BoltFragment extends Fragment {
 
@@ -36,7 +39,8 @@ public class BoltFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-
+       // TextView gold = this.findViewById(R.id.goldtext);
+       // gold.setText(UserHandler.database.userDao().getGold(UserHandler.getSessionid()));
     }
 
     @Override

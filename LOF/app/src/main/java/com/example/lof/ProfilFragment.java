@@ -1,5 +1,6 @@
 package com.example.lof;
 
+import android.os.Build;
 import android.os.Bundle;
 
 import android.content.Context;
@@ -10,8 +11,13 @@ import android.widget.TextView;
 import android.app.Activity;
 import android.view.Menu;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+
+import com.example.lof.controllers.UserHandler;
+
+import java.util.Objects;
 
 public class ProfilFragment extends Fragment
 {
@@ -35,6 +41,7 @@ public class ProfilFragment extends Fragment
         return fragment;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     public void onCreate(Bundle savedInstanceState)
     {

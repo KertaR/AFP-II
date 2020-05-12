@@ -74,6 +74,7 @@ public class UserHandler {
     public static boolean Login(String username,String password){
         User[] users = database.userDao().getUser(username);
         if(users.length == 1) {
+            sessionid = "username";
             return users[0].getPassword().equals(password);
         }
         return false;

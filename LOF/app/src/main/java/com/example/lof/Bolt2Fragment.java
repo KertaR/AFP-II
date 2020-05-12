@@ -7,6 +7,11 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
+import com.example.lof.controllers.UserHandler;
+import com.example.lof.database.AppDatabase;
+import com.example.lof.database.UserDao;
 
 
 /**
@@ -53,6 +58,7 @@ public class Bolt2Fragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+        View view;
     }
 
     @Override

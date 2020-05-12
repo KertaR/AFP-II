@@ -32,24 +32,6 @@
             app:layout_constraintVertical_bias="0.386" />
 
         <Button
-            android:id="@+id/button35"
-            style="@android:style/Widget.Holo.Button.Borderless.Small"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Skinek"
-            android:textAlignment="center"
-            android:textColor="#2B0404"
-            android:textSize="18sp"
-            android:textStyle="italic"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.743"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.054" />
-
-        <Button
             android:id="@+id/button36"
             style="@android:style/Widget.Holo.Button.Borderless.Small"
             android:layout_width="101dp"
@@ -223,6 +205,20 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.629" />
+
+        <TextView
+            android:id="@+id/textGold"
+            android:layout_width="114dp"
+            android:layout_height="26dp"
+            android:text="Gold: "
+            android:textColor="#2C0303"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.756"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.079" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>

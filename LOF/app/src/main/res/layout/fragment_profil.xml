@@ -40,7 +40,7 @@
             app:layout_constraintVertical_bias="0.099" />
 
         <TextView
-            android:id="@+id/textView17"
+            android:id="@+id/textFelhasznalo"
             style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
             app:layout_constraintVertical_bias="0.091" />
 
         <TextView
-            android:id="@+id/textView18"
+            android:id="@+id/textSzint"
             style="@android:style/Widget.Holo.Light.TextView.SpinnerItem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
