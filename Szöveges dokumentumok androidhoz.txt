@@ -1,39 +1,39 @@
-					Háttértörténet
-"A Sylweis heves folyamain túl létezik egy világ, ahol még senki sem járt. Senki sem tudja, hogy hol van, de még azt sem sejtik, hogy merre keressék. A birodalom, melynek határait még az õskorban húzták meg, a képzelet egyik legmélyebb zugában található meg. Ott, ahol senki sem keresné.
-Eme csodás és páratlan világban egy egészen különleges hadsereggel rendelkezõ birodalom kapott helyet, melynek harcosai mind az igazság oldalán szállnak harcba. Céljuk megszüntetni egy olyan világot, ahol a szenvedés és a kapzsiság határai nem léteznek és az emberek halomszámra képesek gyilkolászni egymást, a megbánás legkisebb nyoma nélkül.
-Mindenkinek jár egy esély, hogy a jó útra térjen. Te melyik oldalon állsz? A döntés a Te kezedben van!"
+					HÃ¡ttÃ©rtÃ¶rtÃ©net
+"A Sylweis heves folyamain tÃºl lÃ©tezik egy vilÃ¡g, ahol mÃ©g senki sem jÃ¡rt. Senki sem tudja, hogy hol van, de mÃ©g azt sem sejtik, hogy merre keressÃ©k. A birodalom, melynek hatÃ¡rait mÃ©g az Å‘skorban hÃºztÃ¡k meg, a kÃ©pzelet egyik legmÃ©lyebb zugÃ¡ban talÃ¡lhatÃ³ meg. Ott, ahol senki sem keresnÃ©.
+Eme csodÃ¡s Ã©s pÃ¡ratlan vilÃ¡gban egy egÃ©szen kÃ¼lÃ¶nleges hadsereggel rendelkezÅ‘ birodalom kapott helyet, melynek harcosai mind az igazsÃ¡g oldalÃ¡n szÃ¡llnak harcba. CÃ©ljuk megszÃ¼ntetni egy olyan vilÃ¡got, ahol a szenvedÃ©s Ã©s a kapzsisÃ¡g hatÃ¡rai nem lÃ©teznek Ã©s az emberek halomszÃ¡mra kÃ©pesek gyilkolÃ¡szni egymÃ¡st, a megbÃ¡nÃ¡s legkisebb nyoma nÃ©lkÃ¼l.
+Mindenkinek jÃ¡r egy esÃ©ly, hogy a jÃ³ Ãºtra tÃ©rjen. Te melyik oldalon Ã¡llsz? A dÃ¶ntÃ©s a Te kezedben van!"
 ---------------------------------------------------------------------------------------------------
 		   			 Karakterek
-	1. Ameyuki hercegnõ
- Az egykori uralkodói család tagjai közül már csak ketten maradtak életben. Míg a jogos trónörökös a rossz útra tért, addig Ameyuki célja mindvégig a jó ügyek szolgálata maradt. A támogató hátterének és kitartásának hála, mára rengeteg erõre tett szert, hogy varázserejének használatával felvegye a versenyt az öccsével szemben és leszámoljon minden gonosztevõvel ezen a világon.
-"Nem kell különlegesnek születni ahhoz, hogy valami igazán egyedit alkothass."
+	1. Ameyuki hercegnÅ‘
+ Az egykori uralkodÃ³i csalÃ¡d tagjai kÃ¶zÃ¼l mÃ¡r csak ketten maradtak Ã©letben. MÃ­g a jogos trÃ³nÃ¶rÃ¶kÃ¶s a rossz Ãºtra tÃ©rt, addig Ameyuki cÃ©lja mindvÃ©gig a jÃ³ Ã¼gyek szolgÃ¡lata maradt. A tÃ¡mogatÃ³ hÃ¡tterÃ©nek Ã©s kitartÃ¡sÃ¡nak hÃ¡la, mÃ¡ra rengeteg erÅ‘re tett szert, hogy varÃ¡zserejÃ©nek hasznÃ¡latÃ¡val felvegye a versenyt az Ã¶ccsÃ©vel szemben Ã©s leszÃ¡moljon minden gonosztevÅ‘vel ezen a vilÃ¡gon.
+"Nem kell kÃ¼lÃ¶nlegesnek szÃ¼letni ahhoz, hogy valami igazÃ¡n egyedit alkothass."
 Adatok:
- - életerõ: 450
- - manamennyiség: 220
+ - Ã©leterÅ‘: 450
+ - manamennyisÃ©g: 220
  - pajzs: 120
  - attack speed: 20%
-Képességei:
- - a : Egy erõs mágikus csapást mér az enemyre. 
-        sebzés: 75 hp
-        költség: 120 mana
- - b : Képes healelni magát. 
+KÃ©pessÃ©gei:
+ - a : Egy erÅ‘s mÃ¡gikus csapÃ¡st mÃ©r az enemyre. 
+        sebzÃ©s: 75 hp
+        kÃ¶ltsÃ©g: 120 mana
+ - b : KÃ©pes healelni magÃ¡t. 
         heal: 50 hp
-        költség: 60 mana 
- - c : Elhasználása utáni körben visszatölt neki plusz 120 manát.
-        költség: 100 mana
- - d : Visszeveri az enemy támadásait, így az szenvedi el a saját maga által kiosztani kívánt sebzést.
-        költség: 180 mana
+        kÃ¶ltsÃ©g: 60 mana 
+ - c : ElhasznÃ¡lÃ¡sa utÃ¡ni kÃ¶rben visszatÃ¶lt neki plusz 120 manÃ¡t.
+        kÃ¶ltsÃ©g: 100 mana
+ - d : Visszeveri az enemy tÃ¡madÃ¡sait, Ã­gy az szenvedi el a sajÃ¡t maga Ã¡ltal kiosztani kÃ­vÃ¡nt sebzÃ©st.
+        kÃ¶ltsÃ©g: 180 mana
 
 
 	2. Yoshi
- Ameyuki testvére, aki fiatalon már a rossz útra tért. Apja nem fordított elég figyelmet a nevelésére, ezért már gyerekként sok gondot okozott, hogy ezzel felhívja magára a figyelmet. Mivel ezzel apja haláláig nem járt túl sok sikerrel, végül a király az örökségébõl is kizárta. Ezekután nem meglepõ, hogy a gonosz lelkek közt talált vígaszra és egy új birodalmat készül megvalósítani, ahol senki sem kérdõjelezheti meg a hatalmát.
-"Én sem születtem gonosznak. A világ tett azzá."
+ Ameyuki testvÃ©re, aki fiatalon mÃ¡r a rossz Ãºtra tÃ©rt. Apja nem fordÃ­tott elÃ©g figyelmet a nevelÃ©sÃ©re, ezÃ©rt mÃ¡r gyerekkÃ©nt sok gondot okozott, hogy ezzel felhÃ­vja magÃ¡ra a figyelmet. Mivel ezzel apja halÃ¡lÃ¡ig nem jÃ¡rt tÃºl sok sikerrel, vÃ©gÃ¼l a kirÃ¡ly az Ã¶rÃ¶ksÃ©gÃ©bÅ‘l is kizÃ¡rta. EzekutÃ¡n nem meglepÅ‘, hogy a gonosz lelkek kÃ¶zt talÃ¡lt vÃ­gaszra Ã©s egy Ãºj birodalmat kÃ©szÃ¼l megvalÃ³sÃ­tani, ahol senki sem kÃ©rdÅ‘jelezheti meg a hatalmÃ¡t.
+"Ã‰n sem szÃ¼lettem gonosznak. A vilÃ¡g tett azzÃ¡."
 Adatok:
- - életerõ: 470
- - manamennyiség: 200
+ - Ã©leterÅ‘: 470
+ - manamennyisÃ©g: 200
  - pajzs: 140
  - attack speed: 30%
-Képességei:
+KÃ©pessÃ©gei:
  - a :
  - b :
  - c :
@@ -41,58 +41,64 @@ Képességei:
 
 
 	3. Sakusa
- A felmenõi õsidõk óta szolgálták az uralkodói családot. Apja a királyi testõrség vezetõje volt, halála után XY lépett a helyére és a hercegnõ bizalmasává vált. Minden erejével azon van, hogy megvédje a királynõt a rá leselkedõ veszélytõl és segítse õt a célja megvalósításában. Legnagyobb ellensége Shizuki, akivel egy régi konfliktus után váltak el útjaik. Akárhányszor találkoztak, mindig alulmaradt a fiúval szemben, de a végsõ leszámolás még várat magára. 
-"Vedd kezedbe a sorsom és döntsd el te a végzetem!"
+ A felmenÅ‘i Å‘sidÅ‘k Ã³ta szolgÃ¡ltÃ¡k az uralkodÃ³i csalÃ¡dot. Apja a kirÃ¡lyi testÅ‘rsÃ©g vezetÅ‘je volt, halÃ¡la utÃ¡n XY lÃ©pett a helyÃ©re Ã©s a hercegnÅ‘ bizalmasÃ¡vÃ¡ vÃ¡lt. Minden erejÃ©vel azon van, hogy megvÃ©dje a kirÃ¡lynÅ‘t a rÃ¡ leselkedÅ‘ veszÃ©lytÅ‘l Ã©s segÃ­tse Å‘t a cÃ©lja megvalÃ³sÃ­tÃ¡sÃ¡ban. Legnagyobb ellensÃ©ge Shizuki, akivel egy rÃ©gi konfliktus utÃ¡n vÃ¡ltak el Ãºtjaik. AkÃ¡rhÃ¡nyszor talÃ¡lkoztak, mindig alulmaradt a fiÃºval szemben, de a vÃ©gsÅ‘ leszÃ¡molÃ¡s mÃ©g vÃ¡rat magÃ¡ra. 
+"Vedd kezedbe a sorsom Ã©s dÃ¶ntsd el te a vÃ©gzetem!"
 Adatok:
- - életerõ: 620
- - manamennyiség: 120
+ - Ã©leterÅ‘: 620
+ - manamennyisÃ©g: 120
  - pajzs: 340
  - attack speed: 69%
-Képességei:
- - a : Eldobja a késeit, ezzel kisebb sebzést okoz az ellenségnek. 5 pengét dob el, ebbõl mindegyik 20% eséllyel talál be.
-        sebzés: 45hp/penge
-        költség: 55 mana
- - b : Eltûnik az árnyban. Az enemy 3 lapot kap, amely közül az egyik mögött megtalálható a karakter, ha eltalálja õ támad, ellenkezõ esetben egy körbõl kimarad.
-        költség: 80 mana 
- - c : Köpenyét maga elé húzza, ezzel pajzsot képezve védi ki az ellenség támadásának egy részét.
+KÃ©pessÃ©gei:
+ - a : Eldobja a kÃ©seit, ezzel kisebb sebzÃ©st okoz az ellensÃ©gnek. 5 pengÃ©t dob el, ebbÅ‘l mindegyik 20% esÃ©llyel talÃ¡l be.
+        sebzÃ©s: 45hp/penge
+        kÃ¶ltsÃ©g: 55 mana
+ - b : EltÅ±nik az Ã¡rnyban. Az enemy 3 lapot kap, amely kÃ¶zÃ¼l az egyik mÃ¶gÃ¶tt megtalÃ¡lhatÃ³ a karakter, ha eltalÃ¡lja Å‘ tÃ¡mad, ellenkezÅ‘ esetben egy kÃ¶rbÅ‘l kimarad.
+        kÃ¶ltsÃ©g: 80 mana 
+ - c : KÃ¶penyÃ©t maga elÃ© hÃºzza, ezzel pajzsot kÃ©pezve vÃ©di ki az ellensÃ©g tÃ¡madÃ¡sÃ¡nak egy rÃ©szÃ©t.
         pajzs: +70 "hp"
-        költség: 40 mana
- - d : Az ellenség mögé kerül és a kiritkus csapását 90%-ra megnövelt támadást visz be.
-        sebzés: 250 hp
-        költség: 95 mana
+        kÃ¶ltsÃ©g: 40 mana
+ - d : Az ellensÃ©g mÃ¶gÃ© kerÃ¼l Ã©s a kiritkus csapÃ¡sÃ¡t 90%-ra megnÃ¶velt tÃ¡madÃ¡st visz be.
+        sebzÃ©s: 250 hp
+        kÃ¶ltsÃ©g: 95 mana
 
 
 	4. Shizuki
- A szülei voltak a legjobb hadvezérek a birodalomban, azonban egy heves ütközet alkalmával nem akartak hallgatni a józan észre és a biztos halálba vezették a királyi sereget. Shizuki sosem tudta megbocsájtani szülei halálát, az õket magukra hagyó testõrség parancsnokának. Ám mielõtt a vérét tudta volna venni a parancsnok egy súlyos betegségben életét vesztette és a családjából csak egy ember maradt életben: XY. Shizuki célja végezni a lánnyal, ezzel beteljesítve a sorsát, azaz bosszút állni szülei halálán.
-"A bosszú is csak egy lehetõség. Nem muszáj élned vele."
+ A szÃ¼lei voltak a legjobb hadvezÃ©rek a birodalomban, azonban egy heves Ã¼tkÃ¶zet alkalmÃ¡val nem akartak hallgatni a jÃ³zan Ã©szre Ã©s a biztos halÃ¡lba vezettÃ©k a kirÃ¡lyi sereget. Shizuki sosem tudta megbocsÃ¡jtani szÃ¼lei halÃ¡lÃ¡t, az Å‘ket magukra hagyÃ³ testÅ‘rsÃ©g parancsnokÃ¡nak. Ãm mielÅ‘tt a vÃ©rÃ©t tudta volna venni a parancsnok egy sÃºlyos betegsÃ©gben Ã©letÃ©t vesztette Ã©s a csalÃ¡djÃ¡bÃ³l csak egy ember maradt Ã©letben: XY. Shizuki cÃ©lja vÃ©gezni a lÃ¡nnyal, ezzel beteljesÃ­tve a sorsÃ¡t, azaz bosszÃºt Ã¡llni szÃ¼lei halÃ¡lÃ¡n.
+"A bosszÃº is csak egy lehetÅ‘sÃ©g. Nem muszÃ¡j Ã©lned vele."
 Adatok:
- - életerõ: 620
- - manamennyiség: 120
+ - Ã©leterÅ‘: 620
+ - manamennyisÃ©g: 120
  - pajzs: 340
  - attack speed: 69%
-Képességei:
- - a : Eldobja a késeit, ezzel kisebb sebzést okoz az ellenségnek. 5 pengét dob el, ebbõl mindegyik 20% eséllyel talál be.
-        sebzés: 45hp/penge
-        költség: 55 mana
- - b : Eltûnik az árnyban. Az enemy 3 lapot kap, amely közül az egyik mögött megtalálható a karakter, ha eltalálja õ támad, ellenkezõ esetben egy körbõl kimarad.
-        költség: 80 mana 
- - c : Köpenyét maga elé húzza, ezzel pajzsot képezve védi ki az ellenség támadásának egy részét.
+KÃ©pessÃ©gei:
+ - a : Eldobja a kÃ©seit, ezzel kisebb sebzÃ©st okoz az ellensÃ©gnek. 5 pengÃ©t dob el, ebbÅ‘l mindegyik 20% esÃ©llyel talÃ¡l be.
+        sebzÃ©s: 45hp/penge
+        kÃ¶ltsÃ©g: 55 mana
+ - b : EltÅ±nik az Ã¡rnyban. Az enemy 3 lapot kap, amely kÃ¶zÃ¼l az egyik mÃ¶gÃ¶tt megtalÃ¡lhatÃ³ a karakter, ha eltalÃ¡lja Å‘ tÃ¡mad, ellenkezÅ‘ esetben egy kÃ¶rbÅ‘l kimarad.
+        kÃ¶ltsÃ©g: 80 mana 
+ - c : KÃ¶penyÃ©t maga elÃ© hÃºzza, ezzel pajzsot kÃ©pezve vÃ©di ki az ellensÃ©g tÃ¡madÃ¡sÃ¡nak egy rÃ©szÃ©t.
         pajzs: +70 "hp"
-        költség: 40 mana
- - d : Az ellenség mögé kerül és a kiritkus csapását 90%-ra megnövelt támadást visz be.
-        sebzés: 250 hp
-        költség: 95 mana
+        kÃ¶ltsÃ©g: 40 mana
+ - d : Az ellensÃ©g mÃ¶gÃ© kerÃ¼l Ã©s a kiritkus csapÃ¡sÃ¡t 90%-ra megnÃ¶velt tÃ¡madÃ¡st visz be.
+        sebzÃ©s: 250 hp
+        kÃ¶ltsÃ©g: 95 mana
 
 
 	5.
 ---------------------------------------------------------------------------------------------------
-				    Bannolási figyelmeztetés
- "Tisztelt Játékos! Az utóbbi idõkben tapasztaltak során azt vettük észre, hogy viselkedésével több ponton is megsértette a játék fõbb szabályait. Ezen szabályszegések alkalmával már elérte a bûntetési idõ maximum határát. Sajnálattal kell közölnünk, hogy még egy ilyen cselekedet végleges tiltást von maga után. Amennyiben úgy gondolja, hogy magaviseletével és játékban nyújtott teljesítményével nem szegte meg a felhasználási feltételekben összefoglalt szabályokat, akkor forduljon adminjainkhoz panaszával.
-								Üdv.: Fejlesztõk"
+				    BannolÃ¡si figyelmeztetÃ©s
+ "Tisztelt JÃ¡tÃ©kos! Az utÃ³bbi idÅ‘kben tapasztaltak sorÃ¡n azt vettÃ¼k Ã©szre, hogy viselkedÃ©sÃ©vel tÃ¶bb ponton is megsÃ©rtette a jÃ¡tÃ©k fÅ‘bb szabÃ¡lyait. Ezen szabÃ¡lyszegÃ©sek alkalmÃ¡val mÃ¡r elÃ©rte a bÅ±ntetÃ©si idÅ‘ maximum hatÃ¡rÃ¡t. SajnÃ¡lattal kell kÃ¶zÃ¶lnÃ¼nk, hogy mÃ©g egy ilyen cselekedet vÃ©gleges tiltÃ¡st von maga utÃ¡n. Amennyiben Ãºgy gondolja, hogy magaviseletÃ©vel Ã©s jÃ¡tÃ©kban nyÃºjtott teljesÃ­tmÃ©nyÃ©vel nem szegte meg a felhasznÃ¡lÃ¡si feltÃ©telekben Ã¶sszefoglalt szabÃ¡lyokat, akkor forduljon adminjainkhoz panaszÃ¡val.
+								Ãœdv.: FejlesztÅ‘k"
 ---------------------------------------------------------------------------------------------------
-				   Felhasználási feltételek
- "A felhasználási feltételek a Játékosok érdekében születtek meg és céljuk a Felhasználók személyazonosságának és biztonságának teljeskörû védelme.
- 0.Személyazonosság védelme
-	0.1 A játékban nagyon fontos, hogy mindenkinek meghagyjuk a személyi szabadságát, ezért nem szükséges megadni semmilyen személyes adatot. Ez a gyerekek érdekében alakult e módon, hogy még véletlenül se kerülhessenek olyan helyzetbe, ahol akaratlanul is személyes információt kelljen szolgáltatniuk. 
-	0.2 A játékban nincs lehetõség chatelésre. Így csökkentve a lehetõségét annak, hogy a fiatalok szexuális zaklatások vagy fenyegetések áldozataivá váljanak.
-	0.3 A fejlesztõk és az adminok soha nem kérik el egy felhasználó jelszavát. Ha bármilyen olyan formátumú üzenetet kap egy játékos, ahol valaki ez után érdeklõdik, akkor azt azonnal jelentse a fejlesztõknek. (A fejlesztõket a lap alján található e-mail címen lehet elérni.)
+				   FelhasznÃ¡lÃ¡si feltÃ©telek
+ "A felhasznÃ¡lÃ¡si feltÃ©telek a JÃ¡tÃ©kosok Ã©rdekÃ©ben szÃ¼lettek meg Ã©s cÃ©ljuk a FelhasznÃ¡lÃ³k szemÃ©lyazonossÃ¡gÃ¡nak Ã©s biztonsÃ¡gÃ¡nak teljeskÃ¶rÅ± vÃ©delme.
+ 0.SzemÃ©lyazonossÃ¡g vÃ©delme
+	0.1 A jÃ¡tÃ©kban nagyon fontos, hogy mindenkinek meghagyjuk a szemÃ©lyi szabadsÃ¡gÃ¡t, ezÃ©rt nem szÃ¼ksÃ©ges megadni semmilyen szemÃ©lyes adatot. Ez a gyerekek Ã©rdekÃ©ben alakult e mÃ³don, hogy mÃ©g vÃ©letlenÃ¼l se kerÃ¼lhessenek olyan helyzetbe, ahol akaratlanul is szemÃ©lyes informÃ¡ciÃ³t kelljen szolgÃ¡ltatniuk. 
+	0.2 A jÃ¡tÃ©kban nincs lehetÅ‘sÃ©g chatelÃ©sre. Ãgy csÃ¶kkentve a lehetÅ‘sÃ©gÃ©t annak, hogy a fiatalok szexuÃ¡lis zaklatÃ¡sok vagy fenyegetÃ©sek Ã¡ldozataivÃ¡ vÃ¡ljanak.
+	0.3 A fejlesztÅ‘k Ã©s az adminok soha nem kÃ©rik el egy felhasznÃ¡lÃ³ jelszavÃ¡t. Ha bÃ¡rmilyen olyan formÃ¡tumÃº Ã¼zenetet kap egy jÃ¡tÃ©kos, ahol valaki ez utÃ¡n Ã©rdeklÅ‘dik, akkor azt azonnal jelentse a fejlesztÅ‘knek. (A fejlesztÅ‘ket a lap aljÃ¡n talÃ¡lhatÃ³ e-mail cÃ­men lehet elÃ©rni.)
+ 1.FelelÅ‘ssÃ©g
+ 	1.1 A jÃ¡tÃ©k kizÃ¡rÃ³lag az alkotÃ³k tulajdonÃ¡t kÃ©pezi. Csak az Ã¡ltaluk kÃ¶zzÃ©tett Ã©s ellenÅ‘rzÃ¶tt oldalakon keresztÃ¼l elÃ©rhetÅ‘.
+	1.2 A jÃ¡tÃ©k szÃ³rakozÃ¡si cÃ©lbÃ³l kÃ©szÃ¼lt, bevÃ©telszerzÃ©s csak az alkotÃ³k engedÃ©lyÃ©vel lehetsÃ©ges.
+	1.3 Az alkotÃ³k minden esetben tÃ¶rekednek a zÃ¶kkenÅ‘mentes jÃ¡tÃ©kÃ©lmÃ©nyre Ã©s a lehetÅ‘sÃ©gekhez mÃ©rten a felhasznÃ¡lÃ³kkal valÃ³kapcsolattartÃ¡sra.
+ 2.VÃ¡ltozÃ¡sok
+ 	2.1 Az alkotÃ³k a jelen felhasznÃ¡lÃ¡si feltÃ©telek vÃ¡ltozÃ¡sÃ¡nak jogÃ¡t fenntartjÃ¡k. E felhasznÃ¡lÃ¡si feltÃ©telek Ã©s az esetleges Ãºjabb informÃ¡ciÃ³k Ã¡ttekintÃ©se Ã©rdekÃ©ben kÃ©rjÃ¼k rendszeresen kÃ­sÃ©rjÃ©k figyelemmel a jÃ¡tÃ©kkal kapcsolatos mÃ³dosÃ­tÃ¡sokat.
