@@ -102,3 +102,9 @@ Képességei:
 	1.3 Az alkotók minden esetben törekednek a zökkenőmentes játékélményre és a lehetőségekhez mérten a felhasználókkal valókapcsolattartásra.
  2.Változások
  	2.1 Az alkotók a jelen felhasználási feltételek változásának jogát fenntartják. E felhasználási feltételek és az esetleges újabb információk áttekintése érdekében kérjük rendszeresen kísérjék figyelemmel a játékkal kapcsolatos módosításokat.
+---------------------------------------------------------------------------------------------------
+				   Jogi nyilatkozat
+ "A játék kizárólagos tulajdonjogát a két fejlesztő élvezi.
+  A játék másolása és terjesztése szigorúan TILOS! Minden szellemi alkotás jogvédelem alatt áll. Ez biztosítja a fejlesztők számára, hogy az általuk készített alkotások és az azokból befolyó jövedelmet illetéktelen emberek ne élvezhessék ki.
+  Szintén a játékból származó bevételnek tekintjük a játékról készített bármilyen formátumban, videómegosztó felületre feltöltött és ezzel bevétel szerzési lehetőséget kiváltó videókat.
+  Minden megosztással és hirdetéssel kapcsolatos kérdéssel kérjük forduljanak az adminokhoz."
