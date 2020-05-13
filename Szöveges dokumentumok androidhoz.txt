@@ -108,3 +108,8 @@ Képességei:
   A játék másolása és terjesztése szigorúan TILOS! Minden szellemi alkotás jogvédelem alatt áll. Ez biztosítja a fejlesztők számára, hogy az általuk készített alkotások és az azokból befolyó jövedelmet illetéktelen emberek ne élvezhessék ki.
   Szintén a játékból származó bevételnek tekintjük a játékról készített bármilyen formátumban, videómegosztó felületre feltöltött és ezzel bevétel szerzési lehetőséget kiváltó videókat.
   Minden megosztással és hirdetéssel kapcsolatos kérdéssel kérjük forduljanak az adminokhoz."
+  ---------------------------------------------------------------------------------------------------
+				   Az alkotókról
+	Fejlesztők: 
+  Sakusa: "Ne félj álmodni! Hisz a legtöbb ötlet alapja egy remek álom. Ha hiszel magadban és bízol a megérzéseidben, megtalálod azt a lehetőséget, amelyben önmagad lehetsz. Ne feledd! Sosem vagy egyedül!
+  Hakudoshi: "5 éves korom óta játékokkal foglalkozom, 7 éves koromtól játékfejlesztő akarok lenni és végre 21 évesen oda jutottam, hogy az első játékommal foglalkozzak."
