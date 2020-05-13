@@ -39,14 +39,15 @@ public class BoltFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-       // TextView gold = this.findViewById(R.id.goldtext);
-       // gold.setText(UserHandler.database.userDao().getGold(UserHandler.getSessionid()));
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         View view = inflater.inflate(R.layout.fragment_bolt,container,false);
         Button skin = (Button)view.findViewById(R.id.button17);
+        TextView gold = (TextView)view.findViewById(R.id.goldtext);
+        int goldamount = UserHandler.database.userDao().getGold(UserHandler.getSessionid());
+        gold.setText("Gold:  " + String.valueOf(goldamount));
         skin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

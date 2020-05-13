@@ -27,8 +27,8 @@ public class UserHandler {
     public static AppDatabase database;
     private static String sessionid;
 
-    private void setSession(String sessionid){
-        this.sessionid = sessionid;
+    private static void setSession(String sessionid2){
+        sessionid = sessionid2;
     }
     /*
         Ha bejelentkezik a felhasználó, akkor a 'sessionid'-t állítsuk be
@@ -74,7 +74,7 @@ public class UserHandler {
     public static boolean Login(String username,String password){
         User[] users = database.userDao().getUser(username);
         if(users.length == 1) {
-            sessionid = "username";
+            sessionid = username;
             return users[0].getPassword().equals(password);
         }
         return false;
@@ -85,9 +85,10 @@ public class UserHandler {
         User user = new User();
         user.setUsername(username);
         user.setPassword(password);
+        user.setGold(5000);
         user.setEmail(null);
         user.setProfilepicturepath(null);
-
+        user.setExperience(0);
         database.userDao().insertUser(user);
     }
 }

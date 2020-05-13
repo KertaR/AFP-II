@@ -8,6 +8,7 @@ import androidx.room.Update;
 
 import com.example.lof.datastructures.User;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Dao
@@ -26,6 +27,12 @@ public interface UserDao {
     public String getPassword(String username);
     @Query("SELECT gold FROM users WHERE username = :username")
     public int getGold(String username);
+    @Query("SELECT experience FROM users WHERE username = :username")
+    public int getExperience(String username);
+    @Query("UPDATE users SET experience = :experience WHERE username = :username")
+    public void setExperience(int experience, String username);
+    @Query("UPDATE users SET gold = :gold  WHERE username = :username")
+    public void setGold(int gold, String username);
     @Query("SELECT * FROM users WHERE username = :username")
     public User[] getUser(String username);
 }

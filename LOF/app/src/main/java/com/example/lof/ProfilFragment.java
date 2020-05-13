@@ -57,6 +57,11 @@ public class ProfilFragment extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        return inflater.inflate(R.layout.fragment_profil,container,false);
+        View v = inflater.inflate(R.layout.fragment_profil,container,false);
+        TextView tw = (TextView)v.findViewById(R.id.textFelhasznalo);
+        tw.setText(UserHandler.database.userDao().getUsername(UserHandler.getSessionid()));
+        TextView tw2 = (TextView)v.findViewById(R.id.textSzint);
+        tw2.setText("Szint: " + String.valueOf(UserHandler.database.userDao().getExperience(UserHandler.getSessionid())));
+        return v;
     }
 }

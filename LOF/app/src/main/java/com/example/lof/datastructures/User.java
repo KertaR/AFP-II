@@ -20,8 +20,8 @@ public class User{
     private String password;
     private String email;
     private String profilepicturepath;
-
     private int gold;
+    private int experience;
 
     //Properties
     @NotNull
@@ -56,5 +56,10 @@ public class User{
     public void setGold(int gold) {
         this.gold = gold;
     }
-
+    public int getExperience() {
+        return experience;
+    }
+    public void setExperience(int experience) {
+        this.experience = experience;
+    }
 }
