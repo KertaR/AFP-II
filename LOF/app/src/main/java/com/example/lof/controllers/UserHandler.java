@@ -12,6 +12,8 @@ import com.example.lof.database.AppDatabase;
 import com.example.lof.datastructures.User;
 
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class UserHandler {
     private static String DB_NAME = "sakoshi";
@@ -52,8 +54,12 @@ public class UserHandler {
         else{
             if(password.length() < 4) Toast.makeText(context,"A jelszónak legalább 4 betűből kell állnia!", Toast.LENGTH_SHORT).show();
             else {
-                if(password.contains("[!@#$%&*()_+=|<>?{}\\\\[\\\\]~-]"))
-                    Toast.makeText(context, "A jelszó nem tartalmazhat speciális karaktereket!", Toast.LENGTH_SHORT).show();
+                Pattern p = Pattern.compile("[!@#$%&*()_+=|<>?{}\\\\[\\\\]~-]");
+                Matcher m = p.matcher(password);
+                boolean b = m.find();
+                if(b){
+                    Toast.makeText(context,"A jelszó nem tartalmazhat speciális karaktereket!",Toast.LENGTH_SHORT).show();
+                }
                 else{
                     if (password.equals(passwordconf)) {
                         for (User user : users) {
