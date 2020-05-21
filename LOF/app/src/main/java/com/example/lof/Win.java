@@ -4,10 +4,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Win extends AppCompatActivity {
+    TextView XP = findViewById(R.id.textView18);
+    TextView GOLD = findViewById(R.id.textView47);
+
     @Override
     protected void onCreate(Bundle savedInstanceSaved){
         super.onCreate(savedInstanceSaved);
@@ -24,5 +28,10 @@ public class Win extends AppCompatActivity {
     public void openPlayerMenu(){
         Intent player_menu = new Intent(this, PlayerMenu.class);
         startActivity(player_menu);
+    }
+
+    public void setXPAndGold(int xp, int gold){
+        XP.setText("Kapott XP: " + String.valueOf((int)xp));
+        GOLD.setText("Kapott gold: " + String.valueOf((int)gold));
     }
 }
