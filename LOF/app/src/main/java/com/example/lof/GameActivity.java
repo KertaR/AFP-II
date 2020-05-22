@@ -28,8 +28,6 @@ import java.util.Random;
 
 public class GameActivity extends AppCompatActivity{
     Character player,enemy;
-    User u = new User();
-    AppDatabase database;
     boolean kiaz;
     int gold;
     double health;
@@ -172,25 +170,11 @@ public class GameActivity extends AppCompatActivity{
     }
     public void CurrentStatus()
     {
-        int xp = database.userDao().getExperience(u.getUsername());
-        if(player.getHealthpoints() <= 0){
-            xp += 200;
-            selfgold.setText("Gold: " + String.valueOf(gold));
-            selfmana.setText("Mana:" +String.valueOf((int)player.getMana()));
-            enemymana.setText("Mana:" +String.valueOf((int)enemy.getMana()));
-            Defeat d = new Defeat();
-            d.setXP(xp);
-            openDefeat();
-        }else if(enemy.getHealthpoints() <= 0){
-            xp += 500;
-            gold += 500;
-            selfgold.setText("Gold: " + String.valueOf(gold));
-            selfmana.setText("Mana:" +String.valueOf((int)player.getMana()));
-            enemymana.setText("Mana:" +String.valueOf((int)enemy.getMana()));
-            Win w = new Win();
-            w.setXPAndGold(xp,gold);
-            openWin();
-        }
+        selfgold.setText("Gold: " + String.valueOf(gold));
+        selfhealth.setText("HP: " + String.valueOf((int)player.getHealthpoints()));
+        selfmana.setText("Mana:" +String.valueOf((int)player.getMana()));
+        enemyhealth.setText("HP: " + String.valueOf((int)enemy.getHealthpoints()));
+        enemymana.setText("Mana:" +String.valueOf((int)enemy.getMana()));
     }
 
     public void openWin(){
